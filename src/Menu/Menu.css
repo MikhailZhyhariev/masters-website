@@ -1,0 +1,33 @@
+.menu {
+  background-color: lightblue;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.menu ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu__item {
+  padding: 15px;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'RobotoRegular', sans-serif;
+  cursor: pointer;
+}
+
+.menu__item:hover {
+  background-color: rgb(236, 122, 116);
+}
+
+.active,
+.active:hover {
+  background-color: red;
+}

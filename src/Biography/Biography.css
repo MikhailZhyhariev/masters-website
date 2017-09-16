@@ -1,0 +1,30 @@
+.biography {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: lightblue;
+
+  /*display: none;*/
+}
+
+.biography__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  font-family: 'RobotoBold', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.biography__paragraph__title {
+  margin-top: 25px;
+  font-family: 'RobotoBold', sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.biography__text {
+  font-size: 17px;
+  font-family: 'RobotoRegular', sans-serif;
+  line-height: 25px;
+  margin-bottom: 8px;
+}

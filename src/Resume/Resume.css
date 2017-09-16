@@ -1,0 +1,41 @@
+.resume {
+  background-color: lightblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  /*display: none;*/
+}
+
+
+.resume__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  font-family: 'RobotoBold', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.resume__table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.resume__table-row {
+  margin: 0;
+  padding: 0;
+}
+
+.resume__table-cell {
+  padding: 10px;
+  border: 1px solid gray;
+  font-size: 17px;
+  font-family: 'RobotoRegular', sans-serif;
+}
+
+.resume__table-row .header {
+  width: 30%;
+  font-family: 'RobotoBold', sans-serif;
+}
