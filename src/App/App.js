@@ -34,6 +34,8 @@ class App extends Component {
     return (
       <div className="app">
         <Header />
+        <Header />
+        
         <Menu items={ elements } />
         <MainContent items={ elements } />
       </div>
