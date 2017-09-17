@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Menu.css';
 
+import Resume from '../Resume/Resume.js';
 import MenuItem from './Menu_Item.js';
 
 
@@ -10,7 +11,7 @@ class Menu extends Component {
 
     this.handleItemClick = this.handleItemClick.bind(this);
     this.state = {
-      selectedItem: {index: 0}
+      selectedItem: {index: 0, element: <Resume />}
     };
   }
 
@@ -24,19 +25,22 @@ class Menu extends Component {
     const { handleItemClick } = this;
 
     return (
-      <nav className="menu">
-        <div className="container">
-          <ul>
-            { items.map( (item, key) => {
-              return <MenuItem key={key}
-                               item={item}
-                               isActive={item.index === selectedItem.index}
-                               onClick={handleItemClick}
-              />
-            })}
-          </ul>
-        </div>
-      </nav>
+      <main>
+        <nav className="menu">
+          <div className="container">
+            <ul>
+              { items.map( (item, key) => {
+                return <MenuItem key={key}
+                                 item={item}
+                                 isActive={item.index === selectedItem.index}
+                                 onClick={handleItemClick}
+                />
+              })}
+            </ul>
+          </div>
+        </nav>
+        { selectedItem.element }
+      </main>
     );
   }
 }

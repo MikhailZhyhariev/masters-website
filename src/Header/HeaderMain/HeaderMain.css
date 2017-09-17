@@ -11,6 +11,7 @@
 .header_main__photo {
   height: 240px;
   width: 180px;
+  border: 1px solid grey;
 }
 
 .header-main__info {

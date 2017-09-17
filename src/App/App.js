@@ -3,17 +3,20 @@ import './App.css';
 import '../font.css';
 
 import Header from '../Header/Header.js';
-import MainContent from '../MainContent/MainContent.js';
 import Menu from '../Menu/Menu.js';
 import Resume from '../Resume/Resume.js';
 import Biography from '../Biography/Biography.js';
+import Abstract from '../Abstract/Abstract.js';
+import Library from '../Library/Library.js';
+import Links from '../Links/Links.js';
+
 
 const menuItems = [
   {name: 'Резюме', element: <Resume />, index: 0},
   {name: 'Биография', element: <Biography />, index: 1},
-  {name: 'Реферат', element: "", index: 2},
-  {name: 'Библиотека', element: "", index: 3},
-  {name: 'Ссылки', element: "", index: 4},
+  {name: 'Реферат', element: <Abstract />, index: 2},
+  {name: 'Библиотека', element: <Library />, index: 3},
+  {name: 'Ссылки', element: <Links />, index: 4},
   {name: 'Отчет о поиске', element: "", index: 5},
   {name: 'Индивидуальный раздел', element: "", index: 6}
 ]
@@ -24,7 +27,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      elements: menuItems
+      elements: menuItems,
     };
   }
 
@@ -34,10 +37,7 @@ class App extends Component {
     return (
       <div className="app">
         <Header />
-        <Header />
-        
         <Menu items={ elements } />
-        <MainContent items={ elements } />
       </div>
     );
   }
