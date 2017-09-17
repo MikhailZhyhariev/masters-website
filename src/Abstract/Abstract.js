@@ -24,8 +24,8 @@ class Abstract extends Component {
           <div className="abstract__content">
             <h2 className="abstract__content-title">Содержание</h2>
             <AbstractMenu items={menuItems} />
-            <AbstractText items={menuItems} />
           </div>
+          <AbstractText items={menuItems} />
         </div>
       </div>
     );

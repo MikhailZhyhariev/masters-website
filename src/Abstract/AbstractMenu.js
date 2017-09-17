@@ -9,11 +9,21 @@ class AbstractMenu extends Component {
       <ul className="abstract__content-menu">
         { items.map( (item, key) => {
           return <li className="abstract__content-menu-item" key={key}>
-                    <a href={'#' + item.number} className="abstract__content-menu-link">{item.name}</a>
-                    <ul>
+                    <a href={'#' + item.number} className="abstract__content-menu-link">
+                      <div className={(item.number >= 1 ? 'noempty' : 'empty')}>
+                        {(item.number >= 1 ? (item.number + '.') : '1')}
+                      </div>
+                      {item.name}
+                    </a>
+                    <ul className="abstract__content-menu">
                       {item.subname.map( (subitem, key) => {
-                        return <li className="abstract__content-menu-item subitem" key={key}>
-                                  <a href={'#' + subitem.number} className="abstract__content-menu-link">{subitem.name}</a>
+                        return <li className="abstract__content-menu-item abstract__content-menu-subitem" key={key}>
+                                  <a href={'#' + subitem.number} className="abstract__content-menu-link">
+                                    <div className={(subitem.number >= 1 ? 'noempty' : 'empty')}>
+                                      {(subitem.number >= 1 ? (subitem.number + '. ') : '')}
+                                    </div>
+                                    {subitem.name}
+                                  </a>
                                </li>
                       })}
                     </ul>

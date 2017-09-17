@@ -1,6 +1,5 @@
 .menu {
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey;
+  box-shadow: 0px 1px 5px rgba(9, 9, 8, 0.73);
 }
 
 .menu ul {
@@ -20,13 +19,23 @@
   line-height: 27px;
   font-family: 'RobotoRegular', sans-serif;
   cursor: pointer;
+  border-bottom: 2px solid #fafafa;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
 }
 
 .menu__item:hover {
-  background-color: rgb(236, 122, 116);
+  color: #f22;
+  border-bottom: 2px solid #f22;
+}
+
+.menu__item:active {
+  font-weight: bold;
 }
 
 .active,
 .active:hover {
-  background-color: red;
+  color: #f22;
+  border-bottom: 2px solid #f22;
 }
