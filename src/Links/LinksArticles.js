@@ -46,17 +46,17 @@ class LinksArticles extends Component {
     return (
       <div className="content">
         { items.map( (item, key) =>
-          <div className="library__part" key={key}>
-            <h2 className="library__part-title">{item.title}</h2>
+          <div className="links__part" key={key}>
+            <h2 className="links__part-title">{item.title}</h2>
             <ul>
               { item.fill.map( (article, key) =>
                 <li key={key}>
-                  <h3 className="library__article-title">
+                  <a href={article.link} target="_blank" className="links__article-title" ref="noferrer">
                     <span>{article.number}</span>
-                    <a href={article.link} target="_blank" ref="noferrer">{article.title}</a>
-                  </h3>
-                  <p className="library__article-manager"><strong>Авторы:</strong>{article.author}</p>
-                  <p className="library__article-description"><strong>Описание:</strong>{article.description}</p>
+                    {article.title}
+                    <p className="links__article-manager"><strong>Авторы:</strong>{article.author}</p>
+                    <p className="links__article-description"><strong>Описание:</strong>{article.description}</p>
+                  </a>
                 </li>
               )}
             </ul>

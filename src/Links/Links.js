@@ -20,9 +20,9 @@ class Links extends Component {
     const { items } = this.state;
 
     return (
-      <div className="library">
+      <div className="links">
         <div className="container">
-          <h1 className="library__title">Ссылки по теме выпускной работы</h1>
+          <h1 className="links__title">Ссылки по теме выпускной работы</h1>
           <LinksMasters />
           <LinksArticles />
           <LinksOther items={ content } />

@@ -21,7 +21,7 @@ class HeaderTop extends Component {
     this.setState({ selectedItem });
   }
 
-  handleLinkOpen(link, e) {
+  handleLinkOpen(link) {
     window.open(link, "_blank");
   }
 
@@ -33,7 +33,7 @@ class HeaderTop extends Component {
     ]
     const links = [
       {name: 'ДонНТУ', link: 'http://donntu.org/?lang=ru'},
-      {name: 'Портал магистров', link: 'http://masters.donntu.org/indexe.htm'}
+      {name: 'Портал магистров', link: 'http://masters.donntu.org/index.htm'}
     ];
     const { selectedItem } = this.state;
     const { handleFlagClick } = this;

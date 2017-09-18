@@ -52,9 +52,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-
-  /*border: 1px solid gray;*/
-
 }
 
 .abstract__content-menu-link {
@@ -67,9 +64,9 @@
   font-size: 17px;
   line-height: 25px;
   font-family: 'RobotoRegular', sans-serif;
-
   border: 1px solid #fafafa;
   border-left: 3px solid #fafafa;
+  border-radius: 4px;
 }
 
 .abstract__content-menu-link .noempty {
@@ -94,6 +91,7 @@
 .abstract__content-menu-link:hover {
   border: 1px solid #f22;
   border-left: 3px solid #f22;
+  border-radius: 4px;
   color: #f22;
 }
 

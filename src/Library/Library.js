@@ -19,20 +19,20 @@ class Library extends Component {
       <div className="library">
         <div className="container">
           <h1 className="library__title">Библиотека материалов по теме выпускной работы</h1>
-          <div className="content">
+          <div className="library__content">
             { items.map( (item, key) =>
               <div className="library__part" key={key}>
                 <h2 className="library__part-title">{item.title}</h2>
                 <ul>
                   { item.fill.map( (article, key) =>
                     <li key={key}>
-                      <h3 className="library__article-title">
-                        <span>{article.number}</span>
-                        <a href={article.link} target="_blank" ref="noferrer">{article.title}</a>
-                      </h3>
-                      <p className="library__article-author"><strong>Авторы:</strong>{article.author}</p>
-                      <p className="library__article-description"><strong>Описание:</strong>{article.description}</p>
-                      <p className="library__article-source"><strong>Источник:</strong>{article.source}</p>
+                      <a href={article.link} target="_blank" ref="noferrer" className="library__article-title">
+                        <span>{article.number + '.'}</span>
+                        {article.title}
+                        <p className="library__article-author"><strong>Авторы:</strong>{article.author}</p>
+                        <p className="library__article-description"><strong>Описание:</strong>{article.description}</p>
+                        <p className="library__article-source"><strong>Источник:</strong>{article.source}</p>
+                      </a>
                     </li>
                   )}
                 </ul>
