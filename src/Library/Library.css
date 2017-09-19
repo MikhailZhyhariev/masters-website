@@ -36,9 +36,11 @@
 
 .library__article-title {
   margin: 0;
+  margin-top: 20px;
   padding: 0;
   padding-left: 5px;
-  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   font-family: 'RobotoBold', sans-serif;
   font-size: 19px;
   line-height: 28px;
@@ -61,14 +63,12 @@
 }
 
 .library__article-title span {
-  font-family: 'RobotoThin', sans-serif;
+  font-family: 'RobotoLight', sans-serif;
   margin-right: 10px;
-  font-weight: bold;
 }
 
 .library__part strong {
   margin: 0;
-  margin-bottom: 10px;
   margin-right: 5px;
   font-size: 17px;
   font-family: 'RobotoBold', sans-serif;
@@ -79,7 +79,6 @@
 .library__article-description,
 .library__article-source {
   margin: 0;
-  margin-bottom: 10px;
   font-size: 17px;
   font-family: 'RobotoRegular', sans-serif;
   line-height: 25px;

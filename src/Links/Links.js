@@ -17,8 +17,6 @@ class Links extends Component {
   }
 
   render() {
-    const { items } = this.state;
-
     return (
       <div className="links">
         <div className="container">

@@ -33,10 +33,10 @@ class HeaderTop extends Component {
     ]
     const links = [
       {name: 'ДонНТУ', link: 'http://donntu.org/?lang=ru'},
-      {name: 'Портал магистров', link: 'http://masters.donntu.org/index.htm'}
+      {name: 'Портал магистров', link: 'http://masters.donntu.org/'}
     ];
     const { selectedItem } = this.state;
-    const { handleFlagClick } = this;
+    const { handleFlagClick, handleLinkOpen } = this;
 
     return (
       <div className="header-top">
@@ -54,7 +54,7 @@ class HeaderTop extends Component {
             { links.map( (link, key) =>
               <div key={key}
                       className="header-top__website-link"
-                      onClick={this.handleLinkOpen.bind(this, link.link)}
+                      onClick={handleLinkOpen.bind(this, link.link)}
                       target="_blank">
                       {link.name}
               </div>

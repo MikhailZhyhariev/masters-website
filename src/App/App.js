@@ -9,6 +9,7 @@ import Biography from '../Biography/Biography.js';
 import Abstract from '../Abstract/Abstract.js';
 import Library from '../Library/Library.js';
 import Links from '../Links/Links.js';
+import Search from '../Search/Search.js';
 
 
 const menuItems = [
@@ -17,7 +18,7 @@ const menuItems = [
   {name: 'Реферат', element: <Abstract />, index: 2},
   {name: 'Библиотека', element: <Library />, index: 3},
   {name: 'Ссылки', element: <Links />, index: 4},
-  {name: 'Отчет о поиске', element: "", index: 5},
+  {name: 'Отчет о поиске', element: <Search />, index: 5},
   {name: 'Индивидуальный раздел', element: "", index: 6}
 ]
 
