@@ -58,10 +58,6 @@
   color: #f22;
 }
 
-.links__article-title:active {
-  font-weight: bold;
-}
-
 .links__article-title span {
   font-family: 'RobotoLight', sans-serif;
   margin-right: 10px;

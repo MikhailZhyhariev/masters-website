@@ -95,11 +95,6 @@
   color: #f22;
 }
 
-.abstract__content-menu-link:active {
-  font-weight: bold;
-}
-
-
 .abstract__content-menu-subitem {
   padding-left: 35px;
   box-sizing: border-box;
