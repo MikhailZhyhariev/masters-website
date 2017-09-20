@@ -33,7 +33,7 @@ class Search extends Component {
             <td className="search__table-cell title">Строка поиска</td>
             {head.map( (item, key) =>
               <td key={key}
-                  className={'search__table-cell logo ' + 'search__table-logo-' + key}
+                  className={'search__table-cell logo search__table-logo-' + key}
                   onClick={handleImageClick.bind(this, item.link)}/>
             )}
           </tr>

@@ -113,10 +113,14 @@
   user-select: none;
 }
 
-.search__table .link:hover {
+.search__table .link:hover,
+.search__table .logo:hover {
   color: #f22;
+  box-shadow: 0px 0px 5px black;
+  background-color: white;
 }
 
-.search__table .link:active {
+.search__table .link:active,
+.search__table .logo:active {
   font-weight: bold;
 }
