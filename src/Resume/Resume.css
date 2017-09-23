@@ -1,6 +1,7 @@
 .resume {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 30px;
 }
 
 
@@ -8,8 +9,9 @@
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
   text-align: center;
 }
 
@@ -28,11 +30,24 @@
 .resume__table-cell {
   padding: 10px;
   border: 1px solid black;
-  font-size: 17px;
-  font-family: 'RobotoRegular', sans-serif;
+  font-size: 56.6%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .resume__table-row .header {
   width: 30%;
-  font-family: 'RobotoBold', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .resume {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .resume {
+    font-size: 22px;
+  }
 }

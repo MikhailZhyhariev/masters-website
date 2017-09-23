@@ -1,14 +1,16 @@
 .links {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 30px;
 }
 
 .links__title {
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
   text-align: center;
 }
 
@@ -29,8 +31,9 @@
 }
 
 .links__part-title {
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 73%;
   line-height: 28px;
 }
 
@@ -41,8 +44,9 @@
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 20px;
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 63.3%;
   line-height: 28px;
   text-decoration: none;
   color: black;
@@ -59,26 +63,41 @@
 }
 
 .links__article-title span {
-  font-family: 'RobotoLight', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
   margin-right: 10px;
 }
 
 .links__part strong {
   margin: 0;
   margin-right: 5px;
-  font-size: 17px;
-  font-family: 'RobotoBold', sans-serif;
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   line-height: 25px;
 }
 
 .links__article-manager,
 .links__article-description {
   margin: 0;
-  font-size: 17px;
-  font-family: 'RobotoRegular', sans-serif;
+  font-size: 89.4%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
   line-height: 25px;
 }
 
 .links__article-description {
   margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .links {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .links {
+    font-size: 22px;
+  }
 }

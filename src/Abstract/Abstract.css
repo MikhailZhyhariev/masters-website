@@ -1,14 +1,16 @@
 .abstract {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 30px;
 }
 
 .abstract__title {
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
   text-align: center;
 }
 
@@ -24,8 +26,9 @@
 .abstract__content-title,
 .abstract__text-part h3 {
   margin-top: 25px;
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 63%;
   line-height: 28px;
 }
 
@@ -37,8 +40,8 @@
 .abstract__text-part p {
   margin: 0;
   margin-bottom: 5px;
-  font-size: 17px;
-  font-family: 'RobotoRegular', sans-serif;
+  font-size: 56.6%;
+  font-family: 'Roboto', sans-serif;
   line-height: 25px;
 }
 
@@ -58,12 +61,12 @@
   margin: 0;
   padding: 0;
   padding-left: 5px;
-  width: 40%;
+  width: 100%;
   text-decoration: none;
   color: black;
-  font-size: 17px;
+  font-size: 56.6%;
   line-height: 25px;
-  font-family: 'RobotoRegular', sans-serif;
+  font-family: 'Roboto', sans-serif;
   border: 1px solid #fafafa;
   border-left: 3px solid #fafafa;
   border-radius: 4px;
@@ -75,7 +78,8 @@
   width: 35px;
   text-align: center;
   height: 100%;
-  font-family: 'RobotoLight', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
   display: inline-block;
 }
 
@@ -98,5 +102,17 @@
 .abstract__content-menu-subitem {
   padding-left: 35px;
   box-sizing: border-box;
-  width: 95.5%;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .abstract {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .abstract {
+    font-size: 22px;
+  }
 }

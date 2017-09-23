@@ -27,7 +27,8 @@
   padding-bottom: 14px;
   font-size: 28px;
   line-height: 42px;
-  font-family: 'RobotoBold', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .header-main__info-text {
@@ -36,7 +37,7 @@
   padding-bottom: 9px;
   font-size: 18px;
   line-height: 27px;
-  font-family: 'RobotoRegular', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header-main__info-text:last-child {
@@ -50,7 +51,8 @@
   padding-bottom: 10px;
   font-size: 20px;
   line-height: 30px;
-  font-family: 'RobotoBold', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 @media (max-width: 800px) {

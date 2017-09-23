@@ -1,14 +1,16 @@
 .search {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 30px;
 }
 
 .search__title {
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
   text-align: center;
 }
 
@@ -16,8 +18,9 @@
   margin: 0;
   margin-top: 30px;
   padding: 0;
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 73.3%;
   line-height: 28px;
   text-align: center;
 }
@@ -26,8 +29,8 @@
   margin: 0;
   margin-top: 25px;
   margin-bottom: 5px;
-  font-size: 17px;
-  font-family: 'RobotoRegular', sans-serif;
+  font-size: 56.6%;
+  font-family: 'Roboto', sans-serif;
   line-height: 25px;
 }
 
@@ -40,8 +43,8 @@
 .search__table-cell {
   padding: 10px;
   border: 1px solid black;
-  font-size: 17px;
-  font-family: 'RobotoRegular', sans-serif;
+  font-size: 56.6%;
+  font-family: 'Roboto', sans-serif;
   line-height: 25px;
 }
 
@@ -50,8 +53,9 @@
   padding: 0;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: 'RobotoBold', sans-serif;
-  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 63%;
   line-height: 28px;
   width: 50%;
   text-align: center;
@@ -123,4 +127,16 @@
 .search__table .link:active,
 .search__table .logo:active {
   font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .search {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .search {
+    font-size: 22px;
+  }
 }

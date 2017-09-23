@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import '../font.css';
 
 import Header from '../Header/Header.js';
 import Menu from '../Menu/Menu.js';

@@ -19,7 +19,7 @@
 .menu__item {
   padding: 15px;
   font-size: 18px;
-  font-family: 'RobotoRegular', sans-serif;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   border-bottom: 3px solid #white;
   -moz-user-select: none;
