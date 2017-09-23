@@ -46,6 +46,12 @@
   }
 }
 
+@media (max-width: 550px) {
+  .resume {
+    font-size: 23px;
+  }
+}
+
 @media (max-width: 320px) {
   .resume {
     font-size: 22px;

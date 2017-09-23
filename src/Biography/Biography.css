@@ -36,6 +36,12 @@
   }
 }
 
+@media (max-width: 550px) {
+  .biography {
+    font-size: 23px;
+  }
+}
+
 @media (max-width: 320px) {
   .biography {
     font-size: 22px;

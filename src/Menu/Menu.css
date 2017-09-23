@@ -37,3 +37,21 @@
   color: #f22;
   border-bottom: 2px solid #f22;
 }
+
+@media (max-width: 800px) {
+  .menu__item {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+  .menu__item {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu__item {
+    font-size: 14px;
+  }
+}

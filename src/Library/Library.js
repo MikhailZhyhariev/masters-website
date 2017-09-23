@@ -27,8 +27,8 @@ class Library extends Component {
                   { item.fill.map( (article, key) =>
                     <li key={key}>
                       <a href={article.link} target="_blank" ref="noferrer" className="library__article-title">
-                        <span>{article.number + '.'}</span>
-                        {article.title}
+                        <span className="number">{article.number + '.'}</span>
+                        <span className="text">{article.title}</span>
                         <p className="library__article-author"><strong>Авторы:</strong>{article.author}</p>
                         <p className="library__article-description"><strong>Описание:</strong>{article.description}</p>
                         <p className="library__article-source"><strong>Источник:</strong>{article.source}</p>

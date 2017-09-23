@@ -52,8 +52,8 @@ class LinksArticles extends Component {
               { item.fill.map( (article, key) =>
                 <li key={key}>
                   <a href={article.link} target="_blank" className="links__article-title" ref="noferrer">
-                    <span>{article.number + '.'}</span>
-                    {article.title}
+                    <span className="number">{article.number + '.'}</span>
+                    <span className="text">{article.title}</span>
                     <p className="links__article-manager"><strong>Авторы:</strong>{article.author}</p>
                     <p className="links__article-description"><strong>Описание:</strong>{article.description}</p>
                   </a>

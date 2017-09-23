@@ -45,7 +45,6 @@
   padding-bottom: 10px;
   padding-top: 10px;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   font-size: 63.3%;
   line-height: 28px;
   text-decoration: none;
@@ -55,6 +54,15 @@
   border-radius: 4px;
 }
 
+.library__article-title .number {
+  font-weight: lighter;
+  margin-right: 10px;
+}
+
+.library__article-title .text {
+  font-weight: bold;
+}
+
 .library__article-title:hover {
   border: 1px solid #f22;
   border-left: 3px solid #f22;
@@ -62,17 +70,10 @@
   color: #f22;
 }
 
-.library__article-title span {
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-  margin-right: 10px;
-}
-
 .library__part strong {
   margin: 0;
   margin-right: 5px;
   font-size: 100%;
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   line-height: 25px;
 }
@@ -94,6 +95,12 @@
 @media (max-width: 800px) {
   .library {
     font-size: 26px;
+  }
+}
+
+@media (max-width: 550px) {
+  .library {
+    font-size: 23px;
   }
 }
 
