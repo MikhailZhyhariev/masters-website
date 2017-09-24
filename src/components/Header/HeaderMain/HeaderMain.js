@@ -2,10 +2,16 @@ import React, { Component } from 'react';
 import './HeaderMain.css';
 
 import photo from '../../../img/photo.jpg';
-import content from '../../../content/Header.json';
+import content from '../../../content/HeaderMain.json';
 
 class HeaderMain extends Component {
   render() {
+    const { language } = this.props;
+    let lang;
+    if (language == 'ru') lang = content.ru;
+    else if (language == 'en') lang = content.en;
+    else lang = content.ua;
+
     return (
       <div className="header-main">
         <div className="container">
@@ -14,11 +20,12 @@ class HeaderMain extends Component {
                alt={photo}
           />
           <div className="header-main__info">
-            <h1 className="header-main__info-name">{content.header1}</h1>
-            <p className="header-main__info-text">{content.paragraph[0]}</p>
-            <p className="header-main__info-text">{content.paragraph[1]}</p>
-            <h2 className="header-main__info-thesis">{content.header2}</h2>
-            <p className="header-main__info-text">{content.paragraph[2]}</p>
+            <h1 className="header-main__info-name">{lang.name}</h1>
+            <p className="header-main__info-text">{lang.paragraph[0]}</p>
+            <p className="header-main__info-text">{lang.paragraph[1]}</p>
+            <p className="header-main__info-text">{lang.paragraph[2]}</p>
+            <h2 className="header-main__info-thesis">{lang.thesis}</h2>
+            <p className="header-main__info-text">{lang.paragraph[3]}</p>
           </div>
         </div>
       </div>

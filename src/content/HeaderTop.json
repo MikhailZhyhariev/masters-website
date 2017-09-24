@@ -1,0 +1,14 @@
+{
+  "en": [
+    {"name": "DonNTU", "link": "http://donntu.org/?lang=eng"},
+    {"name": "Masters' portal", "link": "http://masters.donntu.org/indexe.htm"}
+  ],
+  "ru": [
+    {"name": "ДонНТУ", "link": "http://donntu.org/?lang=ru"},
+    {"name": "Портал магистров", "link": "http://masters.donntu.org/"}
+  ],
+  "ua": [
+    {"name": "ДонНТУ", "link": "http://donntu.org/?lang=ukr"},
+    {"name": "Портал магістрів", "link": "http://masters.donntu.org/indexu.htm"}
+  ]
+}

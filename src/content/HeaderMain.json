@@ -1,0 +1,33 @@
+{
+  "name": "123",
+  "ru": {
+    "name": "Жигарев Михаил Юрьевич",
+    "thesis": "Исследование модели стабилизации беспилотных летательных аппаратов в системах мониторинга промышленных предприятий",
+    "paragraph": [
+      "Факультет компьютерных информационных технологий и автоматики",
+      "Кафедра радиотехники и защиты информации",
+      "Специальность: \"Информационная безопасность\"",
+      "Научный руководитель: какой-то научный руководитель"
+    ]
+  },
+  "en": {
+    "name": "Zhyhariev Mikhail",
+    "thesis": "Research of the model of stabilization of unmanned aerial vehicles in monitoring systems of industrial enterprises",
+    "paragraph": [
+      "Faculty of Computer Information Technologies and Automation",
+      "Department of Radio Engineering and Information Protection",
+      "Speciality: \"Information Security\"",
+      "Scientific adviser: ..."
+    ]
+  },
+  "ua": {
+    "name": "Жигарєв Михайло Юрійович",
+    "thesis": "Дослідження моделі стабілізації безпілотних літальних апаратів в системах моніторингу промислових підприємств",
+    "paragraph": [
+      "Факультет комп'ютерних інформаційних технологій і автоматики",
+      "Кафедра радіотехніки та захисту інформації",
+      "Спеціальність: \"Інформаційна безпека\"",
+      "Науковий керівник: ..."
+    ]
+  }
+}

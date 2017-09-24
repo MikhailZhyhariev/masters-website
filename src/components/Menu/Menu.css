@@ -46,12 +46,12 @@
 
 @media (max-width: 550px) {
   .menu__item {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
 @media (max-width: 320px) {
   .menu__item {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
