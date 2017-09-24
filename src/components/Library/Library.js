@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Library.css';
 
-import content from '../content/Library.json';
+import content from '../../content/Library.json';
 
 class Library extends Component {
   constructor(props) {

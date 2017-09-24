@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Resume.css';
 
 import ResumeTable from '../Resume/ResumeTable.js';
-import content from '../content/Resume.json'
+import content from '../../content/Resume.json';
 
 
 class Resume extends Component {

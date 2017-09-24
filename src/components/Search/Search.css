@@ -75,28 +75,28 @@
 
 .search__table-logo-0 {
   cursor: pointer;
-  background-image: url('../img/google-logo.svg');
+  background-image: url('../../img/google-logo.svg');
   background-repeat: no-repeat;
   background-position: center 19px;
 }
 
 .search__table-logo-1 {
   cursor: pointer;
-  background-image: url('../img/yandex-logo.svg');
+  background-image: url('../../img/yandex-logo.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .search__table-logo-2 {
   cursor: pointer;
-  background-image: url('../img/bing-logo.svg');
+  background-image: url('../../img/bing-logo.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .search__table-logo-3 {
   cursor: pointer;
-  background-image: url('../img/meta-logo.svg');
+  background-image: url('../../img/meta-logo.svg');
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './HeaderTop.css';
 
-import logo_ru from '../../img/ru.svg';
-import logo_ua from '../../img/ua.svg';
-import logo_en from '../../img/en.svg';
+import logo_ru from '../../../img/ru.svg';
+import logo_ua from '../../../img/ua.svg';
+import logo_en from '../../../img/en.svg';
 
 import HeaderTopFlag from './HeaderTopFlag.js'
 
