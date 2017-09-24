@@ -1,54 +1,10 @@
 import React, { Component } from 'react';
 import './Links.css';
 
-const content = [
-  {
-    title: 'Материалы магистров ДонНТУ',
-    fill: [
-      {
-        title: 'Татолов Е.Р. Разработка и исследование подхода к унификации синтеза автоматов Мура в базисе FPGA',
-        manager: 'к.т.н. Зеленева И.Я.',
-        description: 'Персональный сайт на портале магистров ДонНТУ, 2011 г.',
-        link: '',
-        number: 1
-      },
-      {
-        title: 'ФИО, Тема',
-        manager: 'Какой-то руководитель',
-        description: 'В данной работе...',
-        link: '',
-        number: 2
-      },
-      {
-        title: 'ФИО, Тема',
-        manager: 'Какой-то руководитель',
-        description: 'В данной работе...',
-        link: '',
-        number: 3
-      },
-      {
-        title: 'ФИО, Тема',
-        manager: 'Какой-то руководитель',
-        description: 'В данной работе...',
-        link: '',
-        number: 4
-      }
-    ]
-  }
-]
-
 
 class LinksPart extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      items: content
-    }
-  }
-
   render() {
-    const { items } = this.state;
+    const { items } = this.props;
 
     return (
       <div className="links__content">

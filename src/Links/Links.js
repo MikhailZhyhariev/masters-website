@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Links.css';
 
-import content from './content.js';
 import LinksMasters from './LinksMasters.js';
 import LinksArticles from './LinksArticles.js';
 import LinksOther from './LinksOther.js';
+import content from '../content/Links.json';
 
 
 class Links extends Component {
@@ -21,9 +21,9 @@ class Links extends Component {
       <div className="links">
         <div className="container">
           <h1 className="links__title">Ссылки по теме выпускной работы</h1>
-          <LinksMasters />
-          <LinksArticles />
-          <LinksOther items={ content } />
+          <LinksMasters items={content.masters} />
+          <LinksArticles items={content.articles} />
+          <LinksOther items={ content.other } />
         </div>
       </div>
     );

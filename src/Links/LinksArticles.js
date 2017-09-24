@@ -1,47 +1,10 @@
 import React, { Component } from 'react';
 import './Links.css';
 
-const content = [
-  {
-    title: 'Научные работы и статьи',
-    fill: [
-      {
-        title: 'KISS: a program for optimal state assignment of finite state machines',
-        author: 'De Micheli G., Brayton R., Sangiovanni-Vincentelli A.',
-        description: 'Программная реализация алгоритма KISS кодирования состояний конечных автоматов',
-        link: '',
-        number: 5
-      },
-      {
-        title: 'Какое-то название',
-        author: 'Автор',
-        description: 'В данной работе...',
-        link: '',
-        number: 6
-      },
-      {
-        title: 'Какое-то название',
-        author: 'Автор',
-        description: 'В данной работе...',
-        link: '',
-        number: 7
-      }
-    ]
-  }
-]
-
 
 class LinksArticles extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      items: content
-    }
-  }
-
   render() {
-    const { items } = this.state;
+    const { items } = this.props;
 
     return (
       <div className="content">

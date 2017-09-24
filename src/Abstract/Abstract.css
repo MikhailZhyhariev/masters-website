@@ -27,7 +27,6 @@
 .abstract__text-part h3 {
   margin-top: 25px;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   font-size: 63%;
   line-height: 28px;
 }
@@ -74,12 +73,15 @@
   border-radius: 4px;
 }
 
-.abstract__content-menu-link span {
+.abstract__content-menu-link span,
+.abstract__text-part .number {
   margin-right: 5px;
-  text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-  display: inline-block;
+  font-weight: 100;
+}
+
+.abstract__text-part .text {
+  font-weight: bold;
 }
 
 .abstract__content-menu-link:hover {
