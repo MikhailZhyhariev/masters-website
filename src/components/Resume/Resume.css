@@ -34,6 +34,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.resume__table-row .content .content-cell-part {
+  margin-bottom: 5px;
+}
+
+.resume__table-row .content .content-cell-part:last-child {
+  margin: 0;
+}
+
 .resume__table-row .header {
   width: 30%;
   font-family: 'Roboto', sans-serif;

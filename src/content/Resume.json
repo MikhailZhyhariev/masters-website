@@ -1,51 +1,244 @@
-[
-  {
-    "header": "ФИО",
-    "content": ["Жигарев Михаил Юрьевич"]
-  },
-  {
-    "header": "Дата рождения",
-    "content": ["11.02.1994"]
-  },
-  {
-    "header": "Место Рождения",
-    "content": ["г. Доброполье"]},
-  {
-    "header": "Школа",
-    "content": ["Школа №19 г. Доброполье (2001-2012)"]},
-  {
-    "header": "ВУЗ",
-    "content": [
-      "Бакавриат: Донецкий национальный технический университет (2012-2016)", "Магистратура:"
+{
+  "ru": {
+    "title": "Краткое резюме магистра",
+    "table": [
+      {
+        "header": "ФИО",
+        "content": ["Жигарев Михаил Юрьевич"]
+      },
+      {
+        "header": "Дата рождения",
+        "content": ["11.02.1994"]
+      },
+      {
+        "header": "Место Рождения",
+        "content": ["г. Доброполье, Донецкая обл"]},
+      {
+        "header": "Школа",
+        "content": ["Школа №19 г. Доброполье (2001-2012)"]},
+      {
+        "header": "ВУЗ",
+        "content": [
+          "Бакалавриат: Донецкий национальный технический университет (2012-2016). Специальность: \"Системы технической защиты информации с ограниченным доступом, автоматизация ее обработки\"",
+          "Магистратура: Донецкий национальный технический университет (2016-2018). Специальность: \"Информационная безопасность\""
+        ]
+      },
+      {
+        "header": "Средний балл",
+        "content": ["89 баллов"]},
+      {
+        "header": "Владение языками",
+        "content": [
+          "Русский – в совершенстве",
+          "Украинский – в совершенстве",
+          "Английский – технический уровень."
+        ]
+      },
+      {
+        "header": "Личные достижения",
+        "content": [
+          "Участие в конференциях"
+        ]
+      },
+      {
+        "header": "Увлечения",
+        "content": [
+          "Скалолазание",
+          "Программирование микроконтроллеров"
+        ]
+      },
+      {
+        "header": "Личные качества",
+        "content": [
+          "Ответственность",
+          "Коммуникабельность",
+          "Обучаемость",
+          "Работоспособность",
+          "Целеустремленность"
+         ]
+      },
+      {
+        "header": "Профессиональная специализация и владение компьютером",
+        "content": [""]
+      },
+      {
+        "header": "Дополнительные курсы, стажировки, гаранты",
+        "content": [""]
+      },
+      {
+        "header": "Опыт работы",
+        "content": [""]
+      },
+      {
+        "header": "Планы на будущее",
+        "content": [""]
+      },
+      {
+        "header": "Контактная информация",
+        "content": [""]
+      }
     ]
   },
-  {
-    "header": "Средний балл",
-    "content": [""]},
-  {
-    "header": "Владение языками",
-    "content": [""]},
-  {
-    "header": "Личные достижения",
-    "content": [""]},
-  {
-    "header": "Увлечения",
-    "content": [""]},
-  {
-    "header": "Личные качества",
-    "content": [""]},
-  {
-    "header": "Профессиональная специализация и владение компьютером", "content": [""]},
-  {
-    "header": "Дополнительные курсы, стажировки, гаранты",
-    "content": [""]},
-  {
-    "header": "Опыт работы",
-    "content": [""]},
-  {
-    "header": "Планы на будущее",
-    "content": [""]},
-  {
-    "header": "Контактная информация",
-    "content": [""]}
-]
+  "ua": {
+    "title": "Коротке резюме магістра",
+    "table": [
+      {
+        "header": "ПІБ магістра",
+        "content": ["Жигарєв Михайло Юрійович"]
+      },
+      {
+        "header": "Дата народження",
+        "content": ["11.02.1994"]
+      },
+      {
+        "header": "Місце народження",
+        "content": ["м. Добропілля, Донецька обл"]},
+      {
+        "header": "Школа",
+        "content": ["Школа №19, м. Добропілля (2001-2012)"]},
+      {
+        "header": "ВНЗ",
+        "content": [
+          "Бакалавріат: Донецький національний технічний університет (2012-2016). Спеціальність: \"Системи технічного захисту інформації з обмеженим доступом, автоматизація її обробки\"",
+          "Магістратура: Донецкий національний технічний університет (2016-2018). Спеціальність: \"Інформаційна безпека\""
+        ]
+      },
+      {
+        "header": "Середній бал",
+        "content": ["89 балів"]
+      },
+      {
+        "header": "Володіння мовами",
+        "content": [
+          "Російська – у досконалості",
+          "Українська – у досконалості",
+          "Англійська – технічний рівень"
+        ]
+      },
+      {
+        "header": "Особисті досягнення",
+        "content": [
+          "Участь в конференціях"
+        ]
+      },
+      {
+        "header": "Захоплення",
+        "content": [
+          "Cкелелазіння",
+          "Програмування мікроконтролерів"
+        ]
+      },
+      {
+        "header": "Особисті якості",
+        "content": [
+          "Відповідальність",
+          "Комунікабельність",
+          "Здатність до навчання",
+          "Працездатність",
+          "Цілеспрямованість"
+        ]
+      },
+      {
+        "header": "Професійна спеціалізація і володіння комп'ютером",
+        "content": [""]
+      },
+      {
+        "header": "Додаткові курси, стажування, гранти",
+        "content": [""]
+      },
+      {
+        "header": "Досвід роботи",
+        "content": [""]
+      },
+      {
+        "header": "Плани на майбутнє",
+        "content": [""]
+      },
+      {
+        "header": "Контактна інформація",
+        "content": [""]
+      }
+    ]
+  },
+  "en": {
+    "title": "Brief resume",
+    "table": [
+      {
+        "header": "Name",
+        "content": ["Zhyhariev Mikhail"]
+      },
+      {
+        "header": "Date of birth",
+        "content": ["11.02.1994"]
+      },
+      {
+        "header": "Place of birth",
+        "content": ["Dobropolye, Donetsk region"]},
+      {
+        "header": "School",
+        "content": ["School № 19 in Dobropole (2001-2012)"]},
+      {
+        "header": "Universities",
+        "content": [
+          "Bachelor: Donetsk National Technical University (2012-2016). Specialty: \"Systems of technical protection of information with limited access, automation of its processing\"",
+          "Master: Donetsk National Technical University (2016-2018). Specialty: \"Information security\""
+        ]
+      },
+      {
+        "header": "Average score",
+        "content": ["89 points"]
+      },
+      {
+        "header": "Languages",
+        "content": [
+          "Russian – native",
+          "Ukrainian – perfectly",
+          "English – technical level"
+        ]
+      },
+      {
+        "header": "Personal achievements",
+        "content": [
+          "Participation in conferences"
+        ]
+      },
+      {
+        "header": "Hobbies and interests",
+        "content": [
+          "Rock climbing",
+          "Programming microcontrollers"
+        ]
+      },
+      {
+        "header": "Personal qualities",
+        "content": [
+          "Responsibility",
+          "Sociability",
+          "Learning ability",
+          "Efficiency",
+          "Purposefulness."
+        ]
+      },
+      {
+        "header": "Professional and computer skills",
+        "content": [""]
+      },
+      {
+        "header": "Additional courses, internships, grants",
+        "content": [""]
+      },
+      {
+        "header": "Professional experience",
+        "content": [""]
+      },
+      {
+        "header": "Future plans",
+        "content": [""]
+      },
+      {
+        "header": "Contact information",
+        "content": [""]
+      }
+    ]
+  }
+}

@@ -8,8 +8,8 @@ class HeaderMain extends Component {
   render() {
     const { language } = this.props;
     let lang;
-    if (language == 'ru') lang = content.ru;
-    else if (language == 'en') lang = content.en;
+    if (language === 'ru') lang = content.ru;
+    else if (language === 'en') lang = content.en;
     else lang = content.ua;
 
     return (

@@ -7,8 +7,14 @@ import content from '../../content/Search.json';
 
 class Search extends Component {
   render() {
+    const { padding, className } = this.props;
+    const paddingFixed = padding + 20
+    const style = {
+      paddingTop: paddingFixed,
+    }
+
     return (
-      <div className="search">
+      <div className="search" style={className === 'fixed' ? style : null}>
         <div className="container">
           <h1 className="search__title">Отчет об информационном поиске</h1>
           { content.text.map( (item, key) =>

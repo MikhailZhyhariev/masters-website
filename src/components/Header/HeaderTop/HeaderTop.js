@@ -23,12 +23,12 @@ class HeaderTop extends Component {
       {src: logo_ua, language: 'ua'},
       {src: logo_en, language: 'en'}
     ]
-    const { chooseLanguage, language } = this.props;
+    const { language } = this.props;
     const { handleFlagClick, handleLinkOpen } = this;
 
     let lang;
-    if (language == 'ru') lang = links.ru;
-    else if (language == 'en') lang = links.en;
+    if (language === 'ru') lang = links.ru;
+    else if (language === 'en') lang = links.en;
     else lang = links.ua;
 
     return (

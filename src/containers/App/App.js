@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import i18next from 'i18next';
 import './App.css';
 
 import * as menuActions from '../../actions/MenuActions.js';
@@ -17,16 +17,49 @@ import Links from '../../components/Links/Links.js';
 import Search from '../../components/Search/Search.js';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  handleScroll() {
+    let coord = ReactDOM.findDOMNode(this.refs.menu).getBoundingClientRect();
+    let documentCoord = window.pageYOffset;
+
+    const { setClassName, setHeight } = this.props.menuActions;
+
+    if (coord.top <= 0 & documentCoord >= 367) {
+      setClassName('fixed');
+      setHeight(coord.height);
+    } else {
+      setClassName('');
+    }
+  }
+
   render() {
     const { language, menu } = this.props;
     const { chooseSection } = this.props.menuActions;
     const { chooseLanguage } = this.props.languageActions;
-    const contentArray = [<Resume />, <Biography />, <Abstract />, <Library />, <Links /> , <Search />];
+    const { handleScroll } = this;
+    const contentArray = [
+      <Resume language={language.active} padding={menu.height} className={menu.className} />,
+      <Biography language={language.active} padding={menu.height} className={menu.className} />,
+      <Abstract padding={menu.height} className={menu.className} />,
+      <Library padding={menu.height} className={menu.className} />,
+      <Links padding={menu.height} className={menu.className} />,
+      <Search padding={menu.height} className={menu.className} />
+    ];
 
     return (
       <div className="app">
-        <Header chooseLanguage={chooseLanguage} language={language.language} />
-        <Menu chooseSection={chooseSection} active={menu.active} />
+        <Header chooseLanguage={chooseLanguage} language={language.active} />
+        <Menu chooseSection={chooseSection}
+              active={menu.active}
+              language={language.active}
+              onScroll={handleScroll}
+              className={menu.className}
+              ref="menu"/>
         {contentArray[menu.active]}
       </div>
     );

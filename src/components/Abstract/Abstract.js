@@ -7,8 +7,14 @@ import content from '../../content/Abstract.json';
 
 class Abstract extends Component {
   render() {
+    const { padding, className } = this.props;
+    const paddingFixed = padding + 20
+    const style = {
+      paddingTop: paddingFixed,
+    }
+
     return (
-      <div className="abstract">
+      <div className="abstract" style={className === 'fixed' ? style : null}>
         <div className="container">
           <h1 className="abstract__title">Реферат по теме выпускной работы</h1>
           <div className="abstract__content">

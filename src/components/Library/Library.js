@@ -15,8 +15,14 @@ class Library extends Component {
   render() {
     const { items } = this.state;
 
+    const { padding, className } = this.props;
+    const paddingFixed = padding + 20
+    const style = {
+      paddingTop: paddingFixed,
+    }
+
     return (
-      <div className="library">
+      <div className="library" style={className === 'fixed' ? style : null}>
         <div className="container">
           <h1 className="library__title">Библиотека материалов по теме выпускной работы</h1>
           <div className="library__content">

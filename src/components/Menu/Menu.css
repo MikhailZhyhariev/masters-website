@@ -25,6 +25,7 @@
   -moz-user-select: none;
   -khtml-user-select: none;
   user-select: none;
+  opacity: 1;
 }
 
 .menu__item:hover {
@@ -36,6 +37,14 @@
 .active:hover {
   color: #f22;
   border-bottom: 2px solid #f22;
+}
+
+.fixed {
+  width: 100%;
+  position: fixed;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
 }
 
 @media (max-width: 800px) {

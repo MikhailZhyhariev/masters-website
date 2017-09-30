@@ -8,17 +8,15 @@ import content from '../../content/Links.json';
 
 
 class Links extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      items: content
-    }
-  }
-
   render() {
+    const { padding, className } = this.props;
+    const paddingFixed = padding + 20
+    const style = {
+      paddingTop: paddingFixed,
+    }
+
     return (
-      <div className="links">
+      <div className="links" style={className === 'fixed' ? style : null}>
         <div className="container">
           <h1 className="links__title">Ссылки по теме выпускной работы</h1>
           <LinksMasters items={content.masters} />
