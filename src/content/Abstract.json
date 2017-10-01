@@ -104,13 +104,15 @@
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
     ]
   },
-  { "number": "b",
+  {
+     "number": "f",
      "name": "Выводы",
      "text": [
        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
      ]
   },
-  { "number": "c",
+  {
+     "number": "g",
      "name": "Список источников",
      "text": [
        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."

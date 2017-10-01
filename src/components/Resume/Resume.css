@@ -38,6 +38,47 @@
   margin-bottom: 5px;
 }
 
+.resume__table-row .content .content-cell-part strong {
+  margin-right: 5px;
+}
+
+.resume__table-row .content .content-cell-part .subcell {
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 15px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.subcell li {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  position: relative;
+}
+
+.subcell li span {
+  font-weight: lighter;
+  font-size: 100%;
+  margin-right: 5px;
+}
+
+.table__link {
+  font-size: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+.table__link:hover {
+  font-size: 100%;
+  color: #f22;
+  cursor: pointer;
+}
+
+.subcell li:last-child {
+  margin: 0;
+}
+
 .resume__table-row .content .content-cell-part:last-child {
   margin: 0;
 }

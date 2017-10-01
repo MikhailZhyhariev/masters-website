@@ -23,6 +23,11 @@
   margin-top: 30px;
 }
 
+.abstract__text-part {
+  margin: 0;
+  padding: 0;
+}
+
 .abstract__content-title,
 .abstract__text-part h3 {
   margin-top: 25px;
@@ -31,9 +36,8 @@
   line-height: 28px;
 }
 
-.abstract__text-part {
-  margin: 0;
-  padding: 0;
+.abstract__text-part h3 {
+  display: inline-block;
 }
 
 .abstract__text-part p {
@@ -74,10 +78,15 @@
 }
 
 .abstract__content-menu-link span,
-.abstract__text-part .number {
+.abstract__text-part span {
   margin-right: 5px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-size: 100%;
+  font-weight: lighter;
+}
+
+.abstract__text-part span {
+  font-size: 63%;
 }
 
 .abstract__text-part .text {

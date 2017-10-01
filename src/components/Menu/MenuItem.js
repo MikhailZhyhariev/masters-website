@@ -9,7 +9,7 @@ class MenuItem extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(selectedItem) {
+  handleClick() {
     const {item, onClick} = this.props;
     onClick(item);
   }

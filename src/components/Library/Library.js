@@ -4,17 +4,7 @@ import './Library.css';
 import content from '../../content/Library.json';
 
 class Library extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      items: content
-    }
-  }
-
   render() {
-    const { items } = this.state;
-
     const { padding, className } = this.props;
     const paddingFixed = padding + 20
     const style = {
@@ -26,7 +16,7 @@ class Library extends Component {
         <div className="container">
           <h1 className="library__title">Библиотека материалов по теме выпускной работы</h1>
           <div className="library__content">
-            { items.map( (item, key) =>
+            { content.map( (item, key) =>
               <div className="library__part" key={key}>
                 <h2 className="library__part-title">{item.title}</h2>
                 <ul>

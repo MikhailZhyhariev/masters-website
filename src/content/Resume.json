@@ -4,78 +4,246 @@
     "table": [
       {
         "header": "ФИО",
-        "content": ["Жигарев Михаил Юрьевич"]
+        "content": [
+          {"text": "Жигарев Михаил Юрьевич"}
+        ]
       },
       {
         "header": "Дата рождения",
-        "content": ["11.02.1994"]
+        "content": [
+          {"text": "11.02.1994"}
+        ]
       },
       {
         "header": "Место Рождения",
-        "content": ["г. Доброполье, Донецкая обл"]},
+        "content": [
+          {"text": "г. Доброполье, Донецкая обл."}
+        ]
+      },
       {
         "header": "Школа",
-        "content": ["Школа №19 г. Доброполье (2001-2012)"]},
+        "content": [
+          { "text": "Школа №19 г. Доброполье (2001-2012)" }
+        ]
+      },
       {
         "header": "ВУЗ",
         "content": [
-          "Бакалавриат: Донецкий национальный технический университет (2012-2016). Специальность: \"Системы технической защиты информации с ограниченным доступом, автоматизация ее обработки\"",
-          "Магистратура: Донецкий национальный технический университет (2016-2018). Специальность: \"Информационная безопасность\""
+          {
+            "name": "Бакалавриат:",
+            "text": "Донецкий национальный технический университет (2012-2016)"
+          },
+          {
+            "name": "Специальность:",
+            "text": "«Системы технической защиты информации с ограниченным доступом, автоматизация ее обработки»"
+          },
+          {
+            "name": "Магистратура:",
+            "text": "Донецкий национальный технический университет (2016-2018)"
+          },
+          {
+            "name": "Специальность:",
+            "text": "«Информационная безопасность»"
+          }
         ]
       },
       {
         "header": "Средний балл",
-        "content": ["89 баллов"]},
+        "content": [
+          {"text": "89 баллов"}
+        ]
+      },
       {
         "header": "Владение языками",
         "content": [
-          "Русский – в совершенстве",
-          "Украинский – в совершенстве",
-          "Английский – технический уровень."
+          {"text": "Русский – в совершенстве"},
+          {"text": "Украинский – в совершенстве"},
+          {"text": "Английский – технический уровень"}
         ]
       },
       {
         "header": "Личные достижения",
         "content": [
-          "Участие в конференциях"
+          {"text": "Участие в конференциях"},
+          {"text": "I спортивный разряд по скалолазанию"}
         ]
       },
       {
         "header": "Увлечения",
         "content": [
-          "Скалолазание",
-          "Программирование микроконтроллеров"
+          {"text": "Скалолазание"},
+          {"text": "Программирование микроконтроллеров"}
         ]
       },
       {
         "header": "Личные качества",
         "content": [
-          "Ответственность",
-          "Коммуникабельность",
-          "Обучаемость",
-          "Работоспособность",
-          "Целеустремленность"
+          {"text": "Ответственность"},
+          {"text": "Коммуникабельность"},
+          {"text": "Обучаемость"},
+          {"text": "Работоспособность"},
+          {"text": "Целеустремленность"}
          ]
       },
       {
         "header": "Профессиональная специализация и владение компьютером",
-        "content": [""]
+        "content": [
+          {
+            "name": "Операционные системы:",
+            "break": "yes",
+            "text": [
+              "Windows XP/Vista/7/8/10",
+              "Linux Ubuntu/Backtrack/Kali",
+              "MacOS Yosemite/El Capitan/Sierra/High Sierra"
+            ]
+          },
+          {
+            "name": "Средства Office:",
+            "break": "yes",
+            "text": [
+              "MS Office 2000/2003/2007/2010/2016",
+              "Apache OpenOffice",
+              "iWork"
+            ]
+          },
+          {
+            "name": "Работа с графикой:",
+            "break": "yes",
+            "text": [
+              "Adobe Photoshop",
+              "GNU Image Manipulation Program (GIMP)"
+            ]
+          },
+          {
+            "name": "Специализированные и математические пакеты:",
+            "break": "yes",
+            "text": [
+              "Компас, AutoCAD, Maya",
+              "SystemView, LabView",
+              "Matrix Laboratory (MATLAB), High Frequency Structural Simulator (HFSS)",
+              "Proteus, Multisim"
+            ]
+          },
+          {
+            "name": "Интегрированные среды разработки:",
+            "break": "yes",
+            "text": [
+              "PyCharm",
+              "CLion",
+              "Xcode",
+              "Avr Studio"
+            ]
+          },
+          {
+            "name": "Web:",
+            "break": "yes",
+            "text": [
+              "HTML",
+              "CSS",
+              "XML, JSON"
+            ]
+          },
+          {
+            "name": "Языки программирования:",
+            "break": "yes",
+            "text": [
+              "C/C++",
+              "Python",
+              "Swift",
+              "Javascript (Vanilla JS, React.js)"
+            ]
+          }
+        ]
       },
       {
-        "header": "Дополнительные курсы, стажировки, гаранты",
-        "content": [""]
+        "header": "Дополнительные курсы",
+        "content": [
+          {
+            "name": "Курсы «Stepic.org»",
+            "break": "yes",
+            "link": "https://stepik.org/",
+            "text": [
+              {
+                "link": "https://stepik.org/course/67/syllabus",
+                "text": "Программирование на Python"
+              },
+              {
+                "link": "https://stepik.org/course/512/syllabus",
+                "text": "Python: основы и применение"
+              },
+              {
+                "link": "https://stepik.org/course/431/",
+                "text": "Адаптивный тренажер Python"
+              },
+              {
+                "link": "https://stepik.org/course/401/syllabus",
+                "text": "Нейронные сети"
+              }
+            ]
+          },
+          {
+            "name": "Курсы «Открытое образование»",
+            "break": "yes",
+            "link": "https://openedu.ru/",
+            "text": [
+              {
+                "link": "https://goo.gl/MZcDXT",
+                "text": "Веб-программирование"
+              },
+              {
+                "link": "https://goo.gl/yvAdRZ",
+                "text": "Методы и алгоритмы теории графов"
+              },
+              {
+                "link": "https://goo.gl/eD3vPq",
+                "text": "Алгоритмы программирования и структуры данных"
+              }
+            ]
+          },
+          {
+            "name": "Курсы «Coursera»",
+            "break": "yes",
+            "link": "https://www.coursera.org",
+            "text": [
+              {
+                "text": "Программирование на Python от Московский физико-технический институт & Mail.Ru Group",
+                "link": "https://www.coursera.org/learn/programming-in-python/home/welcome"
+              },
+              {
+                "text": "Введение в машинное обучение от Высшая школа экономики & Yandex School of Data Analysis",
+                "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
+              }
+            ]
+          }
+        ]
       },
       {
         "header": "Опыт работы",
-        "content": [""]
+        "content": [
+          {"text": "Опыт работы фрилансером - 1 год"}
+        ]
       },
       {
         "header": "Планы на будущее",
-        "content": [""]
+        "content": [
+          {"text": "Окончание магистратуры"},
+          {"text": "Дальнейшее трудоустройство"}
+        ]
       },
       {
         "header": "Контактная информация",
-        "content": [""]
+        "content": [
+          {
+            "break": "yes",
+            "text": [
+              "Тут короч ВКшечка",
+              "А тут телега",
+              "А тут гитхаб",
+              "А тут почта",
+              "А тут телефон"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -84,75 +252,231 @@
     "table": [
       {
         "header": "ПІБ магістра",
-        "content": ["Жигарєв Михайло Юрійович"]
+        "content": [
+          {"text": "Жигарєв Михайло Юрійович"}
+        ]
       },
       {
         "header": "Дата народження",
-        "content": ["11.02.1994"]
+        "content": [
+          {"text": "11.02.1994"}
+        ]
       },
       {
         "header": "Місце народження",
-        "content": ["м. Добропілля, Донецька обл"]},
+        "content": [
+          {"text": "м. Добропілля, Донецька обл."}
+        ]
+      },
       {
         "header": "Школа",
-        "content": ["Школа №19, м. Добропілля (2001-2012)"]},
+        "content": [
+          {"text": "Школа №19, м. Добропілля (2001-2012)"}
+        ]
+      },
       {
         "header": "ВНЗ",
         "content": [
-          "Бакалавріат: Донецький національний технічний університет (2012-2016). Спеціальність: \"Системи технічного захисту інформації з обмеженим доступом, автоматизація її обробки\"",
-          "Магістратура: Донецкий національний технічний університет (2016-2018). Спеціальність: \"Інформаційна безпека\""
+          {
+            "name": "Бакалавріат:",
+            "text": "Донецький національний технічний університет (2012-2016)"
+          },
+          {
+            "name": "Спеціальність",
+            "text": "\"Системи технічного захисту інформації з обмеженим доступом, автоматизація її обробки\""
+          },
+          {
+            "name": "Магістратура:",
+            "text": "Донецький національний технічний університет (2016-2018)"
+          },
+          {
+            "name": "Спеціальність:",
+            "text": "\"Інформаційна безпека\""
+          }
         ]
       },
       {
         "header": "Середній бал",
-        "content": ["89 балів"]
+        "content": [
+          {"text": "89 балів"}
+        ]
       },
       {
         "header": "Володіння мовами",
         "content": [
-          "Російська – у досконалості",
-          "Українська – у досконалості",
-          "Англійська – технічний рівень"
+          {"text": "Російська – у досконалості"},
+          {"text": "Українська – у досконалості"},
+          {"text": "Англійська – технічний рівень"}
         ]
       },
       {
         "header": "Особисті досягнення",
         "content": [
-          "Участь в конференціях"
+          {"text": "Участь в конференціях"},
+          {"text": "I спортивний розряд зі скелелазіння"}
         ]
       },
       {
         "header": "Захоплення",
         "content": [
-          "Cкелелазіння",
-          "Програмування мікроконтролерів"
+          {"text": "Cкелелазіння"},
+          {"text": "Програмування мікроконтролерів"}
         ]
       },
       {
         "header": "Особисті якості",
         "content": [
-          "Відповідальність",
-          "Комунікабельність",
-          "Здатність до навчання",
-          "Працездатність",
-          "Цілеспрямованість"
+          {"text": "Відповідальність"},
+          {"text": "Комунікабельність"},
+          {"text": "Здатність до навчання"},
+          {"text": "Працездатність"},
+          {"text": "Цілеспрямованість"}
         ]
       },
       {
         "header": "Професійна спеціалізація і володіння комп'ютером",
-        "content": [""]
+        "content": [
+          {
+            "name": "Операційні системи:",
+            "break": "yes",
+            "text": [
+              "Windows XP/Vista/7/8/10",
+              "Linux Ubuntu/Backtrack/Kali",
+              "MacOS Yosemite/El Capitan/Sierra/High Sierra"
+            ]
+          },
+          {
+            "name": "Засоби Office:",
+            "break": "yes",
+            "text": [
+              "MS Office 2000/2003/2007/2010/2016",
+              "Apache OpenOffice",
+              "iWork"
+            ]
+          },
+          {
+            "name": "Робота з графікою:",
+            "break": "yes",
+            "text": [
+              "Adobe Photoshop",
+              "GNU Image Manipulation Program (GIMP)"
+            ]
+          },
+          {
+            "name": "Спеціалізовані та математичні пакети:",
+            "break": "yes",
+            "text": [
+              "Компас, AutoCAD, Maya",
+              "SystemView, LabView",
+              "Matrix Laboratory (MATLAB), High Frequency Structural Simulator (HFSS)",
+              "Proteus, Multisim"
+            ]
+          },
+          {
+            "name": "Інтегровані середовища розробки:",
+            "break": "yes",
+            "text": [
+              "PyCharm",
+              "CLion",
+              "Xcode",
+              "Avr Studio"
+            ]
+          },
+          {
+            "name": "Web:",
+            "break": "yes",
+            "text": [
+              "HTML",
+              "CSS",
+              "XML, JSON"
+            ]
+          },
+          {
+            "name": "Мови програмування:",
+            "break": "yes",
+            "text": [
+              "C/C++",
+              "Python",
+              "Swift",
+              "Javascript (Vanilla JS, React.js)"
+            ]
+          }
+        ]
       },
       {
         "header": "Додаткові курси, стажування, гранти",
-        "content": [""]
+        "content": [
+          {
+            "name": "Курси «Stepic.org»",
+            "break": "yes",
+            "link": "https://stepik.org/",
+            "text": [
+              {
+                "link": "https://stepik.org/course/67/syllabus",
+                "text": "Програмування на Python"
+              },
+              {
+                "link": "https://stepik.org/course/512/syllabus",
+                "text": "Python: основи та застосування"
+              },
+              {
+                "link": "https://stepik.org/course/431/",
+                "text": "Адаптивний тренажер Python"
+              },
+              {
+                "link": "https://stepik.org/course/401/syllabus",
+                "text": "Нейронні мережі"
+              }
+            ]
+          },
+          {
+            "name": "Курси «Відкрита освіта»",
+            "break": "yes",
+            "link": "https://openedu.ru/",
+            "text": [
+              {
+                "link": "https://goo.gl/MZcDXT",
+                "text": "Веб програмування"
+              },
+              {
+                "link": "https://goo.gl/yvAdRZ",
+                "text": "Методи і алгоритми теорії графів"
+              },
+              {
+                "link": "https://goo.gl/eD3vPq",
+                "text": "Алгоритми програмування і структури даних"
+              }
+            ]
+          },
+          {
+            "name": "Курси «Coursera»",
+            "break": "yes",
+            "link": "https://www.coursera.org",
+            "text": [
+              {
+                "text": "Програмування на Python від Московського фізико-технічного інститута & Mail.Ru Group",
+                "link": "https://www.coursera.org/learn/programming-in-python/home/welcome"
+              },
+              {
+                "text": "Введення в машинне навчання від Вищої школи економіки & Yandex School of Data Analysis",
+                "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
+              }
+            ]
+          }
+        ]
       },
       {
         "header": "Досвід роботи",
-        "content": [""]
+        "content": [
+          {"text": "Досвід роботи фрілансером - 1 рік"}
+        ]
       },
       {
         "header": "Плани на майбутнє",
-        "content": [""]
+        "content": [
+          {"text": "Закінчення магістратури"},
+          {"text": "Подальше працевлаштування"}
+        ]
       },
       {
         "header": "Контактна інформація",
@@ -165,75 +489,231 @@
     "table": [
       {
         "header": "Name",
-        "content": ["Zhyhariev Mikhail"]
+        "content": [
+          {"text": "Zhyhariev Mikhail"}
+        ]
       },
       {
         "header": "Date of birth",
-        "content": ["11.02.1994"]
+        "content": [
+          {"text": "11.02.1994"}
+        ]
       },
       {
         "header": "Place of birth",
-        "content": ["Dobropolye, Donetsk region"]},
+        "content": [
+          {"text": "Dobropolye, Donetsk region"}
+        ]
+      },
       {
         "header": "School",
-        "content": ["School № 19 in Dobropole (2001-2012)"]},
+        "content": [
+          {"text": "School № 19 in Dobropole (2001-2012)"}
+        ]
+      },
       {
         "header": "Universities",
         "content": [
-          "Bachelor: Donetsk National Technical University (2012-2016). Specialty: \"Systems of technical protection of information with limited access, automation of its processing\"",
-          "Master: Donetsk National Technical University (2016-2018). Specialty: \"Information security\""
+          {
+            "name": "Bachelor:",
+            "text": "Donetsk National Technical University (2012-2016)"
+          },
+          {
+            "name": "Specialty",
+            "text": "\"Systems of technical protection of information with limited access, automation of its processing\""
+          },
+          {
+            "name": "Master:",
+            "text": "Donetsk National Technical University (2016-2018)"
+          },
+          {
+            "name": "Specialty:",
+            "text": "\"Information security\""
+          }
         ]
       },
       {
         "header": "Average score",
-        "content": ["89 points"]
+        "content": [
+          {"text": "89 points"}
+        ]
       },
       {
         "header": "Languages",
         "content": [
-          "Russian – native",
-          "Ukrainian – perfectly",
-          "English – technical level"
+          {"text": "Russian – native"},
+          {"text": "Ukrainian – perfectly"},
+          {"text": "English – technical level"}
         ]
       },
       {
         "header": "Personal achievements",
         "content": [
-          "Participation in conferences"
+          {"text": "Participation in conferences"},
+          {"text": "1 sports category in rock climbing"}
         ]
       },
       {
         "header": "Hobbies and interests",
         "content": [
-          "Rock climbing",
-          "Programming microcontrollers"
+          {"text": "Rock climbing"},
+          {"text": "Programming microcontrollers"}
         ]
       },
       {
         "header": "Personal qualities",
         "content": [
-          "Responsibility",
-          "Sociability",
-          "Learning ability",
-          "Efficiency",
-          "Purposefulness."
+          {"text": "Responsibility"},
+          {"text": "Sociability"},
+          {"text": "Learning ability"},
+          {"text": "Efficiency"},
+          {"text": "Purposefulness"}
         ]
       },
       {
         "header": "Professional and computer skills",
-        "content": [""]
+        "content": [
+          {
+            "name": "Operating Systems:",
+            "break": "yes",
+            "text": [
+              "Windows XP/Vista/7/8/10",
+              "Linux Ubuntu/Backtrack/Kali",
+              "MacOS Yosemite/El Capitan/Sierra/High Sierra"
+            ]
+          },
+          {
+            "name": "Office Tools:",
+            "break": "yes",
+            "text": [
+              "MS Office 2000/2003/2007/2010/2016",
+              "Apache OpenOffice",
+              "iWork"
+            ]
+          },
+          {
+            "name": "Work with graphics:",
+            "break": "yes",
+            "text": [
+              "Adobe Photoshop",
+              "GNU Image Manipulation Program (GIMP)"
+            ]
+          },
+          {
+            "name": "Specialized and mathematical packages:",
+            "break": "yes",
+            "text": [
+              "Компас, AutoCAD, Maya",
+              "SystemView, LabView",
+              "Matrix Laboratory (MATLAB), High Frequency Structural Simulator (HFSS)",
+              "Proteus, Multisim"
+            ]
+          },
+          {
+            "name": "Integrated development environments:",
+            "break": "yes",
+            "text": [
+              "PyCharm",
+              "CLion",
+              "Xcode",
+              "Avr Studio"
+            ]
+          },
+          {
+            "name": "Web:",
+            "break": "yes",
+            "text": [
+              "HTML",
+              "CSS",
+              "XML, JSON"
+            ]
+          },
+          {
+            "name": "Programming languages:",
+            "break": "yes",
+            "text": [
+              "C/C++",
+              "Python",
+              "Swift",
+              "Javascript (Vanilla JS, React.js)"
+            ]
+          }
+        ]
       },
       {
         "header": "Additional courses, internships, grants",
-        "content": [""]
+        "content": [
+          {
+            "name": "Courses «Stepic.org»",
+            "break": "yes",
+            "link": "https://stepik.org/",
+            "text": [
+              {
+                "link": "https://stepik.org/course/67/syllabus",
+                "text": "Programming in Python"
+              },
+              {
+                "link": "https://stepik.org/course/512/syllabus",
+                "text": "Python: basics and applications"
+              },
+              {
+                "link": "https://stepik.org/course/431/",
+                "text": "Python Adaptive Trainer"
+              },
+              {
+                "link": "https://stepik.org/course/401/syllabus",
+                "text": "Neural networks"
+              }
+            ]
+          },
+          {
+            "name": "Courses \"Open Education\"",
+            "break": "yes",
+            "link": "https://openedu.ru/",
+            "text": [
+              {
+                "link": "https://goo.gl/MZcDXT",
+                "text": "Web programming"
+              },
+              {
+                "link": "https://goo.gl/yvAdRZ",
+                "text": "Methods and algorithms of graph theory"
+              },
+              {
+                "link": "https://goo.gl/eD3vPq",
+                "text": "Programming Algorithms and Data Structures"
+              }
+            ]
+          },
+          {
+            "name": "Courses «Coursera»",
+            "break": "yes",
+            "link": "https://www.coursera.org",
+            "text": [
+              {
+                "text": "Programming in Python from the Moscow Institute of Physics and Technology & Mail.Ru Group",
+                "link": "https://www.coursera.org/learn/programming-in-python/home/welcome"
+              },
+              {
+                "text": "Introduction to machine learning from the Graduate School of Economics & Yandex School of Data Analysis",
+                "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
+              }
+            ]
+          }
+        ]
       },
       {
         "header": "Professional experience",
-        "content": [""]
+        "content": [
+          {"text": "Experience freelancer - 1 year"}
+        ]
       },
       {
         "header": "Future plans",
-        "content": [""]
+        "content": [
+          {"text": "Graduation of a master's degree"},
+          {"text": "Further employment"}
+        ]
       },
       {
         "header": "Contact information",
