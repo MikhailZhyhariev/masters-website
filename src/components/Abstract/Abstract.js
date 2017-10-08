@@ -7,8 +7,7 @@ import content from '../../content/Abstract.json';
 
 class Abstract extends Component {
   render() {
-    const { addHeaderCoord, addHeaderName } = this;
-    const { padding, className, headersTop, updateButtonClass, updateButtonTop } = this.props;
+    const { padding, className, updateButtonClass, updateButtonTop } = this.props;
     const paddingFixed = padding + 20
     const style = {
       paddingTop: paddingFixed,

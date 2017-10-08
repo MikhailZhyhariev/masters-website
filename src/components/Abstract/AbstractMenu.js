@@ -3,7 +3,7 @@ import './Abstract.css';
 
 class AbstractMenu extends Component {
   addName(item) {
-    const { onClick, menuHeight, onButtonClass, onButtonTop } = this.props;
+    const { menuHeight, onButtonClass, onButtonTop } = this.props;
 
     const header = document.getElementById(item);
     const step = header.getBoundingClientRect().top / 100;
@@ -18,7 +18,7 @@ class AbstractMenu extends Component {
 
     const timerId = setInterval( () => {
       const top = header.getBoundingClientRect().top;
-      if ((top - 10 - menuHeight) > 0 & window.pageYOffset < pageTopMax) {
+      if (top > 10 + menuHeight & window.pageYOffset < pageTopMax) {
         window.scrollBy(0, step);
       } else {
         clearInterval(timerId);

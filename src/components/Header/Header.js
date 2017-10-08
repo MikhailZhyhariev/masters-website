@@ -12,7 +12,7 @@ class Header extends Component {
     return (
       <header className="header">
         <HeaderTop chooseLanguage={chooseLanguage} language={language} />
-        <HeaderMain language={language} />
+        <HeaderMain language={language.active} />
       </header>
     );
   }

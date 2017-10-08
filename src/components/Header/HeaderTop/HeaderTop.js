@@ -18,17 +18,17 @@ class HeaderTop extends Component {
   }
 
   render() {
-    const flags = [
-      {src: logo_ru, language: 'ru'},
-      {src: logo_ua, language: 'ua'},
-      {src: logo_en, language: 'en'}
-    ]
     const { language } = this.props;
     const { handleFlagClick, handleLinkOpen } = this;
+    const flags = [
+      {src: logo_ru, language: 'ru', languageAvailable: language.available.ru},
+      {src: logo_ua, language: 'ua', languageAvailable: language.available.ua},
+      {src: logo_en, language: 'en', languageAvailable: language.available.en}
+    ]
 
     let lang;
-    if (language === 'ru') lang = links.ru;
-    else if (language === 'en') lang = links.en;
+    if (language.active === 'ru') lang = links.ru;
+    else if (language.active === 'en') lang = links.en;
     else lang = links.ua;
 
     return (
@@ -38,7 +38,7 @@ class HeaderTop extends Component {
             { flags.map( (item, key) => {
               return <HeaderTopFlag item={item}
                                     key={key}
-                                    isActive={item.language === language}
+                                    isActive={item.language === language.active}
                                     onClick={handleFlagClick.bind(this)}
                      />
             })}

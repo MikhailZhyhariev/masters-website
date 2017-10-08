@@ -53,7 +53,7 @@ class App extends Component {
   render() {
     const { language, menu, button } = this.props;
     const { chooseSection } = this.props.menuActions;
-    const { chooseLanguage } = this.props.languageActions;
+    const { chooseLanguage, checkAvailableLanguage } = this.props.languageActions;
     const { buttonClick, classnameChange } = this.props.buttonActions;
     const { handleScroll, updateClassButton } = this;
 
@@ -68,7 +68,8 @@ class App extends Component {
 
     return (
       <div className="app">
-        <Header chooseLanguage={chooseLanguage} language={language.active} />
+        <Header chooseLanguage={chooseLanguage}
+                language={language} />
         <Menu chooseSection={chooseSection}
               active={menu.active}
               language={language.active}
@@ -76,6 +77,7 @@ class App extends Component {
               className={menu.className}
               updateButtonTop={buttonClick}
               updateButtonClass={classnameChange}
+              checkLanguage={checkAvailableLanguage}
               ref="menu"/>
         <Button coord={button.coord}
                 onClick={buttonClick}

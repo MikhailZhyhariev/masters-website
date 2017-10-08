@@ -17,12 +17,21 @@ class HeaderTopFlag extends Component {
   render() {
     const { item, isActive } = this.props;
     const { handleClick } = this;
+    let style;
+    if (!item.languageAvailable) {
+      style = {
+        display: 'none'
+      }
+    } else {
+      style = null;
+    }
 
     return (
       <img className={'header-top__language-flag ' + (isActive ? 'header-top__language-flag-active' : '')}
            alt={item.language}
            src={item.src}
            onClick={handleClick}
+           style={style}
       />
     );
   }

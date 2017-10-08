@@ -20,9 +20,10 @@ class Menu extends Component {
   }
 
   handleItemClick(selectedItem) {
-    const { chooseSection, updateButtonClass, updateButtonTop } = this.props;
+    const { chooseSection, updateButtonClass, updateButtonTop, checkLanguage } = this.props;
 
     chooseSection(selectedItem.index);
+    checkLanguage(selectedItem.available);
 
     updateButtonTop(0);
     updateButtonClass('button-up');

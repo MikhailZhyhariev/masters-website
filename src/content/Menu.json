@@ -2,55 +2,115 @@
     "ru": [
         {
           "name": "Резюме",
-          "index": 0
+          "index": 0,
+          "available": {
+            "ru": true,
+            "en": true,
+            "ua": true
+          }
         },
         {
           "name": "Биография",
-          "index": 1
+          "index": 1,
+          "available": {
+            "ru": true,
+            "en": false,
+            "ua": true
+          }
         },
         {
           "name": "Реферат",
-          "index": 2
+          "index": 2,
+          "available": {
+            "ru": true,
+            "en": true,
+            "ua": true
+          }
         },
         {
           "name": "Библиотека",
-          "index": 3
+          "index": 3,
+          "available": {
+            "ru": true,
+            "en": false,
+            "ua": false
+          }
         },
         {
           "name": "Ссылки",
-          "index": 4
+          "index": 4,
+          "available": {
+            "ru": true,
+            "en": false,
+            "ua": false
+          }
         },
         {
           "name": "Отчет о поиске",
-          "index": 5
+          "index": 5,
+          "available": {
+            "ru": true,
+            "en": false,
+            "ua": false
+          }
         },
         {
           "name": "Индивидуальный раздел",
-          "index": 6
+          "index": 6,
+          "available": {
+            "ru": true,
+            "en": false,
+            "ua": false
+          }
         }
     ],
     "en": [
         {
           "name": "Resume",
-          "index": 0
+          "index": 0,
+          "available": {
+            "ru": true,
+            "en": true,
+            "ua": true
+          }
         },
         {
           "name": "Abstract",
-          "index": 2
+          "index": 2,
+          "available": {
+            "ru": true,
+            "en": true,
+            "ua": true
+          }
         }
     ],
     "ua": [
         {
           "name": "Резюме",
-          "index": 0
+          "index": 0,
+          "available": {
+            "ru": true,
+            "en": true,
+            "ua": true
+          }
         },
         {
           "name": "Бiографiя",
-          "index": 1
+          "index": 1,
+          "available": {
+            "ru": true,
+            "en": false,
+            "ua": true
+          }
         },
         {
           "name": "Реферат",
-          "index": 2
+          "index": 2,
+          "available": {
+            "ru": true,
+            "en": true,
+            "ua": true
+          }
         }
     ]
 }
