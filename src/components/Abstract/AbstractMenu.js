@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import './Abstract.css';
 
 class AbstractMenu extends Component {
-  // scrollToItem(item) {
-  //   const { onScroll } = this.props;
-  //   onScroll(item);
-  // }
+  addName(item) {
+    const { onClick } = this.props;
+    onClick(item)
+  }
 
   render() {
     const { items, className } = this.props;
+    const { addName } = this;
 
     return (
       <ul className={'abstract__content-menu ' + className}>
@@ -16,8 +17,7 @@ class AbstractMenu extends Component {
           <li className="abstract__content-menu-item" key={key}>
             <a href={'#' + item.number}
                className="abstract__content-menu-link"
-              //  onClick={this.scrollToItem.bind(this, item.ref)}
-               >
+               onClick={addName.bind(this, item.name)}>
               { isNaN(+item.number[0]) ? '' : <span>{item.number}</span> }
               {item.name}
             </a>

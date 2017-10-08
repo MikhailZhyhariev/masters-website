@@ -75,6 +75,10 @@
   cursor: pointer;
 }
 
+.table__link:active {
+  font-weight: bold;
+}
+
 .subcell li:last-child {
   margin: 0;
 }
@@ -87,6 +91,11 @@
   width: 30%;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+}
+
+.resume__table-row .extend {
+  font-size: 70%;
+  font-style: italic;
 }
 
 @media (max-width: 800px) {

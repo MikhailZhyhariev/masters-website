@@ -1,0 +1,2 @@
+export const BUTTON_CLICK = 'BUTTON_CLICK';
+export const CLASSNAME_CHANGE = 'CLASSNAME_CHANGE';

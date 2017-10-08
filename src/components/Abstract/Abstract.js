@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import ReactDOM from 'react-dom';
 import './Abstract.css';
 
 import AbstractMenu from './AbstractMenu.js';
@@ -9,38 +10,30 @@ class Abstract extends Component {
   constructor(props) {
     super(props);
 
-    // this.addHeaderCoord = this.addHeaderCoord.bind(this);
+    this.addHeaderCoord = this.addHeaderCoord.bind(this);
+    this.addHeaderName = this.addHeaderName.bind(this);
 
     this.state = {
-      topCoord: []
+      name: "",
+      top: 0
     }
   }
 
-  addHeaderCoord(item) {
-    // let array = this.state.topCoord;
-    // array.push(item);
-
+  addHeaderCoord(coord) {
     this.setState({
-      topCoord: item
-    });
+      top: coord
+    })
   }
 
-  scrollPage(refs) {
-    // let top = ReactDOM.findDOMNode(this.refs.a).getBoundingClientRect().top;
-    // let timer;
-    //
-    // timer = setInterval( () => {
-    //   if (window.pageYOffset < top) {
-    //     window.scrollBy(0, 10);
-    //   } else {
-    //     clearTimeout(timer);
-    //   }
-    // }, 5);
+  addHeaderName(name) {
+    this.setState({
+      name: name
+    })
   }
 
   render() {
-    const { addHeaderCoord } = this;
-    const { padding, className } = this.props;
+    const { addHeaderCoord, addHeaderName } = this;
+    const { padding, className, headersTop } = this.props;
     const paddingFixed = padding + 20
     const style = {
       paddingTop: paddingFixed,
@@ -52,9 +45,9 @@ class Abstract extends Component {
           <h1 className="abstract__title">Реферат по теме выпускной работы</h1>
           <div className="abstract__content">
             <h2 className="abstract__content-title">Содержание</h2>
-            <AbstractMenu items={content} onScroll={this.scrollPage.bind(this, this.refs.a)} onClick={addHeaderCoord} />
+            <AbstractMenu items={content} OnClick={addHeaderName} />
           </div>
-          <AbstractText items={content} className={''} addHeader={addHeaderCoord.bind(this)} />
+          <AbstractText items={content} className={''} onClick={addHeaderCoord} />
         </div>
       </div>
     );

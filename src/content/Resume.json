@@ -56,16 +56,17 @@
       {
         "header": "Владение языками",
         "content": [
-          {"text": "Русский – в совершенстве"},
-          {"text": "Украинский – в совершенстве"},
-          {"text": "Английский – технический уровень"}
+          {"text": "Русский — в совершенстве"},
+          {"text": "Украинский — в совершенстве"},
+          {"text": "Английский — технический уровень"}
         ]
       },
       {
         "header": "Личные достижения",
         "content": [
           {"text": "Участие в конференциях"},
-          {"text": "I спортивный разряд по скалолазанию"}
+          {"text": "1 спортивный разряд по скалолазанию"},
+          {"text": "3 cпортивный разряд по спортивной гимнастике"}
         ]
       },
       {
@@ -125,13 +126,14 @@
             ]
           },
           {
-            "name": "Интегрированные среды разработки:",
+            "name": "Интегрированные среды разработки (IDE's):",
             "break": "yes",
             "text": [
               "PyCharm",
               "CLion",
               "Xcode",
-              "Avr Studio"
+              "Avr Studio",
+              "Atom"
             ]
           },
           {
@@ -157,6 +159,7 @@
       },
       {
         "header": "Дополнительные курсы",
+        "extend": "Кликабельно",
         "content": [
           {
             "name": "Курсы «Stepic.org»",
@@ -206,11 +209,11 @@
             "link": "https://www.coursera.org",
             "text": [
               {
-                "text": "Программирование на Python от Московский физико-технический институт & Mail.Ru Group",
+                "text": "Программирование на Python",
                 "link": "https://www.coursera.org/learn/programming-in-python/home/welcome"
               },
               {
-                "text": "Введение в машинное обучение от Высшая школа экономики & Yandex School of Data Analysis",
+                "text": "Введение в машинное обучение",
                 "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
               }
             ]
@@ -220,7 +223,7 @@
       {
         "header": "Опыт работы",
         "content": [
-          {"text": "Опыт работы фрилансером - 1 год"}
+          {"text": "Опыт работы фрилансером — 1 год"}
         ]
       },
       {
@@ -236,11 +239,11 @@
           {
             "break": "yes",
             "text": [
-              "Тут короч ВКшечка",
-              "А тут телега",
-              "А тут гитхаб",
-              "А тут почта",
-              "А тут телефон"
+              "ВК",
+              "Telegram",
+              "Github",
+              "Mail",
+              "Phone"
             ]
           }
         ]
@@ -283,7 +286,7 @@
           },
           {
             "name": "Спеціальність",
-            "text": "\"Системи технічного захисту інформації з обмеженим доступом, автоматизація її обробки\""
+            "text": "«Системи технічного захисту інформації з обмеженим доступом, автоматизація її обробки»"
           },
           {
             "name": "Магістратура:",
@@ -291,7 +294,7 @@
           },
           {
             "name": "Спеціальність:",
-            "text": "\"Інформаційна безпека\""
+            "text": "«Інформаційна безпека»"
           }
         ]
       },
@@ -304,16 +307,17 @@
       {
         "header": "Володіння мовами",
         "content": [
-          {"text": "Російська – у досконалості"},
-          {"text": "Українська – у досконалості"},
-          {"text": "Англійська – технічний рівень"}
+          {"text": "Російська — у досконалості"},
+          {"text": "Українська — у досконалості"},
+          {"text": "Англійська — технічний рівень"}
         ]
       },
       {
         "header": "Особисті досягнення",
         "content": [
           {"text": "Участь в конференціях"},
-          {"text": "I спортивний розряд зі скелелазіння"}
+          {"text": "1 спортивний розряд зі скелелазіння"},
+          {"text": "3 cпортивный розряд по спортивній гімнастиці"}
         ]
       },
       {
@@ -373,13 +377,14 @@
             ]
           },
           {
-            "name": "Інтегровані середовища розробки:",
+            "name": "Інтегровані середовища розробки  (IDE's):",
             "break": "yes",
             "text": [
               "PyCharm",
               "CLion",
               "Xcode",
-              "Avr Studio"
+              "Avr Studio",
+              "Atom"
             ]
           },
           {
@@ -404,7 +409,7 @@
         ]
       },
       {
-        "header": "Додаткові курси, стажування, гранти",
+        "header": "Додаткові курси",
         "content": [
           {
             "name": "Курси «Stepic.org»",
@@ -454,11 +459,11 @@
             "link": "https://www.coursera.org",
             "text": [
               {
-                "text": "Програмування на Python від Московського фізико-технічного інститута & Mail.Ru Group",
+                "text": "Програмування на Python",
                 "link": "https://www.coursera.org/learn/programming-in-python/home/welcome"
               },
               {
-                "text": "Введення в машинне навчання від Вищої школи економіки & Yandex School of Data Analysis",
+                "text": "Введення в машинне навчання",
                 "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
               }
             ]
@@ -468,7 +473,7 @@
       {
         "header": "Досвід роботи",
         "content": [
-          {"text": "Досвід роботи фрілансером - 1 рік"}
+          {"text": "Досвід роботи фрілансером — 1 рік"}
         ]
       },
       {
@@ -541,16 +546,17 @@
       {
         "header": "Languages",
         "content": [
-          {"text": "Russian – native"},
-          {"text": "Ukrainian – perfectly"},
-          {"text": "English – technical level"}
+          {"text": "Russian — native"},
+          {"text": "Ukrainian — perfectly"},
+          {"text": "English — technical level"}
         ]
       },
       {
         "header": "Personal achievements",
         "content": [
           {"text": "Participation in conferences"},
-          {"text": "1 sports category in rock climbing"}
+          {"text": "1 sports category in rock climbing"},
+          {"text": "3 sports category in gymnastics"}
         ]
       },
       {
@@ -610,13 +616,14 @@
             ]
           },
           {
-            "name": "Integrated development environments:",
+            "name": "Integrated development environments (IDE's):",
             "break": "yes",
             "text": [
               "PyCharm",
               "CLion",
               "Xcode",
-              "Avr Studio"
+              "Avr Studio",
+              "Atom"
             ]
           },
           {
@@ -641,10 +648,10 @@
         ]
       },
       {
-        "header": "Additional courses, internships, grants",
+        "header": "Additional courses",
         "content": [
           {
-            "name": "Courses «Stepic.org»",
+            "name": "Courses \"Stepic.org\"",
             "break": "yes",
             "link": "https://stepik.org/",
             "text": [
@@ -686,16 +693,16 @@
             ]
           },
           {
-            "name": "Courses «Coursera»",
+            "name": "Courses \"Coursera\"",
             "break": "yes",
             "link": "https://www.coursera.org",
             "text": [
               {
-                "text": "Programming in Python from the Moscow Institute of Physics and Technology & Mail.Ru Group",
+                "text": "Programming in Python",
                 "link": "https://www.coursera.org/learn/programming-in-python/home/welcome"
               },
               {
-                "text": "Introduction to machine learning from the Graduate School of Economics & Yandex School of Data Analysis",
+                "text": "Introduction to machine learning",
                 "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
               }
             ]
@@ -705,7 +712,7 @@
       {
         "header": "Professional experience",
         "content": [
-          {"text": "Experience freelancer - 1 year"}
+          {"text": "Experience freelancer — 1 year"}
         ]
       },
       {

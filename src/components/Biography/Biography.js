@@ -16,7 +16,6 @@ class Biography extends Component {
     const { language } = this.props;
     let lang;
     if (language === 'ru') lang = content.ru;
-    else if (language === 'en') lang = content.en;
     else lang = content.ua;
 
     const { padding, className } = this.props;

@@ -6,6 +6,7 @@ import './App.css';
 
 import * as menuActions from '../../actions/MenuActions.js';
 import * as languageActions from '../../actions/HeaderActions.js';
+import * as buttonActions from '../../actions/ButtonActions.js';
 
 import Header from '../../components/Header/Header.js';
 import Menu from '../../components/Menu/Menu.js';
@@ -15,12 +16,14 @@ import Abstract from '../../components/Abstract/Abstract.js';
 import Library from '../../components/Library/Library.js';
 import Links from '../../components/Links/Links.js';
 import Search from '../../components/Search/Search.js';
+import Button from '../../components/Button/Button.js';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.handleScroll = this.handleScroll.bind(this);
+    this.updateClassButton = this.updateClassButton.bind(this)
   }
 
   handleScroll() {
@@ -37,11 +40,23 @@ class App extends Component {
     }
   }
 
+  updateClassButton() {
+    const { button } = this.props;
+    const { buttonClick, classnameChange } = this.props.buttonActions;
+
+    if (window.pageYOffset >= button.coord & button.coord !== 0) {
+      classnameChange('button-up');
+      buttonClick(0);
+    } 
+  }
+
   render() {
-    const { language, menu } = this.props;
+    const { language, menu, button } = this.props;
     const { chooseSection } = this.props.menuActions;
     const { chooseLanguage } = this.props.languageActions;
-    const { handleScroll } = this;
+    const { buttonClick, classnameChange } = this.props.buttonActions;
+    const { handleScroll, updateClassButton } = this;
+
     const contentArray = [
       <Resume language={language.active} padding={menu.height} className={menu.className} />,
       <Biography language={language.active} padding={menu.height} className={menu.className} />,
@@ -60,6 +75,11 @@ class App extends Component {
               onScroll={handleScroll}
               className={menu.className}
               ref="menu"/>
+        <Button coord={button.coord}
+                onClick={buttonClick}
+                className={button.className}
+                classChange={classnameChange}
+                updateClass={updateClassButton} />
         {contentArray[menu.active]}
       </div>
     );
@@ -69,14 +89,16 @@ class App extends Component {
 function mapStateToProps(state) {
   return {
     language: state.language,
-    menu: state.menu
+    menu: state.menu,
+    button: state.button
   }
 }
 
 function mapDispatchToProps(dispatch) {
   return {
     menuActions: bindActionCreators(menuActions, dispatch),
-    languageActions: bindActionCreators(languageActions, dispatch)
+    languageActions: bindActionCreators(languageActions, dispatch),
+    buttonActions: bindActionCreators(buttonActions, dispatch)
   }
 }
 
