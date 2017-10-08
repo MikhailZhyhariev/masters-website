@@ -33,3 +33,13 @@
 .button:active {
   box-shadow: 0 0 30px #f22;
 }
+
+@media (max-width: 800px) {
+  .button {
+    opacity: 0.8;
+  }
+
+  .button:hover {
+    opacity: 1;
+  }
+}

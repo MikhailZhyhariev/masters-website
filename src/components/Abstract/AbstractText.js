@@ -2,22 +2,9 @@ import React, { Component } from 'react';
 import './Abstract.css';
 
 class AbstractText extends Component {
-  // getHeadersTop() {
-  //   const { addHeader, items } = this.props;
-  //   const headers = items.map( (item) => {
-  //     const coord = document.getElementById(item.number);
-  //     return {
-  //       name: item.name,
-  //       top: coord.getBoundingClientRect().top
-  //     }
-  //   })
-  //   addHeader(headers);
-  // }
-
   render() {
     const { items } = this.props;
-    // this.getHeadersTop.bind(this)
-
+    
     return (
       <article className="abstract__text">
         { items.map( (item, key) =>

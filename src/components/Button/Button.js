@@ -20,7 +20,7 @@ class Button extends Component {
         }
       }, 5)
     } else {
-      const step = 10;
+      const step = coord / 100;
 
       let timerDown = setInterval( () => {
         if (window.pageYOffset < coord) {

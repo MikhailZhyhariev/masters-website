@@ -47,7 +47,7 @@ class App extends Component {
     if (window.pageYOffset >= button.coord & button.coord !== 0) {
       classnameChange('button-up');
       buttonClick(0);
-    } 
+    }
   }
 
   render() {
@@ -60,7 +60,7 @@ class App extends Component {
     const contentArray = [
       <Resume language={language.active} padding={menu.height} className={menu.className} />,
       <Biography language={language.active} padding={menu.height} className={menu.className} />,
-      <Abstract padding={menu.height} className={menu.className} />,
+      <Abstract padding={menu.height} className={menu.className} updateButtonClass={classnameChange} updateButtonTop={buttonClick}/>,
       <Library padding={menu.height} className={menu.className} />,
       <Links padding={menu.height} className={menu.className} />,
       <Search padding={menu.height} className={menu.className} />
@@ -74,6 +74,8 @@ class App extends Component {
               language={language.active}
               onScroll={handleScroll}
               className={menu.className}
+              updateButtonTop={buttonClick}
+              updateButtonClass={classnameChange}
               ref="menu"/>
         <Button coord={button.coord}
                 onClick={buttonClick}

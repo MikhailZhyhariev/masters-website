@@ -20,7 +20,20 @@ class Menu extends Component {
   }
 
   handleItemClick(selectedItem) {
-    this.props.chooseSection(selectedItem.index);
+    const { chooseSection, updateButtonClass, updateButtonTop } = this.props;
+
+    chooseSection(selectedItem.index);
+
+    updateButtonTop(0);
+    updateButtonClass('button-up');
+
+    const timerId = setInterval( () => {
+      if (window.pageYOffset > 0) {
+        window.scrollBy(0, -10);
+      } else {
+        clearInterval(timerId);
+      }
+    }, 5)
   }
 
   render() {
