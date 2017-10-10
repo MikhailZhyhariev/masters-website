@@ -13,7 +13,6 @@ class AbstractMenu extends Component {
       document.body.offsetHeight, document.documentElement.offsetHeight,
       document.body.clientHeight, document.documentElement.clientHeight
     );
-
     const pageTopMax = scrollHeight - document.documentElement.clientHeight;
 
     const timerId = setInterval( () => {

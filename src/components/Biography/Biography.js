@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Biography.css';
 
-import content from '../../content/Biography.json';
+import content from './Biography.json';
 
 class Biography extends Component {
   constructor(props) {

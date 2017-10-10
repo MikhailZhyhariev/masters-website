@@ -5,10 +5,10 @@
     "Ниже приведены две таблицы с отчетами о поиске, которые разделяет временной промежуток в два месяца, а также ряд диаграмм, которые позволяют сравнить основные изменения, произошедшие за этот период."
   ],
   "head": [
-    {"link": "https://www.google.ru/", "alt": "google"},
-    {"link": "https://www.yandex.ua/", "alt": "yandex"},
-    {"link": "https://www.bing.com/", "alt": "bing"},
-    {"link": "https://www.meta.ua/", "alt": "meta"}
+    "https://www.google.ru/",
+    "https://www.yandex.ua/",
+    "https://www.bing.com/",
+    "https://www.meta.ua/"
   ],
   "row": [
     {

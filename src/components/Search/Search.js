@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Search.css';
 
 import SearchTable from './SearchTable.js';
-import content from '../../content/Search.json';
+import content from './Search.json';
 
 
 class Search extends Component {

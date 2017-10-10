@@ -44,7 +44,7 @@ class App extends Component {
     const { button } = this.props;
     const { buttonClick, classnameChange } = this.props.buttonActions;
 
-    if (window.pageYOffset >= button.coord & button.coord !== 0) {
+    if (button.coord <= window.pageYOffset & button.coord !== 0) {
       classnameChange('button-up');
       buttonClick(0);
     }
@@ -78,7 +78,7 @@ class App extends Component {
               updateButtonTop={buttonClick}
               updateButtonClass={classnameChange}
               checkLanguage={checkAvailableLanguage}
-              ref="menu"/>
+              ref="menu" />
         <Button coord={button.coord}
                 onClick={buttonClick}
                 className={button.className}

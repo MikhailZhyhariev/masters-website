@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './HeaderMain.css';
 
 import photo from '../../../img/photo.jpg';
-import content from '../../../content/HeaderMain.json';
+import content from './HeaderMain.json';
 
 class HeaderMain extends Component {
   render() {

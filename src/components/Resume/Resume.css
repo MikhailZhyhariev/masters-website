@@ -4,7 +4,6 @@
   font-size: 30px;
 }
 
-
 .resume__title {
   margin: 0;
   padding: 0;
@@ -18,20 +17,29 @@
 .resume__table {
   margin: 0;
   padding: 0;
-  border-collapse: collapse;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: 1px solid black;
 }
 
 .resume__table-row {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  height: 100%;
+}
+
+.resume__table-row:last-child {
+  border: none;
 }
 
 .resume__table-cell {
   padding: 10px;
-  border: 1px solid black;
   font-size: 56.6%;
   font-family: 'Roboto', sans-serif;
+  width: 100%;
 }
 
 .resume__table-row .content .content-cell-part {
@@ -87,10 +95,15 @@
   margin: 0;
 }
 
+.resume__table-row .content {
+  border-left: 1px solid black;
+}
+
 .resume__table-row .header {
-  width: 30%;
+  width: 45%;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  align-self: center;
 }
 
 .resume__table-row .extend {
@@ -104,13 +117,38 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px), (orientation: landscape) and (max-width: 700px) {
   .resume {
     font-size: 23px;
   }
+
+  .resume__table-row {
+    flex-wrap: wrap;
+  }
+
+  .resume__table {
+    border: none;
+  }
+
+  .resume__table-row {
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .resume__table-row .header {
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    background-color: white;
+  }
+
+  .resume__table-row .content {
+    border: 1px solid black;
+    width: 100%;
+  }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .resume {
     font-size: 22px;
   }

@@ -5,8 +5,6 @@
 }
 
 .search__title {
-  margin: 0;
-  padding: 0;
   margin-bottom: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -15,9 +13,7 @@
 }
 
 .search__table-title {
-  margin: 0;
   margin-top: 30px;
-  padding: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 73.3%;
@@ -26,7 +22,6 @@
 }
 
 .search__text {
-  margin: 0;
   margin-bottom: 5px;
   font-size: 56.6%;
   font-family: 'Roboto', sans-serif;
@@ -35,69 +30,83 @@
 
 .search__table {
   margin-top: 20px;
-  border-collapse: collapse;
   width: 100%;
+}
+
+.search__table-row,
+.search__table-head {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.search__table-body:last-child {
+  border-bottom: 1px solid black;
 }
 
 .search__table-cell {
   padding: 10px;
-  border: 1px solid black;
   font-size: 56.6%;
   font-family: 'Roboto', sans-serif;
   line-height: 25px;
+  width: 100%;
 }
 
 .search__table .title {
-  margin-top: 25px;
-  padding: 0;
   padding-top: 15px;
   padding-bottom: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 63%;
   line-height: 28px;
-  width: 50%;
   text-align: center;
 }
 
-.search__table .logo {
-  width: 12.5%;
+.search__table-logo-part {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-.search__table .logo:hover {
-  filter: drop-shadow(0px 0px 5px black);
+.search__table-row .hidden {
+  display: none;
 }
 
-.search__table .logo:active {
-  filter: drop-shadow(0px 0px 10px black);
+.search__table-logo {
+  border-left: 1px solid black;
+  padding: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-size: 65%;
+}
+
+.search__table-logo:hover {
+  box-shadow: 0 0 15px #f22;
+  background-color: white;
+}
+
+.search__table-logo:active {
+  box-shadow: 0 0 30px #f22;
 }
 
 .search__table-logo-0 {
-  cursor: pointer;
   background-image: url('../../img/google-logo.svg');
-  background-repeat: no-repeat;
   background-position: center 19px;
 }
 
 .search__table-logo-1 {
-  cursor: pointer;
   background-image: url('../../img/yandex-logo.svg');
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .search__table-logo-2 {
-  cursor: pointer;
   background-image: url('../../img/bing-logo.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .search__table-logo-3 {
-  cursor: pointer;
   background-image: url('../../img/meta-logo.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .search__table .language {
@@ -108,41 +117,104 @@
   text-align: center;
 }
 
+.search__table-link {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 .search__table .link {
+  padding: 0;
+  display: flex;
+  width: 100%;
   font-weight: lighter;
   cursor: pointer;
   text-align: center;
   -moz-user-select: none;
   -khtml-user-select: none;
   user-select: none;
+  border-left: 1px solid black;
+  align-items: center;
+  justify-content: center;
 }
 
-.search__table .link:hover,
-.search__table .logo:hover {
+.search__table .link:hover {
   color: #f22;
+  box-shadow: 0 0 15px #f22;
   font-weight: normal;
-  box-shadow: 0px 0px 5px black;
   background-color: white;
 }
 
-.search__table .link:active,
-.search__table .logo:active {
+.search__table .link:active {
   font-weight: bold;
+  box-shadow: 0 0 30px #f22;
 }
 
 @media (max-width: 800px) {
   .search {
     font-size: 26px;
   }
-}
 
-@media (max-width: 550px) {
-  .search {
-    font-size: 23px;
+  .search__table-logo-0 {
+    background-position: center;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px), (orientation: landscape) and (max-width: 700px) {
+  .search {
+    font-size: 23px;
+  }
+
+  .search__table-head {
+    display: none;
+  }
+
+  .search__table-row {
+    flex-wrap: wrap;
+    border: none;
+    border: 1px solid black;
+    border-bottom: none;
+  }
+
+  .search__table-row .hidden {
+    display: flex;
+    height: 35px;
+  }
+
+  .search__table-logo {
+    border: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    background-size: 45%;
+  }
+
+  .search__table-body {
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  .search__table-cell {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .search__table .link  {
+    border-top: 1px solid black;
+  }
+
+  .search__table .link:first-child,
+  .search__table-logo:first-child {
+    border-left: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .search__table-title {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 400px) {
   .search {
     font-size: 22px;
   }

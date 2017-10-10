@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Resume.css';
 
-import ResumeRow from '../Resume/ResumeRow.js';
+import ResumeRowSimple from '../Resume/ResumeRowSimple.js';
+import ResumeRowList from '../Resume/ResumeRowList.js';
+import ResumeRowLinkedList from '../Resume/ResumeRowLinkedList.js';
 
 
 class ResumeTable extends Component {
@@ -9,16 +11,13 @@ class ResumeTable extends Component {
     const { items } = this.props;
 
     return (
-      <table className="resume__table">
-        <tbody>
-          { items.map( (item, key) => {
-            return <ResumeRow className=""
-                              item={item}
-                              key={key}
-            />
-          })}
-        </tbody>
-      </table>
+      <div className="resume__table">
+        { items.simple.map( (item, key) =>
+          <ResumeRowSimple item={item} key={key} />
+        )}
+        <ResumeRowList item={items.list} />
+        <ResumeRowLinkedList item={items.linkedList} />
+      </div>
     );
   }
 }

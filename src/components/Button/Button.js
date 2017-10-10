@@ -12,16 +12,18 @@ class Button extends Component {
 
       const timerUp = setInterval( () => {
         if (window.pageYOffset !== 0) {
-
           window.scrollBy(0, -step)
         } else {
           clearInterval(timerUp)
           classChange('button-down');
+
+          // const arrow = document.getElementById('button');
+          // arrow.style.transform = 'rotate({%s}deg)' % 90;
         }
       }, 5)
     } else {
       const step = coord / 100;
-
+      
       let timerDown = setInterval( () => {
         if (window.pageYOffset < coord) {
           window.scrollBy(0, step)
@@ -58,6 +60,7 @@ class Button extends Component {
       <div className={ 'button ' + className }
            onClick={btnClick.bind(this)}
            style={style}
+           id="button"
       />
     )
   }

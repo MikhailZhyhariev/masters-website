@@ -4,7 +4,7 @@ import './Links.css';
 import LinksMasters from './LinksMasters.js';
 import LinksArticles from './LinksArticles.js';
 import LinksOther from './LinksOther.js';
-import content from '../../content/Links.json';
+import content from './Links.json';
 
 
 class Links extends Component {

@@ -2,34 +2,24 @@ import React, { Component } from 'react';
 import './Search.css';
 
 import SearchTableRow from './SearchTableRow.js';
+import SearchTableLogo from './SearchTableLogo.js';
 
-class Search extends Component {
-  handleImageClick(link) {
-    window.open(link, '_blank');
-  }
-
+class SearchTable extends Component {
   render() {
     const { content } = this.props;
-    const { handleImageClick } = this;
 
     return (
-      <table className="search__table">
-        <thead>
-          <tr>
-            <td className="search__table-cell title">Строка поиска</td>
-            {content.head.map( (item, key) =>
-              <td key={key}
-                  className={'search__table-cell logo search__table-logo-' + key}
-                  onClick={handleImageClick.bind(this, item.link)}/>
-            )}
-          </tr>
-        </thead>
+      <div className="search__table">
+        <div className="search__table-head">
+          <div className="search__table-cell title">Строка поиска</div>
+          <SearchTableLogo items={content.head} className=""/>
+        </div>
         { content.row.map( (item, key) =>
-          <SearchTableRow items={item} key={key} />
+          <SearchTableRow items={item} key={key} logo={content.head}/>
         )}
-      </table>
+      </div>
     );
   }
 }
 
-export default Search;
+export default SearchTable;

@@ -3,7 +3,7 @@ import './Abstract.css';
 
 import AbstractMenu from './AbstractMenu.js';
 import AbstractText from './AbstractText.js';
-import content from '../../content/Abstract.json';
+import content from './Abstract.json';
 
 class Abstract extends Component {
   render() {

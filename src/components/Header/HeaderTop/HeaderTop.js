@@ -6,7 +6,7 @@ import logo_ua from '../../../img/ua.svg';
 import logo_en from '../../../img/en.svg';
 
 import HeaderTopFlag from './HeaderTopFlag.js';
-import links from '../../../content/HeaderTop.json';
+import links from './HeaderTop.json';
 
 class HeaderTop extends Component {
   handleFlagClick(selectedItem) {

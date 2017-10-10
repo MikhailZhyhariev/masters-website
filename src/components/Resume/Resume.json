@@ -1,97 +1,111 @@
 {
   "ru": {
     "title": "Краткое резюме магистра",
-    "table": [
-      {
-        "header": "ФИО",
-        "content": [
-          {"text": "Жигарев Михаил Юрьевич"}
-        ]
-      },
-      {
-        "header": "Дата рождения",
-        "content": [
-          {"text": "11.02.1994"}
-        ]
-      },
-      {
-        "header": "Место Рождения",
-        "content": [
-          {"text": "г. Доброполье, Донецкая обл."}
-        ]
-      },
-      {
-        "header": "Школа",
-        "content": [
-          { "text": "Школа №19 г. Доброполье (2001-2012)" }
-        ]
-      },
-      {
-        "header": "ВУЗ",
-        "content": [
-          {
-            "name": "Бакалавриат:",
-            "text": "Донецкий национальный технический университет (2012-2016)"
-          },
-          {
-            "name": "Специальность:",
-            "text": "«Системы технической защиты информации с ограниченным доступом, автоматизация ее обработки»"
-          },
-          {
-            "name": "Магистратура:",
-            "text": "Донецкий национальный технический университет (2016-2018)"
-          },
-          {
-            "name": "Специальность:",
-            "text": "«Информационная безопасность»"
-          }
-        ]
-      },
-      {
-        "header": "Средний балл",
-        "content": [
-          {"text": "89 баллов"}
-        ]
-      },
-      {
-        "header": "Владение языками",
-        "content": [
-          {"text": "Русский — в совершенстве"},
-          {"text": "Украинский — в совершенстве"},
-          {"text": "Английский — технический уровень"}
-        ]
-      },
-      {
-        "header": "Личные достижения",
-        "content": [
-          {"text": "Участие в конференциях"},
-          {"text": "1 спортивный разряд по скалолазанию"},
-          {"text": "3 cпортивный разряд по спортивной гимнастике"}
-        ]
-      },
-      {
-        "header": "Увлечения",
-        "content": [
-          {"text": "Скалолазание"},
-          {"text": "Программирование микроконтроллеров"}
-        ]
-      },
-      {
-        "header": "Личные качества",
-        "content": [
-          {"text": "Ответственность"},
-          {"text": "Коммуникабельность"},
-          {"text": "Обучаемость"},
-          {"text": "Работоспособность"},
-          {"text": "Целеустремленность"}
-         ]
-      },
-      {
+    "table": {
+      "simple": [
+        {
+          "header": "ФИО",
+          "content": [
+            {"text": "Жигарев Михаил Юрьевич"}
+          ]
+        },
+        {
+          "header": "Дата рождения",
+          "content": [
+            {"text": "11.02.1994"}
+          ]
+        },
+        {
+          "header": "Место Рождения",
+          "content": [
+            {"text": "г. Доброполье, Донецкая обл."}
+          ]
+        },
+        {
+          "header": "Школа",
+          "content": [
+            { "text": "Школа №19 г. Доброполье (2001-2012)" }
+          ]
+        },
+        {
+          "header": "ВУЗ",
+          "content": [
+            {
+              "name": "Бакалавриат:",
+              "text": "Донецкий национальный технический университет (2012-2016)"
+            },
+            {
+              "name": "Специальность:",
+              "text": "«Системы технической защиты информации с ограниченным доступом, автоматизация ее обработки»"
+            },
+            {
+              "name": "Магистратура:",
+              "text": "Донецкий национальный технический университет (2016-2018)"
+            },
+            {
+              "name": "Специальность:",
+              "text": "«Информационная безопасность»"
+            }
+          ]
+        },
+        {
+          "header": "Средний балл",
+          "content": [
+            {"text": "89 баллов из 100"}
+          ]
+        },
+        {
+          "header": "Владение языками",
+          "content": [
+            {"text": "Русский — в совершенстве"},
+            {"text": "Украинский — в совершенстве"},
+            {"text": "Английский — технический уровень"}
+          ]
+        },
+        {
+          "header": "Личные достижения",
+          "content": [
+            {"text": "Участие в конференциях"},
+            {"text": "1 спортивный разряд по скалолазанию"},
+            {"text": "3 cпортивный разряд по спортивной гимнастике"}
+          ]
+        },
+        {
+          "header": "Увлечения",
+          "content": [
+            {"text": "Скалолазание"},
+            {"text": "Программирование микроконтроллеров"}
+          ]
+        },
+        {
+          "header": "Личные качества",
+          "content": [
+            {"text": "Ответственность"},
+            {"text": "Коммуникабельность"},
+            {"text": "Обучаемость"},
+            {"text": "Работоспособность"},
+            {"text": "Целеустремленность"}
+           ]
+        },
+        {
+          "header": "Опыт работы",
+          "content": [
+            {"text": "Опыт работы фрилансером — 1 год"}
+          ]
+        },
+        {
+          "header": "Планы на будущее",
+          "content": [
+            {"text": "Окончание магистратуры"},
+            {"text": "Дальнейшее трудоустройство"}
+          ]
+        }
+      ],
+      "list": {
         "header": "Профессиональная специализация и владение компьютером",
         "content": [
           {
             "name": "Операционные системы:",
-            "break": "yes",
             "text": [
               "Windows XP/Vista/7/8/10",
               "Linux Ubuntu/Backtrack/Kali",
@@ -100,7 +114,6 @@
           },
           {
             "name": "Средства Office:",
-            "break": "yes",
             "text": [
               "MS Office 2000/2003/2007/2010/2016",
               "Apache OpenOffice",
@@ -109,7 +122,6 @@
           },
           {
             "name": "Работа с графикой:",
-            "break": "yes",
             "text": [
               "Adobe Photoshop",
               "GNU Image Manipulation Program (GIMP)"
@@ -117,7 +129,6 @@
           },
           {
             "name": "Специализированные и математические пакеты:",
-            "break": "yes",
             "text": [
               "Компас, AutoCAD, Maya",
               "SystemView, LabView",
@@ -127,7 +138,6 @@
           },
           {
             "name": "Интегрированные среды разработки (IDE's):",
-            "break": "yes",
             "text": [
               "PyCharm",
               "CLion",
@@ -138,7 +148,6 @@
           },
           {
             "name": "Web:",
-            "break": "yes",
             "text": [
               "HTML",
               "CSS",
@@ -147,7 +156,6 @@
           },
           {
             "name": "Языки программирования:",
-            "break": "yes",
             "text": [
               "C/C++",
               "Python",
@@ -157,13 +165,12 @@
           }
         ]
       },
-      {
+      "linkedList": {
         "header": "Дополнительные курсы",
         "extend": "Кликабельно",
         "content": [
           {
             "name": "Курсы «Stepic.org»",
-            "break": "yes",
             "link": "https://stepik.org/",
             "text": [
               {
@@ -186,7 +193,6 @@
           },
           {
             "name": "Курсы «Открытое образование»",
-            "break": "yes",
             "link": "https://openedu.ru/",
             "text": [
               {
@@ -205,7 +211,6 @@
           },
           {
             "name": "Курсы «Coursera»",
-            "break": "yes",
             "link": "https://www.coursera.org",
             "text": [
               {
@@ -220,124 +225,123 @@
           }
         ]
       },
-      {
-        "header": "Опыт работы",
-        "content": [
-          {"text": "Опыт работы фрилансером — 1 год"}
-        ]
-      },
-      {
-        "header": "Планы на будущее",
-        "content": [
-          {"text": "Окончание магистратуры"},
-          {"text": "Дальнейшее трудоустройство"}
-        ]
-      },
-      {
+      "about": {
         "header": "Контактная информация",
-        "content": [
-          {
-            "break": "yes",
-            "text": [
-              "ВК",
-              "Telegram",
-              "Github",
-              "Mail",
-              "Phone"
-            ]
-          }
-        ]
+        "content": {
+          "text": [
+            "ВК",
+            "Telegram",
+            "Github",
+            "Mail",
+            "Phone"
+          ]
+        }
       }
-    ]
+    }
   },
   "ua": {
     "title": "Коротке резюме магістра",
-    "table": [
-      {
-        "header": "ПІБ магістра",
-        "content": [
-          {"text": "Жигарєв Михайло Юрійович"}
-        ]
-      },
-      {
-        "header": "Дата народження",
-        "content": [
-          {"text": "11.02.1994"}
-        ]
-      },
-      {
-        "header": "Місце народження",
-        "content": [
-          {"text": "м. Добропілля, Донецька обл."}
-        ]
-      },
-      {
-        "header": "Школа",
-        "content": [
-          {"text": "Школа №19, м. Добропілля (2001-2012)"}
-        ]
-      },
-      {
-        "header": "ВНЗ",
-        "content": [
-          {
-            "name": "Бакалавріат:",
-            "text": "Донецький національний технічний університет (2012-2016)"
-          },
-          {
-            "name": "Спеціальність",
-            "text": "«Системи технічного захисту інформації з обмеженим доступом, автоматизація її обробки»"
-          },
-          {
-            "name": "Магістратура:",
-            "text": "Донецький національний технічний університет (2016-2018)"
-          },
-          {
-            "name": "Спеціальність:",
-            "text": "«Інформаційна безпека»"
-          }
-        ]
-      },
-      {
-        "header": "Середній бал",
-        "content": [
-          {"text": "89 балів"}
-        ]
-      },
-      {
-        "header": "Володіння мовами",
-        "content": [
-          {"text": "Російська — у досконалості"},
-          {"text": "Українська — у досконалості"},
-          {"text": "Англійська — технічний рівень"}
-        ]
-      },
-      {
-        "header": "Особисті досягнення",
-        "content": [
-          {"text": "Участь в конференціях"},
-          {"text": "1 спортивний розряд зі скелелазіння"},
-          {"text": "3 cпортивный розряд по спортивній гімнастиці"}
-        ]
-      },
-      {
-        "header": "Захоплення",
-        "content": [
-          {"text": "Cкелелазіння"},
-          {"text": "Програмування мікроконтролерів"}
-        ]
-      },
-      {
-        "header": "Особисті якості",
-        "content": [
-          {"text": "Відповідальність"},
-          {"text": "Комунікабельність"},
-          {"text": "Здатність до навчання"},
-          {"text": "Працездатність"},
-          {"text": "Цілеспрямованість"}
-        ]
-      },
-      {
+    "table": {
+      "simple": [
+        {
+          "header": "ПІБ магістра",
+          "content": [
+            {"text": "Жигарєв Михайло Юрійович"}
+          ]
+        },
+        {
+          "header": "Дата народження",
+          "content": [
+            {"text": "11.02.1994"}
+          ]
+        },
+        {
+          "header": "Місце народження",
+          "content": [
+            {"text": "м. Добропілля, Донецька обл."}
+          ]
+        },
+        {
+          "header": "Школа",
+          "content": [
+            {"text": "Школа №19, м. Добропілля (2001-2012)"}
+          ]
+        },
+        {
+          "header": "ВНЗ",
+          "content": [
+            {
+              "name": "Бакалавріат:",
+              "text": "Донецький національний технічний університет (2012-2016)"
+            },
+            {
+              "name": "Спеціальність",
+              "text": "\"Системи технічного захисту інформації з обмеженим доступом, автоматизація її обробки\""
+            },
+            {
+              "name": "Магістратура:",
+              "text": "Донецький національний технічний університет (2016-2018)"
+            },
+            {
+              "name": "Спеціальність:",
+              "text": "\"Інформаційна безпека\""
+            }
+          ]
+        },
+        {
+          "header": "Середній бал",
+          "content": [
+            {"text": "89 балів з 100"}
+          ]
+        },
+        {
+          "header": "Володіння мовами",
+          "content": [
+            {"text": "Російська — у досконалості"},
+            {"text": "Українська — у досконалості"},
+            {"text": "Англійська — технічний рівень"}
+          ]
+        },
+        {
+          "header": "Особисті досягнення",
+          "content": [
+            {"text": "Участь в конференціях"},
+            {"text": "1 спортивний розряд зі скелелазіння"},
+            {"text": "3 cпортивный розряд по спортивній гімнастиці"}
+          ]
+        },
+        {
+          "header": "Захоплення",
+          "content": [
+            {"text": "Cкелелазіння"},
+            {"text": "Програмування мікроконтролерів"}
+          ]
+        },
+        {
+          "header": "Особисті якості",
+          "content": [
+            {"text": "Відповідальність"},
+            {"text": "Комунікабельність"},
+            {"text": "Здатність до навчання"},
+            {"text": "Працездатність"},
+            {"text": "Цілеспрямованість"}
+          ]
+        },
+        {
+          "header": "Досвід роботи",
+          "content": [
+            {"text": "Досвід роботи фрілансером — 1 рік"}
+          ]
+        },
+        {
+          "header": "Плани на майбутнє",
+          "content": [
+            {"text": "Закінчення магістратури"},
+            {"text": "Подальше працевлаштування"}
+          ]
+        }
+      ],
+      "list": {
         "header": "Професійна спеціалізація і володіння комп'ютером",
         "content": [
           {
@@ -408,11 +412,11 @@
           }
         ]
       },
-      {
+      "linkedList": {
         "header": "Додаткові курси",
         "content": [
           {
-            "name": "Курси «Stepic.org»",
+            "name": "Курси \"Stepic.org\"",
             "break": "yes",
             "link": "https://stepik.org/",
             "text": [
@@ -435,7 +439,7 @@
             ]
           },
           {
-            "name": "Курси «Відкрита освіта»",
+            "name": "Курси \"Відкрита освіта\"",
             "break": "yes",
             "link": "https://openedu.ru/",
             "text": [
@@ -454,7 +458,7 @@
             ]
           },
           {
-            "name": "Курси «Coursera»",
+            "name": "Курси \"Coursera\"",
             "break": "yes",
             "link": "https://www.coursera.org",
             "text": [
@@ -470,113 +474,123 @@
           }
         ]
       },
-      {
-        "header": "Досвід роботи",
-        "content": [
-          {"text": "Досвід роботи фрілансером — 1 рік"}
-        ]
-      },
-      {
-        "header": "Плани на майбутнє",
-        "content": [
-          {"text": "Закінчення магістратури"},
-          {"text": "Подальше працевлаштування"}
-        ]
-      },
-      {
-        "header": "Контактна інформація",
-        "content": [""]
+      "about": {
+        "header": "Контактная информация",
+        "content": {
+          "text": [
+            "ВК",
+            "Telegram",
+            "Github",
+            "Mail",
+            "Phone"
+          ]
+        }
       }
-    ]
+    }
   },
   "en": {
     "title": "Brief resume",
-    "table": [
-      {
-        "header": "Name",
-        "content": [
-          {"text": "Zhyhariev Mikhail"}
-        ]
-      },
-      {
-        "header": "Date of birth",
-        "content": [
-          {"text": "11.02.1994"}
-        ]
-      },
-      {
-        "header": "Place of birth",
-        "content": [
-          {"text": "Dobropolye, Donetsk region"}
-        ]
-      },
-      {
-        "header": "School",
-        "content": [
-          {"text": "School № 19 in Dobropole (2001-2012)"}
-        ]
-      },
-      {
-        "header": "Universities",
-        "content": [
-          {
-            "name": "Bachelor:",
-            "text": "Donetsk National Technical University (2012-2016)"
-          },
-          {
-            "name": "Specialty",
-            "text": "\"Systems of technical protection of information with limited access, automation of its processing\""
-          },
-          {
-            "name": "Master:",
-            "text": "Donetsk National Technical University (2016-2018)"
-          },
-          {
-            "name": "Specialty:",
-            "text": "\"Information security\""
-          }
-        ]
-      },
-      {
-        "header": "Average score",
-        "content": [
-          {"text": "89 points"}
-        ]
-      },
-      {
-        "header": "Languages",
-        "content": [
-          {"text": "Russian — native"},
-          {"text": "Ukrainian — perfectly"},
-          {"text": "English — technical level"}
-        ]
-      },
-      {
-        "header": "Personal achievements",
-        "content": [
-          {"text": "Participation in conferences"},
-          {"text": "1 sports category in rock climbing"},
-          {"text": "3 sports category in gymnastics"}
-        ]
-      },
-      {
-        "header": "Hobbies and interests",
-        "content": [
-          {"text": "Rock climbing"},
-          {"text": "Programming microcontrollers"}
-        ]
-      },
-      {
-        "header": "Personal qualities",
-        "content": [
-          {"text": "Responsibility"},
-          {"text": "Sociability"},
-          {"text": "Learning ability"},
-          {"text": "Efficiency"},
-          {"text": "Purposefulness"}
-        ]
-      },
-      {
+    "table": {
+      "simple": [
+        {
+          "header": "Name",
+          "content": [
+            {"text": "Zhyhariev Mikhail"}
+          ]
+        },
+        {
+          "header": "Date of birth",
+          "content": [
+            {"text": "11.02.1994"}
+          ]
+        },
+        {
+          "header": "Place of birth",
+          "content": [
+            {"text": "Dobropolye, Donetsk region"}
+          ]
+        },
+        {
+          "header": "School",
+          "content": [
+            {"text": "School № 19 in Dobropole (2001-2012)"}
+          ]
+        },
+        {
+          "header": "Universities",
+          "content": [
+            {
+              "name": "Bachelor:",
+              "text": "Donetsk National Technical University (2012-2016)"
+            },
+            {
+              "name": "Specialty",
+              "text": "“Systems of technical protection of information with limited access, automation of its processing”"
+            },
+            {
+              "name": "Master:",
+              "text": "Donetsk National Technical University (2016-2018)"
+            },
+            {
+              "name": "Specialty:",
+              "text": "“Information security”"
+            }
+          ]
+        },
+        {
+          "header": "Average score",
+          "content": [
+            {"text": "89 out of 100 points"}
+          ]
+        },
+        {
+          "header": "Languages",
+          "content": [
+            {"text": "Russian — native"},
+            {"text": "Ukrainian — perfectly"},
+            {"text": "English — technical level"}
+          ]
+        },
+        {
+          "header": "Personal achievements",
+          "content": [
+            {"text": "Participation in conferences"},
+            {"text": "1 sports category in rock climbing"},
+            {"text": "3 sports category in gymnastics"}
+          ]
+        },
+        {
+          "header": "Hobbies and interests",
+          "content": [
+            {"text": "Rock climbing"},
+            {"text": "Programming microcontrollers"}
+          ]
+        },
+        {
+          "header": "Personal qualities",
+          "content": [
+            {"text": "Responsibility"},
+            {"text": "Sociability"},
+            {"text": "Learning ability"},
+            {"text": "Efficiency"},
+            {"text": "Purposefulness"}
+          ]
+        },
+        {
+          "header": "Professional experience",
+          "content": [
+            {"text": "Experience freelancer — 1 year"}
+          ]
+        },
+        {
+          "header": "Future plans",
+          "content": [
+            {"text": "Graduation of a master's degree"},
+            {"text": "Further employment"}
+          ]
+        }
+      ],
+      "list": {
         "header": "Professional and computer skills",
         "content": [
           {
@@ -647,11 +661,11 @@
           }
         ]
       },
-      {
+      "linkedList": {
         "header": "Additional courses",
         "content": [
           {
-            "name": "Courses \"Stepic.org\"",
+            "name": "Courses “Stepic.org”",
             "break": "yes",
             "link": "https://stepik.org/",
             "text": [
@@ -674,7 +688,7 @@
             ]
           },
           {
-            "name": "Courses \"Open Education\"",
+            "name": "Courses “Open Education”",
             "break": "yes",
             "link": "https://openedu.ru/",
             "text": [
@@ -693,7 +707,7 @@
             ]
           },
           {
-            "name": "Courses \"Coursera\"",
+            "name": "Courses “Coursera”",
             "break": "yes",
             "link": "https://www.coursera.org",
             "text": [
@@ -709,23 +723,18 @@
           }
         ]
       },
-      {
-        "header": "Professional experience",
-        "content": [
-          {"text": "Experience freelancer — 1 year"}
-        ]
-      },
-      {
-        "header": "Future plans",
-        "content": [
-          {"text": "Graduation of a master's degree"},
-          {"text": "Further employment"}
-        ]
-      },
-      {
-        "header": "Contact information",
-        "content": [""]
+      "about": {
+        "header": "Контактная информация",
+        "content": {
+          "text": [
+            "ВК",
+            "Telegram",
+            "Github",
+            "Mail",
+            "Phone"
+          ]
+        }
       }
-    ]
+    }
   }
 }

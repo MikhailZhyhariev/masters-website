@@ -1,7 +1,7 @@
 import { SET_SECTION, SET_CLASSNAME, SET_HEIGHT } from '../constants/Menu.js';
 
 const initialState = {
-  active: 0,
+  active: 5,
   className: '',
   height: 0
 }

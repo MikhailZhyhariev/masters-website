@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Menu.css';
 
 import MenuItem from './MenuItem.js';
-import content from '../../content/Menu.json';
+import content from './Menu.json';
 
 class Menu extends Component {
   constructor(props) {
@@ -28,9 +28,10 @@ class Menu extends Component {
     updateButtonTop(0);
     updateButtonClass('button-up');
 
+    const step = window.pageYOffset / 20
     const timerId = setInterval( () => {
       if (window.pageYOffset > 0) {
-        window.scrollBy(0, -10);
+        window.scrollBy(0, -step);
       } else {
         clearInterval(timerId);
       }

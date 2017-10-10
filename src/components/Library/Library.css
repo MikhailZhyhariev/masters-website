@@ -95,13 +95,13 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px), (orientation: landscape) and (max-width: 700px) {
   .library {
     font-size: 23px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .library {
     font-size: 22px;
   }

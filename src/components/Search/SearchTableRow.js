@@ -1,32 +1,26 @@
 import React, { Component } from 'react';
 import './Search.css';
 
-class SearchTableRow extends Component {
-  handleLinkOpen(link) {
-    window.open(link, '_blank');
-  }
+import SearchTableLink from './SearchTableLink.js';
+import SearchTableLogo from './SearchTableLogo.js';
 
+class SearchTableRow extends Component {
   render() {
-    const { items } = this.props;
+    const { items, logo } = this.props;
 
     return (
-      <tbody>
-        <tr>
-          <td className="search__table-cell language" colSpan="5">{items.language}</td>
-        </tr>
+      <div className="search__table-body">
+        <div className="search__table-row">
+          <div className="search__table-cell language">{items.language}</div>
+          <SearchTableLogo items={logo} className="hidden" />
+        </div>
         { items.requests.map( (item, key) =>
-          <tr key={key}>
-            <td className="search__table-cell">{item.request}</td>
-            { item.answer.map( (item, key) =>
-              <td className="search__table-cell link"
-                  key={key}
-                  onClick={this.handleLinkOpen.bind(this, item.link)}>
-                  {item.count}
-              </td>
-            )}
-          </tr>
+          <div className="search__table-row" key={key}>
+            <div className="search__table-cell">{item.request}</div>
+            <SearchTableLink items={item.answer} />
+          </div>
         )}
-      </tbody>
+      </div>
     );
   }
 }
