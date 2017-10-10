@@ -10,9 +10,9 @@ class SearchTableLink extends Component {
     const { items } = this.props;
 
     return (
-      <div className="search__table-link">
+      <div className="search__table-link-part">
         { items.map( (item, key) =>
-          <div className="search__table-cell link"
+          <div className="search__table-link"
                onClick={this.handleLinkOpen.bind(this, item.link)}
                key={key}>
                {item.count}
