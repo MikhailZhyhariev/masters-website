@@ -11,9 +11,13 @@ class MenuItem extends Component {
 
   handleClick() {
     const {item, onClick, updateClass, setClassNameButton, handleOpen } = this.props;
+
+    document.title = item.title;
+
     updateClass('menu-close');
     setClassNameButton('menu__button-up');
     handleOpen(false);
+
     onClick(item);
   }
 
