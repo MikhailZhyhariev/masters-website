@@ -13,11 +13,12 @@ class HeaderTop extends Component {
   handleFlagClick(selectedItem) {
     this.props.chooseLanguage(selectedItem.language);
 
-    if (window.innerWidth <= 400) {
-      this.props.openLangMenu(false);
-      const menu = ReactDOM.findDOMNode(this.refs.language_menu);
-      menu.style.display = 'none';
-    }
+    this.props.openLangMenu(false);
+    const menu = ReactDOM.findDOMNode(this.refs.language_menu);
+    menu.style.display = 'none';
+
+    const button = ReactDOM.findDOMNode(this.refs.button);
+    button.style.boxShadow = 'none';
   }
 
   handleLinkOpen(link) {
@@ -42,6 +43,7 @@ class HeaderTop extends Component {
       menu.style.display = 'none';
 
       button.style.color = 'black';
+      button.style.boxShadow = 'none';
 
       openLangMenu(false);
     }

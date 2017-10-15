@@ -89,7 +89,9 @@
   .header-top__website-link {
     font-size: 12px;
   }
+}
 
+@media (max-width: 400px), (max-width: 768px) and (orientation: landscape) {
   .header-top__language {
     padding: 10px;
     box-sizing: border-box;
@@ -112,9 +114,5 @@
 
   .header-top__language-button {
     display: block;
-  }
-
-  .header-top__website-link {
-    margin-left: 10px;
   }
 }
