@@ -42,13 +42,13 @@
 }
 
 .header-top__language-button {
+  padding: 10px;
   outline: none;
   font-size: 12px;
   font-family: 'Roboto';
   color: black;
   border: none;
   background-color: inherit;
-  border-bottom: 2px solid black;
   display: none;
 }
 
@@ -94,15 +94,18 @@
 @media (max-width: 400px) {
   .header-top__language {
     padding: 10px;
+    box-sizing: border-box;
     flex-direction: column;
     position: absolute;
     background-color: white;
     display: none;
+    box-shadow: 0 3px 3px rgba(9, 9, 8, 0.73);
   }
 
   .header-top__language-flag {
     margin: 0;
     margin-bottom: 10px;
+    align-self: center;
   }
 
   .header-top__language-flag:last-child {
@@ -114,7 +117,6 @@
   }
 
   .header-top__website-link {
-    border-bottom: 2px solid black;
     margin-left: 10px;
   }
 }

@@ -16,7 +16,7 @@ class HeaderTop extends Component {
     if (window.innerWidth <= 400) {
       this.props.openLangMenu(false);
       const menu = ReactDOM.findDOMNode(this.refs.language_menu);
-      menu.style.display = 'none';  
+      menu.style.display = 'none';
     }
   }
 
@@ -35,19 +35,19 @@ class HeaderTop extends Component {
       menu.style.display = 'flex';
 
       button.style.color = '#f22';
-      button.style.borderBottom = '2px solid #f22';
+      button.style.boxShadow = '0 -1px 3px rgba(9, 9, 8, 0.73)';
 
       openLangMenu(true);
     } else {
       menu.style.display = 'none';
 
       button.style.color = 'black';
-      button.style.borderBottom = '2px solid black';
 
       openLangMenu(false);
     }
 
-    menu.style.left = coordButton.left + coordButton.width / 2 - 25 + 'px';
+    menu.style.width = coordButton.width + 'px';
+    menu.style.left = coordButton.left + coordButton.width / 2 - menu.style.width / 2 + 'px';
     menu.style.top = coordButton.bottom + 'px';
   }
 
