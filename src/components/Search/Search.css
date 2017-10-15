@@ -17,7 +17,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 73.3%;
-  line-height: 28px;
+  line-height: 150%;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@
   margin-bottom: 5px;
   font-size: 56.6%;
   font-family: 'Roboto', sans-serif;
-  line-height: 25px;
+  line-height: 150%;
 }
 
 .search__table {
@@ -49,7 +49,7 @@
   padding: 10px;
   font-size: 56.6%;
   font-family: 'Roboto', sans-serif;
-  line-height: 25px;
+  line-height: 150%;
   width: 100%;
 }
 
@@ -59,7 +59,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 63%;
-  line-height: 28px;
+  line-height: 150%;
   text-align: center;
 }
 
@@ -137,7 +137,6 @@
   justify-content: center;
   font-size: 56.6%;
   font-family: 'Roboto', sans-serif;
-  line-height: 25px;
 }
 
 .search__table-link:hover {
@@ -152,7 +151,7 @@
   box-shadow: 0 0 30px #f22;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .search {
     font-size: 26px;
   }
@@ -162,9 +161,9 @@
   }
 }
 
-@media (max-width: 600px), (orientation: landscape) and (max-width: 700px) {
+@media (max-width: 768px) {
   .search {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .search__table-head {
@@ -224,10 +223,15 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
-}
 
-@media (max-width: 400px) {
-  .search {
-    font-size: 22px;
+  .search__table-link:active {
+    font-weight: lighter;
+    box-shadow: none;
+  }
+
+  .search__table-link:hover {
+    color: #f22;
+    box-shadow: none;
+    font-weight: normal;
   }
 }

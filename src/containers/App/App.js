@@ -52,8 +52,8 @@ class App extends Component {
 
   render() {
     const { language, menu, button } = this.props;
-    const { chooseSection } = this.props.menuActions;
-    const { chooseLanguage, checkAvailableLanguage } = this.props.languageActions;
+    const { chooseSection, openMenu, setClassNameMenu, setClassNameButton } = this.props.menuActions;
+    const { chooseLanguage, checkAvailableLanguage, openAdaptiveLanguage } = this.props.languageActions;
     const { buttonClick, classnameChange } = this.props.buttonActions;
     const { handleScroll, updateClassButton } = this;
 
@@ -69,7 +69,9 @@ class App extends Component {
     return (
       <div className="app">
         <Header chooseLanguage={chooseLanguage}
-                language={language} />
+                language={language}
+                openMenu={openAdaptiveLanguage}
+                visible={language.visible} />
         <Menu chooseSection={chooseSection}
               active={menu.active}
               language={language.active}
@@ -78,6 +80,12 @@ class App extends Component {
               updateButtonTop={buttonClick}
               updateButtonClass={classnameChange}
               checkLanguage={checkAvailableLanguage}
+              openAdaptiveMenu={openMenu}
+              open={menu.open}
+              updateClass={setClassNameMenu}
+              classNameMenu={menu.classNameMenu}
+              classNameButton={menu.classNameButton}
+              setClassNameButton={setClassNameButton}
               ref="menu" />
         <Button coord={button.coord}
                 onClick={buttonClick}

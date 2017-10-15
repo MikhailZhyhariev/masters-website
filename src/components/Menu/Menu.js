@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Menu.css';
 
 import MenuItem from './MenuItem.js';
+import MenuButton from './MenuButton.js';
 import content from './Menu.json';
 
 class Menu extends Component {
@@ -28,18 +29,11 @@ class Menu extends Component {
     updateButtonTop(0);
     updateButtonClass('button-up');
 
-    const step = window.pageYOffset / 20
-    const timerId = setInterval( () => {
-      if (window.pageYOffset > 0) {
-        window.scrollBy(0, -step);
-      } else {
-        clearInterval(timerId);
-      }
-    }, 5)
+    window.scrollTo(0, 0);
   }
 
   render() {
-    const { active, language, className, onScroll } = this.props;
+    const { active, language, className, onScroll, openAdaptiveMenu, updateClass, classNameMenu, classNameButton, setClassNameButton, open } = this.props;
     const { handleItemClick } = this;
 
     let lang;
@@ -50,16 +44,24 @@ class Menu extends Component {
     return (
       <nav className={"menu " + className} onScroll={onScroll}>
         <div className="container">
-          <ul>
+          <ul className={classNameMenu}>
             { lang.map( (item, key) => {
               return <MenuItem key={key}
                                item={item}
                                isActive={item.index === active}
                                onClick={handleItemClick}
+                               updateClass={updateClass}
+                               setClassNameButton={setClassNameButton}
+                               handleOpen={openAdaptiveMenu}
               />
             })}
           </ul>
         </div>
+        <MenuButton handleOpen={openAdaptiveMenu}
+                    open={open}
+                    updateClass={updateClass}
+                    setClassNameButton={setClassNameButton}
+                    classNameButton={classNameButton} />
       </nav>
     );
   }

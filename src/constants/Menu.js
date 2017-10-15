@@ -1,3 +1,6 @@
 export const SET_SECTION = 'SET_SECTION';
 export const SET_CLASSNAME = 'SET_CLASSNAME';
 export const SET_HEIGHT = 'SET_HEIGHT';
+export const OPEN_MENU = 'OPEN_MENU';
+export const SET_CLASSNAME_MENU = 'SET_CLASSNAME_MENU';
+export const SET_CLASSNAME_BUTTON = 'SET_CLASSNAME_BUTTON';

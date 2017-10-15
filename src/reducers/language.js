@@ -1,4 +1,4 @@
-import { SET_LANGUAGE, CHECK_AVAILABLE_LANGUAGE } from '../constants/Language.js'
+import { SET_LANGUAGE, CHECK_AVAILABLE_LANGUAGE, ADAPTIVE_LANGUAGE } from '../constants/Language.js'
 
 const initialState = {
   active: 'ru',
@@ -6,7 +6,8 @@ const initialState = {
     ru: true,
     en: true,
     ua: true
-  }
+  },
+  visible: false,
 }
 
 export default function language(state = initialState, action) {
@@ -16,6 +17,9 @@ export default function language(state = initialState, action) {
 
     case CHECK_AVAILABLE_LANGUAGE:
       return { ...state, available: action.payload };
+
+    case ADAPTIVE_LANGUAGE:
+      return { ...state, visible: action.payload };
 
     default:
       return state;

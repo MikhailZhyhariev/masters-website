@@ -24,7 +24,7 @@ class HeaderMain extends Component {
             <p className="header-main__info-text">{lang.paragraph[0]}</p>
             <p className="header-main__info-text">{lang.paragraph[1]}</p>
             <p className="header-main__info-text">{lang.paragraph[2]}</p>
-            <h2 className="header-main__info-thesis">{lang.thesis}</h2>
+            <h1 className="header-main__info-thesis">{lang.thesis}</h1>
             <p className="header-main__info-text">{lang.paragraph[3]}</p>
           </div>
         </div>

@@ -137,13 +137,13 @@
             ]
           },
           {
-            "name": "Интегрированные среды разработки (IDE's):",
+            "name": "Интегрированные среды разработки (IDE):",
             "text": [
-              "PyCharm",
-              "CLion",
-              "Xcode",
-              "Avr Studio",
-              "Atom"
+              "PyCharm - среда разработки Python для профессиональных разработчиков",
+              "CLion - межплатформенная IDE для C и C ++",
+              "Xcode — интегрированная среда разработки для macOS, содержащая набор инструментов для разработки программного обеспечения, разработанных Apple для разработки программного обеспечения для macOS, iOS, watchOS и tvOS",
+              "Avr Studio — интегрированная платформа разработки (IDP) для разработки и отладки приложений Atmel® SMART ARM® и микроконтроллеров Atmel AVR® (MCU)",
+              "Atom — редактор текстовых и исходных текстов для MacOS, Linux и Microsoft Windows с открытым исходным кодом, разработанный GitHub"
             ]
           },
           {
@@ -381,14 +381,14 @@
             ]
           },
           {
-            "name": "Інтегровані середовища розробки  (IDE's):",
+            "name": "Інтегровані середовища розробки  (IDE):",
             "break": "yes",
             "text": [
-              "PyCharm",
-              "CLion",
-              "Xcode",
-              "Avr Studio",
-              "Atom"
+              "PyCharm - середовище розробки Python для професійних розробників",
+              "CLion - межплатформенна IDE для C і C++",
+              "Xcode — інтегроване середовище розробки для macOS, що містить набір інструментів для розробки програмного забезпечення, розроблених Apple для розробки програмного забезпечення для macOS, iOS, watchOS і tvOS",
+              "Avr Studio — інтегрована платформа розробки (IDP) для розробки і налагодження додатків Atmel® SMART ARM® і мікроконтролерів Atmel AVR® (MCU)",
+              "Atom — редактор текстових і вихідних текстів для MacOS, Linux і Microsoft Windows з відкритим вихідним кодом, розроблений GitHub"
             ]
           },
           {
@@ -630,14 +630,14 @@
             ]
           },
           {
-            "name": "Integrated development environments (IDE's):",
+            "name": "Integrated development environments (IDE):",
             "break": "yes",
             "text": [
-              "PyCharm",
-              "CLion",
-              "Xcode",
-              "Avr Studio",
-              "Atom"
+              "PyCharm — Python IDE for Professional Developers",
+              "CLion — A cross-platform IDE for C and C++",
+              "Xcode — Xcode is an integrated development environment for macOS containing a suite of software development tools developed by Apple for developing software for macOS, iOS, watchOS and tvOS.",
+              "Avr Studio — Atmel Studio 7 is the integrated development platform (IDP) for developing and debugging Atmel® SMART ARM®-based and Atmel AVR® microcontroller (MCU) applications.",
+              "Atom — free and open-source[4][5] text and source code editor for macOS, Linux, and Microsoft Windows[6] with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub."
             ]
           },
           {

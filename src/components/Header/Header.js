@@ -7,11 +7,14 @@ import HeaderMain from './HeaderMain/HeaderMain.js';
 
 class Header extends Component {
   render() {
-    const { chooseLanguage, language } = this.props;
+    const { chooseLanguage, language, openMenu, visible } = this.props;
 
     return (
       <header className="header">
-        <HeaderTop chooseLanguage={chooseLanguage} language={language} />
+        <HeaderTop chooseLanguage={chooseLanguage}
+                   language={language}
+                   openLangMenu={openMenu}
+                   visible={visible} />
         <HeaderMain language={language.active} />
       </header>
     );

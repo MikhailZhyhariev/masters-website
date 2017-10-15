@@ -31,10 +31,11 @@
 }
 
 .library__part-title {
+  margin-top: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 73%;
-  line-height: 28px;
+  line-height: 150%;
 }
 
 .library__article-title {
@@ -43,13 +44,18 @@
   padding: 10px 5px 10px 5px;
   font-family: 'Roboto', sans-serif;
   font-size: 63.3%;
-  line-height: 28px;
+  line-height: 150%;
   text-decoration: none;
   color: black;
   border: 1px solid #fafafa;
   border-left: 3px solid #fafafa;
   border-radius: 4px;
 }
+
+.library__article-title:first-child {
+  margin-top: 10px;
+}
+
 
 .library__article-title .number {
   font-weight: lighter;
@@ -72,7 +78,7 @@
   margin-right: 5px;
   font-size: 100%;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 150%;
 }
 
 .library__article-author,
@@ -82,27 +88,36 @@
   font-size: 89.4%;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  line-height: 25px;
 }
 
 .library__article-author {
   margin-top: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .library {
     font-size: 26px;
   }
 }
 
-@media (max-width: 600px), (orientation: landscape) and (max-width: 700px) {
+@media (max-width: 768px) {
   .library {
-    font-size: 23px;
+    font-size: 20px;
   }
-}
 
-@media (max-width: 400px) {
-  .library {
-    font-size: 22px;
+  .library__article-title {
+    margin-top: 5px;
+    border: 1px solid black;
+    border-left: 3px solid black;
+  }
+
+  .library__part-title {
+    margin-top: 5px;
+  }
+
+  .library__article-title:hover {
+    color: black;
+    border: 1px solid black;
+    border-left: 3px solid black;
   }
 }

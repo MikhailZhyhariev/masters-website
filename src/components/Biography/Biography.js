@@ -29,7 +29,7 @@ class Biography extends Component {
         <div className="container">
           <h1 className="biography__title">Биография</h1>
           { lang.map( (item, key) =>
-            <div key={key}>
+            <div key={key} className="biography__text-part">
               <h3 className="biography__paragraph__title">{item.header}</h3>
               { item.text.map( (item, key) =>
                 <p className="biography__text" key={key}>{item}</p>

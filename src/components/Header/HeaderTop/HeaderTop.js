@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './HeaderTop.css';
 
 import logo_ru from '../../../img/ru.svg';
@@ -11,30 +12,88 @@ import links from './HeaderTop.json';
 class HeaderTop extends Component {
   handleFlagClick(selectedItem) {
     this.props.chooseLanguage(selectedItem.language);
+
+    if (window.innerWidth <= 400) {
+      this.props.openLangMenu(false);
+      const menu = ReactDOM.findDOMNode(this.refs.language_menu);
+      menu.style.display = 'none';  
+    }
   }
 
   handleLinkOpen(link) {
     window.open(link, "_blank");
   }
 
+  handleButtonClick() {
+    const button = ReactDOM.findDOMNode(this.refs.button);
+    const menu = ReactDOM.findDOMNode(this.refs.language_menu);
+    const coordButton = button.getBoundingClientRect();
+
+    const { visible, openLangMenu } = this.props;
+
+    if (!visible) {
+      menu.style.display = 'flex';
+
+      button.style.color = '#f22';
+      button.style.borderBottom = '2px solid #f22';
+
+      openLangMenu(true);
+    } else {
+      menu.style.display = 'none';
+
+      button.style.color = 'black';
+      button.style.borderBottom = '2px solid black';
+
+      openLangMenu(false);
+    }
+
+    menu.style.left = coordButton.left + coordButton.width / 2 - 25 + 'px';
+    menu.style.top = coordButton.bottom + 'px';
+  }
+
   render() {
     const { language } = this.props;
     const { handleFlagClick, handleLinkOpen } = this;
     const flags = [
-      {src: logo_ru, language: 'ru', languageAvailable: language.available.ru},
-      {src: logo_ua, language: 'ua', languageAvailable: language.available.ua},
-      {src: logo_en, language: 'en', languageAvailable: language.available.en}
+      {
+        src: logo_ru,
+        language: 'ru',
+        languageAvailable: language.available.ru
+      },
+      {
+        src: logo_ua,
+        language: 'ua',
+        languageAvailable: language.available.ua
+      },
+      {
+        src: logo_en,
+        language: 'en',
+        languageAvailable: language.available.en
+      }
     ]
 
-    let lang;
-    if (language.active === 'ru') lang = links.ru;
-    else if (language.active === 'en') lang = links.en;
-    else lang = links.ua;
+    let lang = '';
+    let button = '';
+    if (language.active === 'ru') {
+      lang = links.ru;
+      button = 'Язык';
+    } else if (language.active === 'en') {
+      lang = links.en;
+      button = 'Language';
+    } else {
+      lang = links.ua;
+      button = 'Мова';
+    }
 
     return (
       <div className="header-top">
         <div className="container">
-          <div className="header-top__language">
+          <button className="header-top__language-button"
+                  ref="button"
+                  onClick={this.handleButtonClick.bind(this)}>
+                  {button}
+          </button>
+          <div className="header-top__language" ref="language_menu">
             { flags.map( (item, key) => {
               return <HeaderTopFlag item={item}
                                     key={key}

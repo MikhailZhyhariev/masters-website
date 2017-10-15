@@ -2,6 +2,5 @@
   "short_name": "Zhyhariev Mikhail",
   "name": "Zhyhariev Mikhail masters-website",
   "start_url": "./index.html",
-  "display": "standalone",
   "background_color": "#fafafa"
 }

@@ -111,15 +111,15 @@
   font-style: italic;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .resume {
     font-size: 26px;
   }
 }
 
-@media (max-width: 600px), (orientation: landscape) and (max-width: 700px) {
+@media (max-width: 768px) {
   .resume {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .resume__table-row {
@@ -150,6 +150,6 @@
 
 @media (max-width: 400px) {
   .resume {
-    font-size: 22px;
+    font-size: 20px;
   }
 }

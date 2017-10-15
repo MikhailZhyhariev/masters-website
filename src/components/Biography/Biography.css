@@ -7,7 +7,6 @@
 .biography__title {
   margin: 0;
   padding: 0;
-  margin-bottom: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 100%;
@@ -19,7 +18,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 63%;
-  line-height: 28px;
+  line-height: 150%;
 }
 
 .biography__text {
@@ -27,23 +26,25 @@
   margin-bottom: 5px;
   font-size: 56.6%;
   font-family: 'Roboto', sans-serif;
-  line-height: 25px;
+  line-height: 150%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .biography {
     font-size: 26px;
   }
 }
 
-@media (max-width: 600px), (orientation: landscape) and (max-width: 700px) {
+@media (max-width: 768px) {
   .biography {
-    font-size: 23px;
+    font-size: 20px;
   }
-}
 
-@media (max-width: 400px) {
-  .biography {
-    font-size: 22px;
+  .biography__title {
+    margin-bottom: 10px;
+  }
+
+  .biography__text {
+    margin-bottom: 5px;
   }
 }
