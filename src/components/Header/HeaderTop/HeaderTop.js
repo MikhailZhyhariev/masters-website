@@ -8,17 +8,35 @@ import logo_en from '../../../img/en.svg';
 
 import HeaderTopFlag from './HeaderTopFlag.js';
 import links from './HeaderTop.json';
+import menu from '../../Menu/Menu.json';
 
 class HeaderTop extends Component {
   handleFlagClick(selectedItem) {
-    this.props.chooseLanguage(selectedItem.language);
+    const { chooseLanguage, openLangMenu, handleSetTitle, menuActive } = this.props;
 
-    this.props.openLangMenu(false);
-    const menu = ReactDOM.findDOMNode(this.refs.language_menu);
-    menu.style.display = 'none';
+    chooseLanguage(selectedItem.language);
 
-    const button = ReactDOM.findDOMNode(this.refs.button);
-    button.style.boxShadow = 'none';
+    if (window.innerWidth <= 768) {
+      openLangMenu(false);
+      const menu = ReactDOM.findDOMNode(this.refs.language_menu);
+      menu.style.display = 'none';
+
+      const button = ReactDOM.findDOMNode(this.refs.button);
+      button.style.boxShadow = 'none';
+    }
+
+    let lang = null;
+    let active = menuActive;
+    if (selectedItem.language === 'ua') {
+      lang = menu.ua;
+    } else if (selectedItem.language === 'en') {
+      lang = menu.en;
+      if (active > 0) active -= 1;
+    } else {
+      lang = menu.ru;
+    }
+
+    handleSetTitle(lang[active].title);
   }
 
   handleLinkOpen(link) {
@@ -56,6 +74,21 @@ class HeaderTop extends Component {
   render() {
     const { language } = this.props;
     const { handleFlagClick, handleLinkOpen } = this;
+
+
+    let lang = '';
+    let button = '';
+    if (language.active === 'ru') {
+      lang = links.ru;
+      button = 'Язык';
+    } else if (language.active === 'en') {
+      lang = links.en;
+      button = 'Language';
+    } else {
+      lang = links.ua;
+      button = 'Мова';
+    }
+
     const flags = [
       {
         src: logo_ru,
@@ -73,19 +106,6 @@ class HeaderTop extends Component {
         languageAvailable: language.available.en
       }
     ]
-
-    let lang = '';
-    let button = '';
-    if (language.active === 'ru') {
-      lang = links.ru;
-      button = 'Язык';
-    } else if (language.active === 'en') {
-      lang = links.en;
-      button = 'Language';
-    } else {
-      lang = links.ua;
-      button = 'Мова';
-    }
 
     return (
       <div className="header-top">

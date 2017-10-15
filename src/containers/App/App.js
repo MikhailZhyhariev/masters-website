@@ -24,6 +24,7 @@ class App extends Component {
 
     this.handleScroll = this.handleScroll.bind(this);
     this.updateClassButton = this.updateClassButton.bind(this)
+    this.handleSetTitle = this.handleSetTitle.bind(this);
   }
 
   handleScroll() {
@@ -50,12 +51,18 @@ class App extends Component {
     }
   }
 
+  handleSetTitle(item) {
+    const { setTitle } = this.props.menuActions;
+    document.title = item;
+    setTitle(item)
+  }
+
   render() {
     const { language, menu, button } = this.props;
     const { chooseSection, openMenu, setClassNameMenu, setClassNameButton } = this.props.menuActions;
     const { chooseLanguage, checkAvailableLanguage, openAdaptiveLanguage } = this.props.languageActions;
     const { buttonClick, classnameChange } = this.props.buttonActions;
-    const { handleScroll, updateClassButton } = this;
+    const { handleScroll, updateClassButton, handleSetTitle } = this;
 
     const contentArray = [
       <Resume language={language.active} padding={menu.height} className={menu.className} />,
@@ -71,7 +78,9 @@ class App extends Component {
         <Header chooseLanguage={chooseLanguage}
                 language={language}
                 openMenu={openAdaptiveLanguage}
-                visible={language.visible} />
+                visible={language.visible}
+                handleSetTitle={handleSetTitle}
+                menuActive={menu.active} />
         <Menu chooseSection={chooseSection}
               active={menu.active}
               language={language.active}
@@ -86,6 +95,7 @@ class App extends Component {
               classNameMenu={menu.classNameMenu}
               classNameButton={menu.classNameButton}
               setClassNameButton={setClassNameButton}
+              handleSetTitle={handleSetTitle}
               ref="menu" />
         <Button coord={button.coord}
                 onClick={buttonClick}

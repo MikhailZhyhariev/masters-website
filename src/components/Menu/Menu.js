@@ -21,13 +21,15 @@ class Menu extends Component {
   }
 
   handleItemClick(selectedItem) {
-    const { chooseSection, updateButtonClass, updateButtonTop, checkLanguage } = this.props;
+    const { chooseSection, updateButtonClass, updateButtonTop, checkLanguage, handleSetTitle } = this.props;
 
     chooseSection(selectedItem.index);
     checkLanguage(selectedItem.available);
 
     updateButtonTop(0);
     updateButtonClass('button-up');
+
+    handleSetTitle(selectedItem.title);
 
     window.scrollTo(0, 0);
   }

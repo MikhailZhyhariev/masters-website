@@ -1,4 +1,11 @@
-import { SET_SECTION, SET_CLASSNAME, SET_HEIGHT, OPEN_MENU, SET_CLASSNAME_MENU, SET_CLASSNAME_BUTTON } from '../constants/Menu.js';
+import { SET_SECTION,
+         SET_CLASSNAME,
+         SET_HEIGHT,
+         OPEN_MENU,
+         SET_CLASSNAME_MENU,
+         SET_CLASSNAME_BUTTON,
+         SET_TITLE
+       } from '../constants/Menu.js';
 
 export function chooseSection(active) {
   return {
@@ -39,5 +46,12 @@ export function setClassNameButton(classNameButton) {
   return {
     type: SET_CLASSNAME_BUTTON,
     payload: classNameButton
+  }
+}
+
+export function setTitle(title) {
+  return {
+    type: SET_TITLE,
+    payload: title
   }
 }

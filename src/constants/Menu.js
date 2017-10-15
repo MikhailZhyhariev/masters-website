@@ -4,3 +4,4 @@ export const SET_HEIGHT = 'SET_HEIGHT';
 export const OPEN_MENU = 'OPEN_MENU';
 export const SET_CLASSNAME_MENU = 'SET_CLASSNAME_MENU';
 export const SET_CLASSNAME_BUTTON = 'SET_CLASSNAME_BUTTON';
+export const SET_TITLE = 'SET_TITLE';
