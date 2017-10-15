@@ -89,9 +89,7 @@
   .header-top__website-link {
     font-size: 12px;
   }
-}
 
-@media (max-width: 400px) {
   .header-top__language {
     padding: 10px;
     box-sizing: border-box;
