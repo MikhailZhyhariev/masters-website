@@ -48,6 +48,10 @@
   z-index: 20;
 }
 
+.fixed:hover {
+  opacity: 1;
+}
+
 .menu__button {
   width: 40px;
   height: 40px;

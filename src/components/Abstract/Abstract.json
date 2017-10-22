@@ -1,121 +1,1659 @@
-[
-  {
-    "number": "a",
-    "name": "Введение",
-    "text": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
-    ]
-  },
-  {
-    "number": "1",
-    "name": "Актуальность",
-    "text": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
-    ]
-  },
-  {
-    "number": "2",
-    "name": "Цель и задачи исследования",
-    "text": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
-    ]
-  },
-  {
-    "number": "3",
-    "name": "Какой-то пункт",
-    "subname": [
+{
+    "ru": [
+        {
+          "number": "a",
+          "name": "Введение",
+          "text": [
+            {
+              "paragraph": "Мультикоптер (от англ. Multirotor, multicopter, многороторный вертолёт) – это летательный аппарат с произвольным количеством несущих винтов, вращающихся диагонально в противоположных направлениях. Мультикоптеры используют два или более бесколлекторных двигателей постоянного тока. К каждому двигателю прикреплен винт. Половина винтов вращается по часовой стрелке, половина – против. Маневрируют мультикоптеры путём изменения скорости вращения винтов. Среди мультикоптеров наибольшее распространение получили квадрокоптеры. Квадрокоптером называют мультикоптер с четырьмя бесколлекторными двигателями ",
+              "link": "1"
+            },
+            {
+              "paragraph": "Существуют также трикоптеры и пентакоптеры, имеющие три и пять бесколлекторых двигателей соответственно. Стабилизация в пространстве три- и пентакоптеров происходит путем изменения сервоприводом угла наклона одного из двигателей ",
+              "link": "1"
+            }
+          ]
+        },
+        {
+          "number": "1",
+          "name": "Актуальность",
+          "text": [
+            {
+              "paragraph": "Многовинтовые вертолёты разрабатывались ещё в первые годы вертолётостроения. Один из первых квадрокоптеров (англ. quadrocopter, четырёхроторный вертолет), который реально оторвался от земли и мог держаться в воздухе, был создан Георгием Ботезатом и испытан в 1922 году. Недостатком этих аппаратов была сложная трансмиссия, передававшая вращение одного мотора на несколько винтов. Изобретение хвостового винта и автомата перекоса положило конец этим попыткам ",
+              "link": "1"
+            },
+            {
+              "paragraph": "В 21 веке мультикоптеры начали разрабатывать уже в качестве беспилотных летательных аппаратов. Мультикоптеры часто применяют в аэрофото- и видеосъемке, военном деле, для охраны территорий. Службы военных сил используют эти устройства в качестве разведчиков и легких средств подавления огневых точек: способность нести небольшой вес позволяет без проблем оснастить их взрывчаткой или легким пулеметом ",
+              "link": "2"
+            },
+            {
+              "paragraph": "Преимуществом использования мультикоптеров является высокая мобильность, что позволяет заменить систему видеонаблюдения, включающую в себя несколько камер одним мультикоптером. Также преимуществом является возможность визуального контроля открытой местности, где использование видеокамер затруднительно. К недостаткам мультикоптеров следует отнести продолжительность работы от 15 до 50 мин, согласно технической документации существующих квадрокоптеров ",
+              "link": "2"
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "name": "Цель и задачи исследования, планируемые результаты",
+          "text": [
+            {
+              "paragraph": "В данной работе рассматривается проектирование квадрокоптера, включающее в себя аппаратную и программную части. Спроектированный БПЛА (Беспилотный летательный аппарат), оборудованный необходимым оборудованием, может использоваться как средство для мониторинга территории промышленных предприятий."
+            },
+            {
+              "paragraph": "Объект исследования – квадрокоптер, использующий бесколлекторные двигатели и трехосевой гироскоп-акселерометр MPU-6050."
+            },
+            {
+              "paragraph": "Цель работы – разработка виртуальной модели аппаратной части и программного обеспечения исследуемой модели полетного контроллера квадрокоптера."
+            },
+            {
+              "paragraph": "Метод исследования – имитационное моделирование проектируемой системы в программной среде Proteus."
+            },
+            {
+              "paragraph": "В результате исследования планируется провести имитационное моделирование полетного контроллера, стоимость которого меньше аналогичных систем. Квадрокоптер, оборудованный видеокамерой, оснащенный разработанным полетным контроллером, планируется использовать как средство для мониторинга территории промышленных предприятий."
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "name": "Анализ существующих систем",
+          "text": [
+            {
+              "paragraph": "Квадрокоптер является беспилотным летательным аппаратом (БПЛА). Он представляет собой платформу с четырьмя роторами, одна пара которых вращается по часовой стрелке, другая – против часовой стрелки. Направление вращения роторов квадрокоптера показано на рисунке 1 ",
+              "link": "2"
+            },
+            {
+              "image": true,
+              "number": 0,
+              "paragraph": "Рисунок 1 – Направление вращения роторов квадрокоптера"
+            },
+            {
+              "paragraph": "По сравнению с БПЛА вертолетного типа с несущим и рулевым винтами, квадрокоптеры обладают рядом преимуществ, таких как: надежность и простота конструкции, большая стабильность, компактность и маневренность, малая взлетная масса при существенной массе полезной нагрузки.",
+              "link": "2"
+            },
+            {
+              "paragraph": "Рассмотрим подробнее, системы входящие в состав квадрокоптера:"
+            },
+            {
+              "paragraph": "1. Двигатели. В качестве двигателей, предназначенных для подъема квадрокоптера в воздух используются бесколекторные двигатели ",
+              "link": "3"
+            },
+            {
+              "paragraph": "2. Полетный контроллер. Задача контроллера поддерживать БПЛА в полете, обеспечивая синхронность работы двигателей в зависимости от показаний датчиков, преобразовывать команды оператора в изменения режимов работы двигателей."
+            },
+            {
+              "paragraph": "3. Системы управления двигателями. Управление бесколлекторными системами может осуществляться с использованием датчиков положения, путем измерения обратных ЭДС. Как правило, при проектировании мультикоптеров, для управления бесколлекторными системами используют электронные регуляторы хода ",
+              "link": "4-7"
+            },
+            {
+              "paragraph": "4. Системы стабилизации. Для определения положения в пространстве и стабилизации мультикоптера в воздухе используются следующие датчики: гироскоп, акселерометр, барометр. В качестве системы стабилизации, как правило, в моделях мультикоптерах используется модуль MPU6050, который совмещает в себе функции гироскопа, акселерометра и термометра. В качестве барометра используется модуль BMP180. Барометр используется для вычисления высоты на которой находится мультикоптер ",
+              "link": "8-10"
+            },
+            {
+              "paragraph": "5. Аккумулятор. В качестве источника электропитания систем мультикоптера используются литий-полимерные (LiPo) аккумуляторы."
+            }
+          ],
+          "subname": [
+            {
+              "number": "3.1",
+              "name": "Характеристика профессиональных мультикоптеров",
+              "text": [
+                {
+                  "paragraph": "Рассмотрим два профессиональных БПЛА: Aeryon SkyRanger и Microdrones MD4-3000. Приведённые летательные аппараты предназначены для применения в промышленности, видеонаблюдении, аэрофотосъёмке, сельском хозяйстве и военном деле. Модель SkyRanger канадской компании Aeryon показана на рисунке 2."
+                },
+                {
+                  "image": true,
+                  "number": 1,
+                  "paragraph": "Рисунок 2 – Квадрокоптер Aeryon SkyRanger"
+                },
+                {
+                  "paragraph": "Характеристики квадрокоптера SkyRanger, представленного компанией Aeryon, показаны в таблице 1 ",
+                  "link": "2",
+                  "table": [
+                    {
+                      "header": "Максимальная скорость полета",
+                      "content": ["50 км/ч"]
+                    },
+                    {
+                      "header": "Средняя скорость полета",
+                      "content": ["40 км/ч"]
+                    },
+                    {
+                      "header": "Скорость подъема",
+                      "content": ["2 м/с"]
+                    },
+                    {
+                      "header": "Дальность управляемого полета",
+                      "content": ["3 км"]
+                    },
+                    {
+                      "header": "Максимальная высота",
+                      "content": ["1,5 км"]
+                    },
+                    {
+                      "header": "Время работы от аккумулятора",
+                      "content": ["50 мин"]
+                    },
+                    {
+                      "header": "Общий вес",
+                      "content": ["2,4 кг"]
+                    },
+                    {
+                      "header": "Максимальный взлетный вес",
+                      "content": ["3,4 кг"]
+                    },
+                    {
+                      "header": "Размеры (Д x Ш x В)",
+                      "content": ["1020 x 1020 x 240 мм"]
+                    },
+                    {
+                      "header": "Требования к среде эксплуатации",
+                      "union": true
+                    },
+                    {
+                      "header": "Скорость ветра",
+                      "content": ["до 65 км/ч"]
+                    },
+                    {
+                      "header": "Кратковременные порывы ветра",
+                      "content": ["до 90 км/ч"]
+                    },
+                    {
+                      "header": "Температура",
+                      "content": ["от минус 30 до 50 градусов Цельсия"]
+                    }
+                  ]
+                },
+                {
+                  "paragraph": "В качестве полезной нагрузки в стандартной комплектации выступают обычная и инфракрасная видеокамеры, установленные на стабилизирующей платформе. Обычная камера записывает изображение в формате 1920x1080 пикселей и позволяет делать снимки с разрешением 15 мегапикселей. Инфракрасная камера работает с разрешением 640х480 пикселей. Видео с камер в реальном времени транслируется на базовую станцию, которая может находиться на расстоянии до 3 километров, с возможностью увеличения расстояния до 5 километров. Весь поток данных обмена с беспилотным летательным аппаратом шифруется с помощью 256-битного симметричный алгоритм блочного шифрования. Навыки пилотирования для управления квадрокоптером практически не  требуются – достаточно отметить на карте целевую точку и высоту, и беспилотный летательный аппарат автоматически выполнит полётное задание, ориентируясь по GPS. Особое внимание компания Aeryon уделила удобству и портативности SkyRanger – основные его части можно заменить, не используя специальных инструментов ",
+                  "link": "2"
+                },
+                {
+                  "paragraph": "Модель MD4-3000 немецкой компании Microdrones, показана на  рисунке 3."
+                },
+                {
+                  "image": true,
+                  "number": 2,
+                  "paragraph": "Рисунок 3 – Квадрокоптер Microdrones MD4-3000"
+                },
+                {
+                  "paragraph": "Характеристики квадрокоптера MD4-3000, представленного компанией Microdrones, показаны в таблице 2 ",
+                  "link": "2",
+                  "table": [
+                    {
+                      "header": "Максимальная скорость полета",
+                      "content": ["58 км/ч"]
+                    },
+                    {
+                      "header": "Средняя скорость полета",
+                      "content": ["48 км/ч"]
+                    },
+                    {
+                      "header": "Скорость подъема",
+                      "content": ["10 м/с"]
+                    },
+                    {
+                      "header": "Дальность управляемого полета",
+                      "content": ["50 км"]
+                    },
+                    {
+                      "header": "Максимальная высота",
+                      "content": ["1,5 км"]
+                    },
+                    {
+                      "header": "Время работы от аккумулятора",
+                      "content": ["45 мин"]
+                    },
+                    {
+                      "header": "Собственный взлетный вес",
+                      "content": ["10,4 кг"]
+                    },
+                    {
+                      "header": "Максимальный взлетный вес",
+                      "content": ["15 кг"]
+                    },
+                    {
+                      "header": "Размеры (Д x Ш x В)",
+                      "content": ["2052 x 1888 x 360 мм"]
+                    },
+                    {
+                      "header": "Требования к среде эксплуатации",
+                      "union": true
+                    },
+                    {
+                      "header": "Скорость ветра",
+                      "content": ["до 22 км/ч"]
+                    },
+                    {
+                      "header": "Кратковременные порывы ветра",
+                      "content": ["до 44 км/ч"]
+                    },
+                    {
+                      "header": "Температура",
+                      "content": ["от минус 10 до 50 градусов Цельсия"]
+                    }
+                  ]
+                },
+                {
+                  "paragraph": "В отличие от подавляющего большинства квадрокоптеров, модель MD4-3000 имеет аэродинамическую асимметричную конструкцию, которая создаёт дополнительную подъёмную силу при быстром полёте."
+                },
+                {
+                  "paragraph": "Уникальной особенностью БПЛА MD4-3000 является конструкция корпус-крыло. Роторы MD4-3000 имеют по три лопасти, шаг которых можно настраивать перед полётом в зависимости от погодных условий и режима работы. Беспилотный летательный аппарат MD4-3000 работает под управлением самописной ОС реального времени mdOS. Квадрокоптер MD4-3000 оснащён GPS и способен самостоятельно летать по заданному маршруту. Стоимость квадрокоптера MD4-3000 компании Microdrones составляет 52000 долларов США ",
+                  "link": "2"
+                },
+                {
+                  "paragraph": "Главным недостатком моделей квадрокоптеров SkyRanger и MD4-3000 является высокая стоимость. Рассмотренные модели находят применение в крупные компаниях, научных и государственных организациях, которые чаще всего заказывают целые комплексы, оплачивают внедрение, обслуживание и установку на беспилотные устройства специфического оборудования. Например, модель MD4-3000 использует Google для получения более актуальных фотографий местности, которые можно использовать в Google Earth и Google Maps ",
+                  "link": "2"
+                }
+              ]
+            },
+            {
+              "number": "3.2",
+              "name": "Характеристика полетных контроллеров",
+              "text": [
+                {
+                  "paragraph": "Полетный контроллер CRIUS All in one Pro (AIOP) является системой, включающей в себя все основные компоненты необходимые управления мультикоптером. Основные характеристики полетного контроллера CRIUS AIOP представлены в таблице 3 ",
+                  "link": "11",
+                  "table": [
+                    {
+                      "header": "Поддерживаемое программное обеспечение",
+                      "content": [
+                        "MegaPirateNG",
+                        "ArduCopterNG",
+                        "ArduPlaneNG",
+                        "MultiWii"
+                      ]
+                    },
+                    {
+                      "header": "Технические характеристики",
+                      "content": [
+                        "8 выходов для управления двигателями",
+                        "3 выхода для управления подвесом",
+                        "8 входов ШИМ для стандартных приемников",
+                        "8 аналоговых (АЦП) входов для подключения внешних сенсоров",
+                        "16 Мбит флэш паямти для полетных логов"
+                      ]
+                    },
+                    {
+                      "header": "Датчики",
+                      "content": [
+                        "6-ти осевой гироскоп-акселерометр MPU6050",
+                        "3-х осевой гироскоп-акселерометр компас HMC5883L",
+                        "Высокоточный барометр/высотомер MS5611-01BA03"
+                      ]
+                    },
+                    {
+                      "header": "Интерфейсы",
+                      "content": [
+                        "Интерфейс USB на базе FT232RQ ",
+                        "Конвертер уровней для шины I2C 5В/3.3В PCA9306DP1",
+                        "SPI интерфейс"
+                      ]
+                    },
+                    {
+                      "header": "Размеры",
+                      "content": ["50 x 50 x 11.6 мм"]
+                    },
+                    {
+                      "header": "Масса",
+                      "content": ["14.5 г."]
+                    },
+                    {
+                      "header": "Стоимость",
+                      "content": ["43.75 долларов США"]
+                    }
+                  ]
+                },
+                {
+                  "paragraph": "В качестве микроконтроллера (МК) используется ATMega2560-16AU, обозначения выводов которого показаны на рисунке 4 ",
+                  "link": "12"
+                },
+                {
+                  "image": true,
+                  "number": 3,
+                  "paragraph": "Рисунок 4 – Обозначения выводов МК ATMega2560-16AU"
+                },
+                {
+                  "paragraph": "К достоинствам данного полетного контроллера можно отнести встроенные модули: гироскоп, акселерометр, барометр и компас, необходимые для определения положения в пространстве и стабилизации мультикоптера. К достоинствам также следует отнести поддержку нескольких интерфейсов (USB, SPI, TWI), большой выбор поддерживаемого программного обеспечения и возможность подключения GPS (Global Positioning System) модуля. Недостатком CRIUS AIOP является его высокая стоимость по сравнению с другими полетными контроллерами. Внешний вид печатной платы CRIUS AIOP показан на рисунке 5 ",
+                  "link": "11"
+                },
+                {
+                  "image": true,
+                  "number": 4,
+                  "paragraph": "Рисунок 5 – Печатная плата полетного контроллера CRIUS AIOP"
+                },
+                {
+                  "paragraph": "Полетный контроллер ArduFlyer является системой, включающий в себя все основные компоненты необходимые для управления мультикоптером. В данном полетном контроллере используются микроконтроллеры:  ATMega2560-16AU и AtMega32U-2 ",
+                  "link": "12"
+                },
+                {
+                  "paragraph": "МК AtMega32U-2 предназначен для взаимодействия полетного контроллера с компьютером посредством интерфейса USB. Обозначения выводов AtMega32U-2 показаны на рисунке 6 ",
+                  "link": "13"
+                },
+                {
+                  "image": true,
+                  "number": 5,
+                  "paragraph": "Рисунок 6 – Обозначения выводов МК AtMega32U-2"
+                },
+                {
+                  "paragraph": "Основные характеристики полетного контроллера ArduFlyer представлены в таблице 4 ",
+                  "link": "14",
+                  "table": [
+                    {
+                      "header": "Поддерживаемое программное обеспечение",
+                      "content": ["ArduPilot"]
+                    },
+                    {
+                      "header": "Технические характеристики",
+                      "content": [
+                        "9 выходов для управления двигателями",
+                        "8 входов ШИМ дял стандартных приемников",
+                        "9 аналоговых (АЦП) входов для подключения внешних сенсоров",
+                        "4 Мбит флэш памяти для полетных логов"
+                      ]
+                    },
+                    {
+                      "header": "Датчики",
+                      "content": [
+                        "6-ти осевой гироскоп-акселерометр MPU6050",
+                        "3-х осевой гироскоп-акселерометр компас HMC5883L",
+                        "Высокоточный барометр/высотомер MS5611-01BA03"
+                      ]
+                    },
+                    {
+                      "header": "Интерфейсы",
+                      "content": [
+                        "Интерфейс USB на базе AtMega32U-2",
+                        "SPI интерфейс",
+                        "TWI интерфейс"
+                      ]
+                    },
+                    {
+                      "header": "Размеры",
+                      "content": ["67 x 41 мм"]
+                    },
+                    {
+                      "header": "Стоимость",
+                      "content": ["35 долларов США"]
+                    }
+                  ]
+                },
+                {
+                  "paragraph": "Внешний вид печатной платы ArduFlyer показана на рисунке 7."
+                },
+                {
+                  "image": true,
+                  "number": 6,
+                  "paragraph": "Рисунок 7 – Печатная плата полетного контроллера ArduFlyer"
+                },
+                {
+                  "paragraph": "К достоинствам данного полетного контроллера можно отнести наличие встроенных модулей гироскопа, акселерометра, барометра и компаса, необходимых для определения положения в пространстве и стабилизации мультикоптера. К достоинствам также следует отнести поддержку нескольких интерфейсов (USB, SPI, TWI), и возможность подключения GPS (Global Positioning System) модуля. Недостатком ArduFlyer является его высокая стоимость по сравнению с другими полетными контроллерами."
+                },
+                {
+                  "paragraph": "Полетный контроллер MultiWii является системой, включающей в себя все основные компоненты необходимые управления мультикоптером. В этом полетном контроллере используется микроконтроллер AtMega328P. Обозначения выводов AtMega328P показаны на рисунке 8 ",
+                  "link": "15"
+                },
+                {
+                  "image": true,
+                  "number": 7,
+                  "paragraph": "Рисунок 8 – Обозначения выводов МК AtMega328P"
+                },
+                {
+                  "paragraph": "Основные характеристики полетного контроллера Multiwii представлены в таблице 5 ",
+                  "link": "16",
+                  "table": [
+                    {
+                      "header": "Поддерживаемое программное обеспечение",
+                      "content": ["MultiWii"]
+                    },
+                    {
+                      "header": "Технические характеристики",
+                      "content": [
+                        "8 выходов для управления двигателями",
+                        "3 выхода для управления подвесом",
+                        "8 входов ШИМ дял стандартных приемников",
+                        "8 аналоговых (АЦП) входов для подключения внешних сенсоров"
+                      ]
+                    },
+                    {
+                      "header": "Датчики",
+                      "content": [
+                        "3-х осевой гироскоп ITG3205",
+                        "3-х осевой акселерометр BMA180",
+                        "3-х осевой гироскоп-акселерометр компас HMC5883L",
+                        "Высокоточный барометр/высотомер BMP085"
+                      ]
+                    },
+                    {
+                      "header": "Интерфейсы",
+                      "content": [
+                        "USB интерфейс",
+                        "TWI интерфейс",
+                        "SPI интерфейс"
+                      ]
+                    },
+                    {
+                      "header": "Размеры",
+                      "content": ["70 x 50 x 12 мм"]
+                    },
+                    {
+                      "header": "Масса",
+                      "content": ["10 г."]
+                    },
+                    {
+                      "header": "Стоимость",
+                      "content": ["43.75 долларов США"]
+                    }
+                  ]
+                },
+                {
+                  "paragraph": "Внешний вид печатной платы MultiWii показана на рисунке 9."
+                },
+                {
+                  "image": true,
+                  "number": 8,
+                  "paragraph": "Рисунок 9 – Печатная плата полетного контроллера MultiWii"
+                },
+                {
+                  "paragraph": "К достоинствам данного полетного контроллера можно отнести наличие встроенных модулей гироскопа, акселерометра, барометра и компаса, необходимых, необходимые для определения положения в пространстве и стабилизации мультикоптера. К достоинствам также следует отнести поддержку нескольких интерфейсов (USB, SPI, TWI) и низкую стоимость, в сравнении с другими полетными контроллерами. Недостатком этого полетного контроллера является то, что он уступает в функциональности полетным контроллерам CRIUS AIOP и ArduFlyer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "name": "Расчет ШИМ-сигналов управления бесколлекторными системами",
+          "text": [
+            {
+              "paragraph": "Управление электронными регуляторами хода осуществляется прямоугольными импульсами длительностью от 1 до 2 мс ",
+              "link": "4-7"
+            },
+            {
+              "paragraph": "При значении длительности импульсов равной  бесколлекторные двигатели выключены, а при значении  двигатели работают на максимальной мощности (частота вращения максимальная). Найдем длительность импульсов необходимую для увеличения частоты вращения двигателей на 1%:"
+            },
+            {
+              "formula": true,
+              "number": 0,
+              "paragraph": ""
+            },
+            {
+              "paragraph": "Для формирования прямоугольных импульсов необходимой длительности используется 16-битные таймеры/счетчики (Timer1 и Timer3) МК AtMega64 в режиме ШИМ. В данном режиме таймер/счетчик представляет собой широтно-импульсный модулятор и используется для генерирования сигнала с программируемыми частотой и скважностью. Для формирования ШИМ-сигнала используются прерывания по переполнению таймера и по совпадения. Для управления частотой вращения бесколлекторных двигателей квадрокоптера, проектируемый полетный контроллер использует четыре ШИМ-сигнала. Проведём аналитический расчёт значений регистров МК, задающих параметры управляющих ШИМ-сигналов ",
+              "link": "17-23"
+            },
+            {
+              "paragraph": "Значения регистров захвата-сравнения ICR1, ICR3 определяются по формуле:"
+            },
+            {
+              "formula": true,
+              "number": 1,
+              "paragraph": ""
+            },
+            {
+              "paragraph": "Рассчитаем значение регистров захвата-сравнения для длительности импульса равного 1 мс (бесколлекторные двигатели выключены):"
+            },
+            {
+              "formula": true,
+              "number": 2,
+              "paragraph": ""
+            },
+            {
+              "paragraph": "Рассчитаем значение регистров захвата-сравнения для длительности импульса равного 2 мс (бесколлекторные двигатели работают на максимальной мощности):"
+            },
+            {
+              "formula": true,
+              "number": 3,
+              "paragraph": ""
+            },
+            {
+              "paragraph": "Таким образом, были рассчитаны пределы, в которых изменяется значения регистров захвата-сравнения и сформированы управляющие ШИМ-сигналы."
+            }
+          ]
+        },
+        {
+           "number": "f",
+           "name": "Выводы",
+           "text": [
+             {
+               "paragraph": "В ходе выполнения работы планируется провести анализ возможности использования профессиональных квадрокоптеров и проектирование мультикоптеров с помощью отдельных составных частей. Рассмотреть достоинства и недостатки каждого метода, среди которых необходимо выделить:"
+             },
+             {
+               "paragraph": "1. Профессиональные квадрокоптеры благодаря своим характеристикам обладают широким спектром применения. Однако недостатком профессиональных БПЛА является высокая стоимость."
+             },
+             {
+               "paragraph": "2. Проектирование мультикоптера с помощью составных частей существенно снижает стоимость летательного аппарата, а также позволяет подобрать необходимые технические характеристики и функционал в соответствии с требованиями к проектируемой системе защиты ОИД. К недостаткам данного способа следует отнести небольшую длительность работы, по сравнению с профессиональными БПЛА от 15 до 30 мин и более жесткие требования к среде эксплуатации мультикоптера."
+             },
+             {
+               "paragraph": "Разработать аппаратную и программную реализации полетного контроллера. Спроектированный полетный контроллер будет осуществляет экспоненциальную фильтрацию углов отклонения и стабилизацию квадрокоптера во время полета, путем изменения частоты вращения бесколлекторных двигателей."
+             },
+             {
+               "paragraph": "Для отладки программного обеспечения и исследования влияния изменения углов отклонения на управляющие ШИМ-сигналы будет создана виртуальная модель, в программной среде Proteus."
+             },
+             {
+               "paragraph": "С помощью виртуальной модели будет проведена оптимизация программного обеспечения, а также изучена работа устройства в предельных режимах."
+             },
+             {
+               "paragraph": "Квадрокоптер, оснащенный разработанным полетным контроллером, оборудованный видеокамерой, планируется использоваться как средство для мониторинга территории промышленных предприятий."
+             },
+             {
+               "paragraph": "Преимуществом использования квадрокоптером является высокая мобильность, что позволяет заменить систему видеонаблюдения, включающую в себя несколько камер одним квадрокоптером. Также преимуществом является возможность визуального контроля открытой местности, где использование видеокамер затруднительно. К недостаткам квадрокоптера следует отнести продолжительность работы от 15 до 50 мин."
+             }
+           ]
+        },
+        {
+          "number": "g",
+          "name": "Список источников",
+          "text": [
+            {
+              "paragraph": ""
+            }
+          ]
+        }
+    ],
+    "ua": [
       {
-        "number": "3.1",
-        "name": "Какой-то подпункт",
+        "number": "a",
+        "name": "Вступ",
         "text": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
+          {
+            "paragraph": "Мультикоптер (від англ. Multirotor, multicopter, многороторний вертоліт) - це літальний апарат з будь-якою кількістю несучих гвинтів, що обертаються діагонально в протилежних напрямках. Мультикоптери використовують два або більше безколекторних двигунів постійного струму. До кожного двигуну прикріплений гвинт. Половина гвинтів обертається за годинниковою стрілкою, половина - проти. Маневрують мультикоптери шляхом зміни швидкості обертання гвинтів. Серед мультикоптерiв найбільшого поширення набули квадрокоптери. Квадрокоптером називають мультикоптер з чотирма безколекторними двигунами ",
+            "link": "1"
+          },
+          {
+            "paragraph": "Існують також трікоптери і пентакоптери, що мають три і п'ять бесколлекторих двигунів відповідно. Стабілізація в просторі три- і пентакоптеров відбувається шляхом зміни сервоприводом кута нахилу одного з двигунів ",
+            "link": "1"
+          }
         ]
       },
       {
-        "number": "3.2",
-        "name": "Какой-то подпункт 2",
+        "number": "1",
+        "name": "Актуальность",
+        "text": [
+          {
+            "paragraph": "Багатовiнтовi вертольоти розроблялися ще в перші роки вертольотобудування. Один з перших квадрокоптера (англ. Quadrocopter, четирёхроторний вертоліт), який реально відірвався від землі і міг триматися в повітрі, був створений Георгієм Ботезату і випробуваний в 1922 році. Недоліком цих апаратів була складна трансмісія, що передавала обертання одного мотора на кілька гвинтів. Винахід хвостового гвинта і автомата перекосу поклало край цим спробам ",
+            "link": "1"
+          },
+          {
+            "paragraph": "У 21 столітті мультикоптери почали розробляти вже в якості безпілотних літальних апаратів. Мультикоптери часто застосовують в аерофото і відеозйомці, військовій справі, для охорони територій. Служби військових сил використовують ці пристрої в якості розвідників і легких засобів придушення вогневих точок: здатність нести невелику вагу дозволяє без проблем оснастити їх вибухівкою або легким кулеметом ",
+            "link": "2"
+          },
+          {
+            "paragraph": "Перевагою використання мультикоптера є висока мобільність, що дозволяє замінити систему відеоспостереження, що включає в себе кілька камер одним мультикоптером. Також перевагою є можливість візуального контролю відкритій місцевості, де використання відеокамер важко. До недоліків мультикоптера слід віднести тривалість роботи від 15 до 50 хв, відповідно до технічної документації існуючих квадрокоптера ",
+            "link": "2"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "Мета і завдання дослідження, плановані результати",
+        "text": [
+          {
+            "paragraph": "У даній роботі розглядається проектування квадрокоптера, що включає в себе апаратну і програмну частини. Спроектований БПЛА (Безпілотний літальний апарат), обладнаний необхідним обладнанням, може використовуватися як засіб для моніторингу території промислових підприємств."
+          },
+          {
+            "paragraph": "Об'єкт дослідження - квадрокоптер, який використовує безколекторні двигуни і трехосевой гіроскоп-акселерометр MPU-6050."
+          },
+          {
+            "paragraph": "Мета роботи - розробка віртуальної моделі апаратної частини і програмного забезпечення досліджуваної моделі польотного контролера квадрокоптера."
+          },
+          {
+            "paragraph": "Метод дослідження - імітаційне моделювання проектованої системи в програмному середовищі Proteus."
+          },
+          {
+            "paragraph": "В результаті дослідження планується провести імітаційне моделювання польотного контролера, вартість якого менше аналогічних систем. Квадрокоптер, обладнаний відеокамерою, оснащений розробленим польотним контролером, планується використовувати як засіб для моніторингу території промислових підприємств."
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Аналіз існуючих систем",
+        "text": [
+          {
+            "paragraph": "Квадрокоптер є безпілотним літальним апаратом (БПЛА). Він являє собою платформу з чотирма роторами, одна пара яких обертається за годинниковою стрілкою, інша - проти годинникової стрілки. Напрямок обертання роторів квадрокоптера показано на малюнку 1 ",
+            "link": "2"
+          },
+          {
+            "image": true,
+            "number": 0,
+            "paragraph": "Малюнок 1 - Напрямок обертання роторів квадрокоптера"
+          },
+          {
+            "paragraph": "У порівнянні з БПЛА вертолітного типу з несучим і рульовим гвинтами, квадрокоптера мають ряд переваг, таких як: надійність і простота конструкції, більша стабільність, компактність і маневреність, мала злітна маса при істотній масі корисного навантаження ",
+            "link": "2"
+          },
+          {
+            "paragraph": "Розглянемо докладніше, системи входять до складу квадрокоптера:"
+          },
+          {
+            "paragraph": "1. Двигуни. В якостi двигунiв, призначених для підйому квадрокоптера в повітря використовуються бесколекторнi двигуни ",
+            "link": "3"
+          },
+          {
+            "paragraph": "2. Польотний контролер. Завдання контролера підтримувати БПЛА в польоті, забезпечуючи синхронність роботи двигунів в залежності від показань датчиків, перетворювати команди оператора в зміни режимів роботи двигунів."
+          },
+          {
+            "paragraph": "3. Системи управління двигунами. Управління безколекторними системами може здійснюватися з використанням датчиків положення, шляхом вимірювання зворотних ЕРС. Як правило, при проектуванні мультикоптерiв, для управління безколекторними системами використовують електронні регулятори ходу ",
+            "link": "4-7"
+          },
+          {
+            "paragraph": "4. Системи стабілізації. Для визначення положення в просторі і стабілізації Мультикоптер в повітрі використовуються наступні датчики: гіроскоп, акселерометр, барометр. В якості системи стабілізації в типових моделях Мультикоптер використовується модуль MPU6050, який поєднує в собі функції гіроскопа, акселерометра і термометра. Як барометра використовується модуль BMP180 ",
+            "link": "8-10"
+          },
+          {
+            "paragraph": "5. Акумулятор. Як джерело електроживлення систем Мультикоптер використовуються літій-полімерні (LiPo) акумулятори."
+          }
+        ],
         "subname": [
           {
-            "number": "3.2.1",
-            "name": "Какой-подпункт подпункта",
+            "number": "3.1",
+            "name": "Характеристика професійних мультикоптерів",
             "text": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis."
-            ],
-            "subname": [
               {
-                "number": "3.2.1.1",
-                "name": "Пункт подпункта подпункта",
-                "text": [
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
+                "paragraph": "Розглянемо два професійних БПЛА: Aeryon SkyRanger і Microdrones MD4-3000. Наведені літальні апарати призначені для застосування в промисловості, відеоспостереження, аерофотозніманні, сільському господарстві і військовій справі. Модель SkyRanger канадської компанії Aeryon показана на малюнку 2."
+              },
+              {
+                "image": true,
+                "number": 1,
+                "paragraph": "Малюнок 2 - Квадрокоптер Aeryon SkyRanger"
+              },
+              {
+                "paragraph": "Характеристики квадрокоптера SkyRanger, представленого компанією Aeryon, показані в таблиці 1.",
+                "link": "2",
+                "table": [
+                  {
+                    "header": "Максимальна швидкість польоту",
+                    "content": ["50 км/год"]
+                  },
+                  {
+                    "header": "Середня швидкість польоту",
+                    "content": ["40 км/год"]
+                  },
+                  {
+                    "header": "Швидкість підйому",
+                    "content": ["2 м/с"]
+                  },
+                  {
+                    "header": "Дальність керованого польоту",
+                    "content": ["3 км"]
+                  },
+                  {
+                    "header": "Максимальна висота",
+                    "content": ["1,5 км"]
+                  },
+                  {
+                    "header": "Час роботи від акумулятора",
+                    "content": ["50 хв"]
+                  },
+                  {
+                    "header": "Загальна вага",
+                    "content": ["2,4 кг"]
+                  },
+                  {
+                    "header": "Максимальна злітна вага",
+                    "content": ["3,4 кг"]
+                  },
+                  {
+                    "header": "Розміри (Д x Ш x В)",
+                    "content": ["1020 x 1020 x 240 мм"]
+                  },
+                  {
+                    "header": "Вимоги до середовища експлуатації",
+                    "union": true
+                  },
+                  {
+                    "header": "Швидкість вітру",
+                    "content": ["до 65 км/ч"]
+                  },
+                  {
+                    "header": "Короткочасні пориви вітру",
+                    "content": ["до 90 км/ч"]
+                  },
+                  {
+                    "header": "Температура",
+                    "content": ["від мінус 30 до 50 градусів Цельсія"]
+                  }
                 ]
+              },
+              {
+                "paragraph": "В якостi корисного навантаження в стандартній комплектації виступають звичайна та інфрачервона відеокамери, встановлені на стабілізуючою платформі. Звичайна камера записує зображення у форматі 1920x1080 пікселів і дозволяє робити знімки з роздільною здатністю 15 мегапікселів. Інфрачервона камера працює з роздільною здатністю 640х480 пікселів. Відео з камер в реальному часі транслюється на базову станцію, яка може перебувати на відстані до 3 кілометрів, з можливістю збільшення відстані до 5 кілометрів. Весь потік даних обміну з безпілотним літальним апаратом шифрується за допомогою 256-бітного симетричний алгоритм блочного шифрування. Навички пілотування для управління квадрокоптера практично не потрібні - достатньо зазначити на карті цільову точку і висоту, і безпілотний літальний апарат автоматично виконає польотне завдання, орієнтуючись по GPS. Особливу увагу компанія Aeryon приділила зручності і портативності SkyRanger - основні його частини можна замінити, не використовуючи спеціальних інструментів ",
+                "link": "2"
+              },
+              {
+                "paragraph": "Модель MD4-3000 німецької компанії Microdrones, показана на малюнку 3."
+              },
+              {
+                "image": true,
+                "number": 2,
+                "paragraph": "Малюнок 3 - Квадрокоптер Microdrones MD4-3000"
+              },
+              {
+                "paragraph": "Характеристики квадрокоптера MD4-3000, представленого компанією Aeryon, показані в таблиці 2.",
+                "link": "2",
+                "table": [
+                  {
+                    "header": "Максимальна швидкість польоту",
+                    "content": ["58 км/ч"]
+                  },
+                  {
+                    "header": "Середня швидкість польоту",
+                    "content": ["48 км/ч"]
+                  },
+                  {
+                    "header": "Швидкість підйому",
+                    "content": ["10 м/с"]
+                  },
+                  {
+                    "header": "Дальність керованого польоту",
+                    "content": ["50 км"]
+                  },
+                  {
+                    "header": "Максимальна висота",
+                    "content": ["1,5 км"]
+                  },
+                  {
+                    "header": "Час роботи від акумулятора",
+                    "content": ["45 хв"]
+                  },
+                  {
+                    "header": "Власний злітна вага",
+                    "content": ["10,4 кг"]
+                  },
+                  {
+                    "header": "Максимальна злітна вага",
+                    "content": ["15 кг"]
+                  },
+                  {
+                    "header": "Розміри (Д x Ш x В)",
+                    "content": ["2052 x 1888 x 360 мм"]
+                  },
+                  {
+                    "header": "Вимоги до середовища експлуатації",
+                    "union": true
+                  },
+                  {
+                    "header": "Швидкість вітру",
+                    "content": ["до 22 км/ч"]
+                  },
+                  {
+                    "header": "Короткочасні пориви вітру",
+                    "content": ["до 44 км/ч"]
+                  },
+                  {
+                    "header": "Температура",
+                    "content": ["від мінус 10 до 50 градусів Цельсія"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "На відміну від переважної більшості квадрокоптерiв, модель MD4-3000 має аеродинамічну асиметричну конструкцію, яка створює додаткову підйомну силу при швидкому польоті."
+              },
+              {
+                "paragraph": "Унікальною особливістю БПЛА MD4-3000 є конструкція корпус-крило. Ротори MD4-3000 мають по три лопаті, крок яких можна налаштовувати перед польотом в залежності від погодних умов і режиму роботи. Безпілотний літальний апарат MD4-3000 працює під управлінням самопісний ОС реального часу mdOS. Квадрокоптер MD4-3000 оснащений GPS і здатний самостійно літати по заданому маршруту. Вартість квадрокоптера MD4-3000 компанії Microdrones становить 52000 доларів США ",
+                "link": "2"
+              },
+              {
+                "paragraph": "Головним недоліком моделей квадрокоптера SkyRanger і MD4-3000 є висока вартість. Розглянуті моделі знаходять застосування в великі компаніях, наукових і державних організаціях, які найчастіше замовляють цілі комплекси, оплачують впровадження, обслуговування і установку на безпілотні пристрої специфічного обладнання. Наприклад, модель MD4-3000 використовує Google для отримання більш актуальних фотографій місцевості, які можна використовувати в Google Earth і Google Maps ",
+                "link": "2"
+              }
+            ]
+          },
+          {
+            "number": "3.2",
+            "name": "Характеристика польотних контролерів",
+            "text": [
+              {
+                "paragraph": "Польотний контролер CRIUS All in one Pro (AIOP) є системою, що включає в себе всі основні компоненти необхідні управління мультикоптером. Основні характеристики польотного контролера CRIUS AIOP представлені в таблиці 3 ",
+                "link": "11",
+                "table": [
+                  {
+                    "header": "Підтримуване програмне забезпечення",
+                    "content": [
+                      "MegaPirateNG",
+                      "ArduCopterNG",
+                      "ArduPlaneNG",
+                      "MultiWii"
+                    ]
+                  },
+                  {
+                    "header": "Технічні характеристики",
+                    "content": [
+                      "8 виходів для управління двигунами",
+                      "3 виходи для управління підвісом",
+                      "8 входів ШІМ для стандартних приймачів",
+                      "8 аналогових (АЦП) входів для подключеіня зовнішніх сенсорів",
+                      "16Мбіт флеш пам'яті для польотних логів"
+                    ]
+                  },
+                  {
+                    "header": "Датчики",
+                    "content": [
+                      "6-ти осьовий гіроскоп-акселерометр MPU6050",
+                      "3-х осьовий компас HMC5883L",
+                      "Високоточний барометр / висотомір MS5611-01BA03"
+                    ]
+                  },
+                  {
+                    "header": "Iнтерфейси",
+                    "content": [
+                      "Інтерфейс USB на базі FT232RQ",
+                      "Конвертер рівнів для шини I2C 5В / 3.3В PCA9306DP1",
+                      "SPI інтерфейс"
+                    ]
+                  },
+                  {
+                    "header": "Розміри",
+                    "content": ["50 x 50 x 11.6 мм"]
+                  },
+                  {
+                    "header": "Маса",
+                    "content": ["14.5 г."]
+                  },
+                  {
+                    "header": "Вартість",
+                    "content": ["43.75 долларов США"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "Як мікроконтролера (МК) використовується ATMega2560-16AU, позначення виводів якого показані на малюнку 4 ",
+                "link": "12"
+              },
+              {
+                "image": true,
+                "number": 3,
+                "paragraph": "Малюнок 4 - Позначення висновків МК ATMega2560-16AU"
+              },
+              {
+                "paragraph": "До переваг даного польотного контролера можна віднести вбудовані модулі: гіроскоп, акселерометр, барометр і компас, необхідні для визначення положення в просторі і стабілізації Мультикоптер. До переваг також слід віднести підтримку декількох інтерфейсів (USB, SPI, TWI), великий вибір підтримуваного програмного забезпечення і можливість підключення GPS (Global Positioning System) модуля. Недоліком CRIUS AIOP є його висока вартість в порівнянні з іншими польотними контролерами. Зовнішній вигляд друкованої плати CRIUS AIOP показаний на малюнку 5 ",
+                "link": "11"
+              },
+              {
+                "image": true,
+                "number": 4,
+                "paragraph": "Малюнок 5 - Друкована плата польотного контролера CRIUS AIOP"
+              },
+              {
+                "paragraph": "Польотний контролер ArduFlyer є системою, що включає в себе всі основні компоненти необхідні для управління Мультикоптер. В даному польотному контролері використовуються мікроконтролери: ATMega2560-16AU і AtMega32U-2 ",
+                "link": "12"
+              },
+              {
+                "paragraph": "МК AtMega32U-2 призначений для взаємодії польотного контролера з комп'ютером за допомогою інтерфейсу USB. Позначення висновків AtMega32U-2 показані на малюнку 6 ",
+                "link": "13"
+              },
+              {
+                "image": true,
+                "number": 5,
+                "paragraph": "Малюнок 6 - Позначення висновків МК AtMega32U-2"
+              },
+              {
+                "paragraph": "Основні характеристики польотного контролера ArduFlyer представлені в таблиці 4 ",
+                "link": "14",
+                "table": [
+                  {
+                    "header": "Підтримуване програмне забезпечення",
+                    "content": ["ArduPilot"]
+                  },
+                  {
+                    "header": "Технічні характеристики",
+                    "content": [
+                      "9 виходів для управління двигунами",
+                      "8 входів ШІМ для стандартних приймачів",
+                      "9 аналогових (АЦП) входів для підключення зовнішніх сенсорів",
+                      "4 Мбіт флеш пам'яті для польотних логів"
+                    ]
+                  },
+                  {
+                    "header": "Датчики",
+                    "content": [
+                      "6-ти осьової гіроскоп-акселерометр MPU6000",
+                      "3-х осьовий компас HMC5883L",
+                      "Високоточний барометр / висотомір MS5611-01BA03"
+                    ]
+                  },
+                  {
+                    "header": "Iнтерфейси",
+                    "content": [
+                      "Інтерфейс USB на базі AtMega32U-2",
+                      "SPI интерфейс",
+                      "TWI интерфейс"
+                    ]
+                  },
+                  {
+                    "header": "Розміри",
+                    "content": ["67 x 41 мм"]
+                  },
+                  {
+                    "header": "Вартість",
+                    "content": ["35 долларов США"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "Зовнішній вигляд друкованої плати ArduFlyer показана на малюнку 7."
+              },
+              {
+                "image": true,
+                "number": 6,
+                "paragraph": "Малюнок 7 - Друкована плата польотного контролера ArduFlyer"
+              },
+              {
+                "paragraph": "До переваг даного польотного контролера можна віднести наявність вбудованих модулів гіроскопа, акселерометра, барометра і компаса, необхідних для визначення положення в просторі і стабілізації Мультикоптер. До переваг також слід віднести підтримку декількох інтерфейсів (USB, SPI, TWI), і можливість підключення GPS (Global Positioning System) модуля. Недоліком ArduFlyer є його висока вартість в порівнянні з іншими польотними контролерами."
+              },
+              {
+                "paragraph": "Польотний контролер MultiWii є системою, що включає в себе всі основні компоненти необхідні управління Мультикоптер. У цьому польотному контролері використовується мікроконтролер AtMega328P. Позначення висновків AtMega328P показані на малюнку 8 ",
+                "link": "15"
+              },
+              {
+                "image": true,
+                "number": 7,
+                "paragraph": "Малюнок 8 - Позначення висновків МК AtMega328P"
+              },
+              {
+                "paragraph": "Основні характеристики польотного контролера MultiWii представлені в таблиці 5 ",
+                "link": "16",
+                "table": [
+                  {
+                    "header": "Підтримуване програмне забезпечення",
+                    "content": ["MultiWii"]
+                  },
+                  {
+                    "header": "Технічні характеристики",
+                    "content": [
+                      "8 виходів для управління двигунами",
+                      "3 виходи для управління підвісом",
+                      "8 входів ШІМ для стандартних приймачів",
+                      "8 аналогових (АЦП) входів для підключення зовнішніх сенсорів датчики"
+                    ]
+                  },
+                  {
+                    "header": "Датчики",
+                    "content": [
+                      "3-х осьовий гіроскоп ITG3205",
+                      "3-х акселерометр BMA180",
+                      "3-х осьовий компас HMC5883L",
+                      "Високоточний барометр / висотомір BMP085"
+                    ]
+                  },
+                  {
+                    "header": "Iнтерфейси",
+                    "content": [
+                      "USB інтерфейс",
+                      "TWI інтерфейс",
+                      "SPI інтерфейс"
+                    ]
+                  },
+                  {
+                    "header": "Розміри",
+                    "content": ["70 x 50 x 12 мм"]
+                  },
+                  {
+                    "header": "Маса",
+                    "content": ["10 г."]
+                  },
+                  {
+                    "header": "Вартість",
+                    "content": ["43.75 долларов США"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "Зовнішній вигляд друкованої плати MultiWii показана на малюнку 9."
+              },
+              {
+                "image": true,
+                "number": 8,
+                "paragraph": "Малюнок 9 - Друкована плата польотного контролера MultiWii"
+              },
+              {
+                "paragraph": "До переваг даного польотного контролера можна віднести наявність вбудованих модулів гіроскопа, акселерометра, барометра і компаса, необхідних, необхідні для визначення положення в просторі і стабілізації Мультикоптер. До переваг також слід віднести підтримку декількох інтерфейсів (USB, SPI, TWI) і низьку вартість, в порівнянні з іншими польотними контролерами. Недоліком цього польотного контролера є те, що він поступається у функціональності польотним контролерам CRIUS AIOP і ArduFlyer."
               }
             ]
           }
-        ],
-        "text": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
         ]
       },
       {
-        "number": "3.3",
-        "name": "Какой-то подпункт 3",
+        "number": "4",
+        "name": "Розрахунок ШІМ-сигналів управління безколекторними системами",
         "text": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
+          {
+            "paragraph": "Управління електронними регуляторами ходу здійснюється прямокутними імпульсами тривалістю від 1 до 2 мс ",
+            "link": "4-7"
+          },
+          {
+            "paragraph": "При значенні тривалості імпульсів рівної безколекторні двигуни вимкнені, а при значенні двигуни працюють на максимальній потужності (частота обертання максимальна). Знайдемо тривалість імпульсів необхідну для збільшення частоти обертання двигунів на 1%:"
+          },
+          {
+            "formula": true,
+            "number": 0,
+            "paragraph": ""
+          },
+          {
+            "paragraph": "Для формування прямокутних імпульсів необхідної тривалості використовується 16-бітові таймери / лічильники (Timer1 і Timer3) МК AtMega64 в режимі ШІМ. В даному режимі таймер / лічильник являє собою широтно-імпульсний модулятор і використовується для генерування сигналу з програмованими частотою і шпаруватістю. Для формування ШІМ-сигналу використовуються переривання по переповнення таймера і по збігу. Для управління частотою обертання безколекторних двигунів квадрокоптера, проектований польотний контролер використовує чотири ШІМ-сигналу. Проведемо аналітичний розрахунок значень регістрів МК, які задають параметри керуючих ШІМ-сигналів ",
+            "link": "17-23"
+          },
+          {
+            "paragraph": "Значення регістрів захоплення-порівняння ICR1, ICR3 визначаються за формулою:"
+          },
+          {
+            "formula": true,
+            "number": 1,
+            "paragraph": ""
+          },
+          {
+            "paragraph": "Розрахуємо значення регістрів захоплення-порівняння для тривалості імпульсу рівного 1 мс (безколекторні двигуни вимкнені):"
+          },
+          {
+            "formula": true,
+            "number": 2,
+            "paragraph": ""
+          },
+          {
+            "paragraph": "Розрахуємо значення регістрів захоплення-порівняння для тривалості імпульсу рівного 2 мс (безколекторні двигуни працюють на максимальній потужності):"
+          },
+          {
+            "formula": true,
+            "number": 3,
+            "paragraph": ""
+          },
+          {
+            "paragraph": "Таким чином, були розраховані межі, в яких змінюється значення регістрів захоплення-порівняння і сформовані керуючі ШІМ-сигнали."
+          }
+        ]
+      },
+      {
+         "number": "f",
+         "name": "Висновки",
+         "text": [
+           {
+             "paragraph": "В ході виконання роботи планується провести аналіз можливості використання професійних квадрокоптера і проектування Мультикоптер за допомогою окремих складових частин. Розглянути переваги і недоліки кожного методу, серед яких необхідно виділити:"
+           },
+           {
+             "paragraph": "1. Професійні квадрокоптера завдяки своїм характеристикам володіють широким спектром застосування. Однак недоліком професійних БПЛА є висока вартість."
+           },
+           {
+             "paragraph": "2. Проектування Мультикоптер за допомогою складових частин істотно знижує вартість літального апарату, а також дозволяє підібрати необхідні технічні характеристики і функціонал відповідно до вимог до проектованої системи захисту ОІД. До недоліків даного способу слід віднести невелику тривалість роботи, в порівнянні з професійними БПЛА від 15 до 30 хв і більш жорсткі вимоги до середовища експлуатації Мультикоптер."
+           },
+           {
+             "paragraph": "Розробити апаратну і програмну реалізації польотного контролера. Спроектований польотний контролер буде здійснює експонентну фільтрацію кутів відхилення і стабілізацію квадрокоптера під час польоту, шляхом зміни частоти обертання безколекторних двигунів."
+           },
+           {
+             "paragraph": "Для налагодження програмного забезпечення та дослідження впливу зміни кутів відхилення на керуючі ШІМ-сигнали буде створена віртуальна модель, в програмному середовищі Proteus."
+           },
+           {
+             "paragraph": "За допомогою віртуальної моделі буде проведена оптимізація програмного забезпечення, а також вивчена робота пристрою в граничних режимах."
+           },
+           {
+             "paragraph": "В ходе разработки полетного контроллера были соблюдены все нормы техники безопасности, нормы охраны труда и пожарной безопасности при работе с ПЭВМ."
+           },
+           {
+             "paragraph": "Квадрокоптер, оснащений розробленим польотним контролером, обладнаний відеокамерою, планується використовуватися як засіб для моніторингу території промислових підприємств."
+           },
+           {
+             "paragraph": "Перевагою використання квадрокоптера є висока мобільність, що дозволяє замінити систему відеоспостереження, що включає в себе кілька камер одним квадрокоптера. Також перевагою є можливість візуального контролю відкритій місцевості, де використання відеокамер важко. До недоліків квадрокоптера слід віднести тривалість роботи від 15 до 50 хв."
+           }
+         ]
+      },
+      {
+        "number": "g",
+        "name": "Список джерел",
+        "text": [
+          {
+            "paragraph": ""
+          }
         ]
       }
     ],
-    "text": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
+    "en": [
+      {
+        "number": "a",
+        "name": "Introduction",
+        "text": [
+          {
+            "paragraph": "A multi-copter is an aircraft with an arbitrary number of rotor screws rotating diagonally in opposite directions. Multicopters use two or more brushless DC motors. A screw is attached to each engine. Half of the screws rotate clockwise, half - against. Maneuver the multicopters by changing the rotational speed of the screws. Among the multicopters the most widespread are quadrocopters. Quadrocopter is called a multi-copter with four brushless motors",
+            "link": "1"
+          },
+          {
+            "paragraph": "There are also tricopters and pentacopters having three and five collectorless motors, respectively. Stabilization in the space of tri- and pentacoptera occurs by changing the servo angle of one of the engines ",
+            "link": "1"
+          }
+        ]
+      },
+      {
+        "number": "1",
+        "name": "Relevance",
+        "text": [
+          {
+            "paragraph": "Multi-screw helicopters were developed in the first years of helicopter construction. One of the first quadrocopters (English quadrocopter, four-rotor helicopter), which really broke away from the ground and could stay in the air, was created by Georgi Botezat and tested in 1922. The disadvantage of these devices was a complex transmission, which transmitted the rotation of one motor to several screws. The invention of the tail rotor and the skew machine put an end to these attempts ",
+            "link": "1"
+          },
+          {
+            "paragraph": "In the 21st century, multicopters began to be developed as unmanned aerial vehicles. Multicopters are often used in aerial photography and video shooting, military affairs, for the protection of territories. Military services use these devices as scouts and easy means of suppressing firing points: the ability to carry a small weight makes it possible to easily equip them with explosives or light machine guns ",
+            "link": "2"
+          },
+          {
+            "paragraph": "The advantage of using multicopters is high mobility, which allows you to replace a video surveillance system that includes several cameras with a single multicopter. Also an advantage is the possibility of visual control of an open area, where the use of video cameras is difficult. The disadvantages of multicopters include the duration of work from 15 to 50 minutes, according to the technical documentation of existing quadrocopters ",
+            "link": "2"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "The purpose and objectives of the study, the planned results",
+        "text": [
+          {
+            "paragraph": "In this paper, I consider the design of a quadrocopter, which includes the hardware and software parts. The designed UAV (Unmanned Aerial Vehicle), equipped with the necessary equipment, can be used as a means for monitoring the territory of industrial enterprises."
+          },
+          {
+            "paragraph": "The object of the study is a quadrocopter using brushless motors and a three-axis gyro-accelerometer MPU-6050."
+          },
+          {
+            "paragraph": "The purpose of the work is the development of a virtual model of the hardware and software of the model of the flight controller of a quadrocopter under study."
+          },
+          {
+            "paragraph": "The method of investigation is the simulation simulation of the projected system in the Proteus software environment."
+          },
+          {
+            "paragraph": "As a result of the study, it is planned to simulate a flight controller, the cost of which is less than similar systems. Quadrocopter, equipped with a video camera, equipped with a developed flight controller, is planned to be used as a means for monitoring the territory of industrial enterprises."
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Analysis of existing systems",
+        "text": [
+          {
+            "paragraph": "The Quadrocopter is an unmanned aerial vehicle (UAV). It is a platform with four rotors, one pair of which rotates clockwise, the other - counter-clockwise. The direction of rotation of the rotors of the quadrocopter is shown in figure 1 ",
+            "link": "2"
+          },
+          {
+            "image": true,
+            "number": 0,
+            "paragraph": "Figure 1 - Direction of rotation of the rotors of a quadrocopter"
+          },
+          {
+            "paragraph": "Compared to helicopter-type aircraft with helical and helical rotors, quadrocopters have a number of advantages, such as reliability and simplicity of design, greater stability, compactness and maneuverability, a small takeoff weight with a significant payload weight ",
+            "link": "2"
+          },
+          {
+            "paragraph": "Let us consider in more detail the systems that make up the quadrocopter:"
+          },
+          {
+            "paragraph": "1. Engines. As engines designed to lift a quadrocopter into the air, the motorless motors are used ",
+            "link": "3"
+          },
+          {
+            "paragraph": "2. The flight controller. The task of the controller to support UAVs in flight, providing synchronous operation of the engines depending on the readings of the sensors, to transform the operator's commands into changes in the operating modes of the engines."
+          },
+          {
+            "paragraph": "3. Engine management systems. Control of brushless systems can be carried out using position sensors, by measuring the back EMF. As a rule, when designing multicopters, electronic speed controllers are used to control brushless systems ",
+            "link": "4-7"
+          },
+          {
+            "paragraph": "4. Stabilization systems. To determine the position in space and stabilize the multicopter in the air, the following sensors are used: gyroscope, accelerometer, barometer. As a stabilization system, the MPU6050 module is used in typical multi-copter models, which combines the functions of a gyroscope, an accelerometer and a thermometer. As a barometer, the BMP180 module is used ",
+            "link": "8-10"
+          },
+          {
+            "paragraph": "5. The battery. As a source of power supply for multi-copter systems, lithium-polymer (LiPo) batteries are used."
+          }
+        ],
+        "subname": [
+          {
+            "number": "3.1",
+            "name": "Characteristic of professional multi-copters",
+            "text": [
+              {
+                "paragraph": "Consider two professional UAVs: Aeryon SkyRanger and Microdrones MD4-3000. These aircraft are intended for use in industry, video surveillance, aerial photography, agriculture and military affairs. The SkyRanger model of the Canadian company Aeryon is shown in figure 2."
+              },
+              {
+                "image": true,
+                "number": 1,
+                "paragraph": "Figure 2 - Quadrocopter Aeryon SkyRanger"
+              },
+              {
+                "paragraph": "Characteristics of the SkyRanger quadrocopter presented by Aeryon are shown in table 1 ",
+                "link": "2",
+                "table": [
+                  {
+                    "header": "Maximum flight speed",
+                    "content": ["50 km/h"]
+                  },
+                  {
+                    "header": "Average speed of flight",
+                    "content": ["40 km/h"]
+                  },
+                  {
+                    "header": "Lifting speed",
+                    "content": ["2 m/s"]
+                  },
+                  {
+                    "header": "Flight Control Range",
+                    "content": ["3 km"]
+                  },
+                  {
+                    "header": "Maximum height",
+                    "content": ["1,5 km"]
+                  },
+                  {
+                    "header": "Battery life time",
+                    "content": ["50 min"]
+                  },
+                  {
+                    "header": "Total weight",
+                    "content": ["2,4 kg"]
+                  },
+                  {
+                    "header": "Maximum take-off weight",
+                    "content": ["3,4 kg"]
+                  },
+                  {
+                    "header": "Dimensions (L x W x H)",
+                    "content": ["1020 x 1020 x 240 mm"]
+                  },
+                  {
+                    "header": "Dimensions in the folded state (L x W x H)",
+                    "content": ["250 x 500 x 240 mm"]
+                  },
+                  {
+                    "header": "Operating environment requirements",
+                    "union": true
+                  },
+                  {
+                    "header": "Wind speed",
+                    "content": ["up to 65 km/h"]
+                  },
+                  {
+                    "header": "Short wind gusts",
+                    "content": ["up to 90 km/h"]
+                  },
+                  {
+                    "header": "Temperature",
+                    "content": ["from minus 30 to 50 degrees Celsius"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "As a payload, standard and infrared cameras installed on a stabilizing platform act as standard. A conventional camera records an image in 1920x1080 pixels and allows you to take pictures with a resolution of 15 megapixels. The infrared camera works with a resolution of 640x480 pixels. Video from cameras in real time is broadcast to a base station, which can be up to 3 kilometers away, with the possibility of increasing the distance to 5 kilometers. The entire data stream with the unmanned aerial vehicle is encrypted using a 256-bit symmetric block cipher algorithm. The piloting skills for controlling the quadrocopter are practically not required - it is enough to mark the target point and altitude on the map, and the unmanned aerial vehicle will automatically perform the flight mission, guided by GPS. Aeryon paid special attention to the convenience and portability of SkyRanger - its main parts can be replaced without using special tools ",
+                "link": "2"
+              },
+              {
+                "paragraph": "The MD4-3000 model of the German company Microdrones is shown in figure 3."
+              },
+              {
+                "image": true,
+                "number": 2,
+                "paragraph": "Figure 3 - Quadrocopter Microdrones MD4-3000"
+              },
+              {
+                "paragraph": "The characteristics of the MD4-3000 quadrocopter, presented by Aeryon, are shown in table 2 ",
+                "link": "2",
+                "table": [
+                  {
+                    "header": "Maximum flight speed",
+                    "content": ["58 km/h"]
+                  },
+                  {
+                    "header": "Average speed of flight",
+                    "content": ["48 km/h"]
+                  },
+                  {
+                    "header": "Lifting speed",
+                    "content": ["10 m/s"]
+                  },
+                  {
+                    "header": "Flight Control Range",
+                    "content": ["50 km"]
+                  },
+                  {
+                    "header": "Maximum height",
+                    "content": ["1,5 km"]
+                  },
+                  {
+                    "header": "Battery life time",
+                    "content": ["45 min"]
+                  },
+                  {
+                    "header": "Self Weight Weight",
+                    "content": ["10,4 kg"]
+                  },
+                  {
+                    "header": "Maximum take-off weight",
+                    "content": ["15 kg"]
+                  },
+                  {
+                    "header": "Dimensions (L x W x H)",
+                    "content": ["2052 x 1888 x 360 mm"]
+                  },
+                  {
+                    "header": "Operating environment requirements",
+                    "union": true
+                  },
+                  {
+                    "header": "Wind speed",
+                    "content": ["up to 22 km/h"]
+                  },
+                  {
+                    "header": "Short wind gusts",
+                    "content": ["up to 44 km/h"]
+                  },
+                  {
+                    "header": "Temperature",
+                    "content": ["from minus 10 to 50 degrees Celsius"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "Unlike the vast majority of quadrocopters, the model MD4-3000 has an aerodynamic asymmetric design, which creates an additional lifting force in a fast flight."
+              },
+              {
+                "paragraph": "A unique feature of the UAV MD4-3000 is the body-wing design. Rotors MD4-3000 have three blades, the pitch of which can be adjusted before the flight, depending on the weather conditions and the operating mode. The unmanned aerial vehicle MD4-3000 operates under the control of a real-time mdOS real-time OS. Quadrocopter MD4-3000 is equipped with GPS and is able to fly independently on a given route. The cost of Microdrones MD4-3000 quadrocopter is 52000 US dollars ",
+                "link": "2"
+              },
+              {
+                "paragraph": "The main drawback of the SkyRanger and MD4-3000 quadrocopter models is the high cost. The considered models find application in large companies, scientific and state organizations, which most often order entire complexes, pay for the introduction, maintenance and installation of unmanned devices of specific equipment. For example, the MD4-3000 model uses Google to get more relevant terrain photos that you can use in Google Earth and Google Maps ",
+                "link": "2"
+              }
+            ]
+          },
+          {
+            "number": "3.2",
+            "name": "Characteristics of flight controllers",
+            "text": [
+              {
+                "paragraph": "The CRIUS All in One Pro (AIOP) flight controller is a system that includes all the essential components necessary to control the multicopter. The main characteristics of the CRIUS AIOP flight controller are shown in table 3 ",
+                "link": "11",
+                "table": [
+                  {
+                    "header": "Supported software",
+                    "content": [
+                      "MegaPirateNG",
+                      "ArduCopterNG",
+                      "ArduPlaneNG",
+                      "MultiWii"
+                    ]
+                  },
+                  {
+                    "header": "Specifications",
+                    "content": [
+                      "8 outputs for motor control",
+                      "3 outputs for suspension control",
+                      "8 PWM inputs for standard receivers",
+                      "8 analog (ADC) inputs for connecting external sensors",
+                      "16 Mbits flash memory for flight logs"
+                    ]
+                  },
+                  {
+                    "header": "Sensors",
+                    "content": [
+                      "6-axis gyro-accelerometer MPU6050",
+                      "3-Axis Compass HMC5883L",
+                      "High-precision barometer / altimeter MS5611-01BA03"
+                    ]
+                  },
+                  {
+                    "header": "Interfaces",
+                    "content": [
+                      "USB interface based on FT232RQ",
+                      "Converter levels for I2C bus 5V / 3.3V PCA9306DP1",
+                      "SPI interface"
+                    ]
+                  },
+                  {
+                    "header": "Dimensions",
+                    "content": ["50 x 50 x 11.6 mm"]
+                  },
+                  {
+                    "header": "Weight",
+                    "content": ["14.5 g."]
+                  },
+                  {
+                    "header": "Cost",
+                    "content": ["US $ 43.75"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "As a microcontroller (MK), ATMega2560-16AU is used, the pin designations are shown in figure 4 ",
+                "link": "12"
+              },
+              {
+                "image": true,
+                "number": 3,
+                "paragraph": "Figure 4 - Terminal designations of the ATM ATMega2560-16AU"
+              },
+              {
+                "paragraph": "The advantages of this flight controller include the integrated modules: gyroscope, accelerometer, barometer and compass, necessary for determining the position in space and stabilizing the multicopter. Among the advantages is also the support of several interfaces (USB, SPI, TWI), a large selection of supported software and the ability to connect the GPS (Global Positioning System) module. The disadvantage of CRIUS AIOP is its high cost compared to other flight controllers. The appearance of the printed circuit board CRIUS AIOP is shown in figure 5 ",
+                "link": "11"
+              },
+              {
+                "image": true,
+                "number": 4,
+                "paragraph": "Figure 5 - Circuit board of the flight controller CRIUS AIOP"
+              },
+              {
+                "paragraph": "The ArduFlyer flight controller is a system that includes all the basic components necessary to control the multicopter. In this flight controller, microcontrollers are used: ATMega2560-16AU and AtMega32U-2 ",
+                "link": "12"
+              },
+              {
+                "paragraph": "The AtMega32U-2 is designed to interface the flight controller with a computer via a USB interface. The notation of the terminals AtMega32U-2 is shown in figure 6 ",
+                "link": "13"
+              },
+              {
+                "image": true,
+                "number": 5,
+                "paragraph": "Figure 6 - Terminal designations AtMega32U-2"
+              },
+              {
+                "paragraph": "The main characteristics of the CRIUS AIOP flight controller are shown in table 4 ",
+                "link": "14",
+                "table": [
+                  {
+                    "header": "Supported software",
+                    "content": ["ArduPilot"]
+                  },
+                  {
+                    "header": "Specifications",
+                    "content": [
+                      "9 outputs for motor control",
+                      "8 PWM inputs for standard receivers",
+                      "9 analog (ADC) inputs for connecting external sensors",
+                      "4 Mbits flash memory for flight logs"
+                    ]
+                  },
+                  {
+                    "header": "Sensors",
+                    "content": [
+                      "6-Axis Gyro-Accelerometer MPU6000",
+                      "3-Axis Compass HMC5883L",
+                      "High-precision barometer / altimeter MS5611-01BA03"
+                    ]
+                  },
+                  {
+                    "header": "Interfaces",
+                    "content": [
+                      "USB interface based on AtMega32U-2",
+                      "SPI interface",
+                      "TWI interface"
+                    ]
+                  },
+                  {
+                    "header": "Dimensions",
+                    "content": ["67 x 41 mm"]
+                  },
+                  {
+                    "header": "Cost",
+                    "content": ["US $ 35"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "The appearance of the ArduFlyer PCB is shown in figure 7."
+              },
+              {
+                "image": true,
+                "number": 6,
+                "paragraph": "Figure 7 - ArduFlyer flight controller circuit pack"
+              },
+              {
+                "paragraph": "The advantages of this flight controller include the presence of built-in gyroscope, accelerometer, barometer and compass modules, necessary for determining the position in space and stabilizing the multicopter. Among the advantages are also the support of several interfaces (USB, SPI, TWI), and the ability to connect the GPS (Global Positioning System) module. The drawback of ArduFlyer is its high cost compared to other flight controllers."
+              },
+              {
+                "paragraph": "The MultiWii Flight Controller is a system that includes all the basic components necessary to manage a multi-copter. In this flight controller, the microcontroller AtMega328P is used. The pin designations for AtMega328P are shown in Figure 8 ",
+                "link": "15"
+              },
+              {
+                "image": true,
+                "number": 7,
+                "paragraph": "Figure 8 - Terminal designations AtMega328P"
+              },
+              {
+                "paragraph": "The main characteristics of the CRIUS AIOP flight controller are shown in table 5 ",
+                "link": "16",
+                "table": [
+                  {
+                    "header": "Supported software",
+                    "content": ["MultiWii"]
+                  },
+                  {
+                    "header": "Specifications",
+                    "content": [
+                      "8 outputs for motor control",
+                      "3 outputs for suspension control",
+                      "8 PWM inputs for standard receivers",
+                      "8 analog (ADC) inputs for connecting external sensors"
+                    ]
+                  },
+                  {
+                    "header": "Sensors",
+                    "content": [
+                      "3-axis Gyro ITG3205",
+                      "3-axis accelerometer BMA180",
+                      "3-axis Compass HMC5883L",
+                      "High-precision barometer / altimeter BMP085"
+                    ]
+                  },
+                  {
+                    "header": "Interfaces",
+                    "content": [
+                      "USB interface",
+                      "TWI interface",
+                      "SPI interface"
+                    ]
+                  },
+                  {
+                    "header": "Dimensions",
+                    "content": ["70 x 50 x 12 mm"]
+                  },
+                  {
+                    "header": "Weight",
+                    "content": ["10 g."]
+                  },
+                  {
+                    "header": "Cost",
+                    "content": ["US $ 43.75"]
+                  }
+                ]
+              },
+              {
+                "paragraph": "The appearance of the printed circuit board MultiWii is shown in figure 9."
+              },
+              {
+                "image": true,
+                "number": 8,
+                "paragraph": "Figure 9 - The printed circuit board of the MultiWii flight controller"
+              },
+              {
+                "paragraph": "The advantages of this flight controller include the presence of built-in gyro, accelerometer, barometer and compass modules, necessary to determine the position in space and stabilize the multicopter. Among the advantages is also the support of several interfaces (USB, SPI, TWI) and low cost, in comparison with other flight controllers. The drawback of this flight controller is that it is inferior in functionality to the flight controllers CRIUS AIOP and ArduFlyer."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "name": "Calculation of PWM signals for control of brushless systems",
+        "text": [
+          {
+            "paragraph": "The control of electronic stroke controllers is carried out by rectangular pulses of duration from 1 to 2 ms ",
+            "link": "4-7"
+          },
+          {
+            "paragraph": "When the pulse duration is equal, the brushless motors are switched off, and at the value the motors operate at maximum power (maximum speed). We will find the pulse duration necessary to increase the engine speed by 1%:"
+          },
+          {
+            "formula": true,
+            "number": 0,
+            "paragraph": ""
+          },
+          {
+            "paragraph": "To form rectangular pulses of the required duration, 16-bit timers/counters (Timer1 and Timer3) of the AtMega64 MCU in PWM mode are used. In this mode, the timer / counter is a pulse width modulator and is used to generate a signal with programmable frequency and duty cycle. To generate a PWM signal, interruptions are used to overflow the timer and by coincidence. To control the rotational speed of the brushless quadrupter motors, the projected flight controller uses four PWM signals. We perform an analytical calculation of the values ​​of the MC registers specifying the parameters of the control PWM signals ",
+            "link": "17-23"
+          },
+          {
+            "paragraph": "The values of the capture-comparison registers ICR1, ICR3 are determined by the formula:"
+          },
+          {
+            "formula": true,
+            "number": 1,
+            "paragraph": ""
+          },
+          {
+            "paragraph": "Calculate the value of the capture-comparison registers for a pulse duration of 1 ms (brushless motors are off):"
+          },
+          {
+            "formula": true,
+            "number": 2,
+            "paragraph": ""
+          },
+          {
+            "paragraph": "We calculate the value of the capture-comparison registers for a pulse duration of 2 ms (brushless motors operate at maximum power):"
+          },
+          {
+            "formula": true,
+            "number": 3,
+            "paragraph": ""
+          },
+          {
+            "paragraph": "Thus, the limits were calculated in which the values of the capture-comparison registers changed and the control PWM signals were generated."
+          }
+        ]
+      },
+      {
+         "number": "f",
+         "name": "Сonclusions",
+         "text": [
+           {
+             "paragraph": "In the course of the work, it is planned to analyze the possibility of using professional quadrocopters and designing multi-copters with the help of separate components. Consider the advantages and disadvantages of each method, among which it is necessary to distinguish:"
+           },
+           {
+             "paragraph": "1. Professional quadrocopters due to their characteristics have a wide range of applications. However, the disadvantage of professional UAVs is high cost."
+           },
+           {
+             "paragraph": "2. Designing a multi-copter with the help of components significantly reduces the cost of the aircraft, and also allows you to select the necessary technical characteristics and functionality in accordance with the requirements for the projected protection system of the OID. The disadvantages of this method include a short duration of work, compared with professional UAV from 15 to 30 minutes and more stringent requirements for the environment of operation of the multicopter."
+           },
+           {
+             "paragraph": "Develop a hardware and software implementation of the flight controller. The designed flight controller will perform an exponential filtration of the deflection angles and the stabilization of the quadrocopter during the flight, by changing the speed of the brushless motors."
+           },
+           {
+             "paragraph": "To debug the software and study the effect of changing the deviation angles on the PWM control signals, a virtual model will be created in the Proteus software environment."
+           },
+           {
+             "paragraph": "With the help of a virtual model, software optimization will be carried out, as well as the operation of the device in the limiting modes."
+           },
+           {
+             "paragraph": "Quadrocopter, equipped with a developed flight controller, equipped with a video camera, is planned to be used as a means for monitoring the territory of industrial enterprises."
+           },
+           {
+             "paragraph": "The advantage of using a quadrocopter is high mobility, which allows replacing a video surveillance system that includes several cameras with one quadrocopter. Also an advantage is the possibility of visual control of an open area, where the use of video cameras is difficult. The shortcomings of a quadrocopter include the duration of work from 15 to 50 minutes."
+           }
+         ]
+      },
+      {
+        "number": "g",
+        "name": "List of sources",
+        "text": [
+          {
+            "paragraph": ""
+          }
+        ]
+      }
     ]
-  },
-  {
-    "number": "4",
-    "name": "Еще какой-то пункт",
-    "text": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
-    ]
-  },
-  {
-     "number": "f",
-     "name": "Выводы",
-     "text": [
-       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
-     ]
-  },
-  {
-     "number": "g",
-     "name": "Список источников",
-     "text": [
-       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tincidunt purus. Etiam efficitur risus eu tellus gravida porta. Nunc urna mauris, viverra ut dolor ac, luctus pellentesque felis. Pellentesque ipsum neque, vulputate non erat sed, pharetra eleifend lectus. Sed porta orci vel dui semper facilisis. Morbi imperdiet sed dolor ac tincidunt. Duis tortor lorem, fringilla non suscipit et, sagittis porttitor risus. Aenean ut nisl ut eros posuere ultrices."
-     ]
-  }
-]
+}

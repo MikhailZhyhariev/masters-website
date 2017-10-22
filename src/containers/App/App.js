@@ -65,12 +65,23 @@ class App extends Component {
     const { handleScroll, updateClassButton, handleSetTitle } = this;
 
     const contentArray = [
-      <Resume language={language.active} padding={menu.height} className={menu.className} />,
-      <Biography language={language.active} padding={menu.height} className={menu.className} />,
-      <Abstract padding={menu.height} className={menu.className} updateButtonClass={classnameChange} updateButtonTop={buttonClick}/>,
-      <Library padding={menu.height} className={menu.className} />,
-      <Links padding={menu.height} className={menu.className} />,
-      <Search padding={menu.height} className={menu.className} />
+      <Resume language={language.active}
+              padding={menu.height}
+              className={menu.className} />,
+      <Biography language={language.active}
+                 padding={menu.height}
+                 className={menu.className} />,
+      <Abstract padding={menu.height}
+                className={menu.className}
+                updateButtonClass={classnameChange}
+                updateButtonTop={buttonClick}
+                language={language.active} />,
+      <Library padding={menu.height}
+               className={menu.className} />,
+      <Links padding={menu.height}
+             className={menu.className} />,
+      <Search padding={menu.height}
+              className={menu.className} />
     ];
 
     return (

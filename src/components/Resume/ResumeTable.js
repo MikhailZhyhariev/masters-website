@@ -4,6 +4,7 @@ import './Resume.css';
 import ResumeRowSimple from '../Resume/ResumeRowSimple.js';
 import ResumeRowList from '../Resume/ResumeRowList.js';
 import ResumeRowLinkedList from '../Resume/ResumeRowLinkedList.js';
+import ResumeRowAbout from '../Resume/ResumeRowAbout.js';
 
 
 class ResumeTable extends Component {
@@ -17,6 +18,7 @@ class ResumeTable extends Component {
         )}
         <ResumeRowList item={items.list} />
         <ResumeRowLinkedList item={items.linkedList} />
+        <ResumeRowAbout />
       </div>
     );
   }
