@@ -12,10 +12,27 @@ class AbstractBibliography extends Component {
     window.open(link, '_blank');
   }
 
+  handleHover(item) {
+    const element = document.getElementById('item-' + item.id);
+    if (item.link) {
+      element.classList.add('abstract__bibliography-item-hover');
+    }
+  }
+
+  handleUnHover(item) {
+    const element = document.getElementById('item-' + item.id);
+    element.classList.remove('abstract__bibliography-item-hover');
+  }
+
   handleItemList(item, key) {
+    const { handleHover, handleUnHover } = this;
+
     return <li className="abstract__bibliography-item"
                key={key}
-               onClick={this.handleLinkOpen.bind(this, item.link)}>
+               onClick={item.link ? this.handleLinkOpen.bind(this, item.link) : null}
+               onMouseEnter={handleHover.bind(this, item)}
+               onMouseLeave={handleUnHover.bind(this, item)}
+               id={"item-" + item.id}>
       <span className="abstract__bibliography-item-number">{key + 1}.</span>
       {item.text}
       <span className="abstract__bibliography-link-name">{item.name}</span>

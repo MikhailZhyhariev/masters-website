@@ -13,9 +13,9 @@ class ResumeRowAbout extends Component {
       <div className="resume__table-row">
         <div className="resume__table-cell header">Контактная информация</div>
         <div className="resume__table-cell about">
-          <a href="https://vk.com/id24368402" target="_blank"><img src={vk} alt="vk" /></a>
-          <a href="https://t.me/ZhigarievMikhail" target="_blank"><img src={telegram} alt="telegram" /></a>
-          <a href="https://github.com/MikhailZhyhariev" target="_blank"><img src={github} alt="github" /></a>
+          <a href="https://vk.com/id24368402" target="_blank" rel="noopener noreferrer"><img src={vk} alt="vk" /></a>
+          <a href="https://t.me/ZhigarievMikhail" target="_blank" rel="noopener noreferrer"><img src={telegram} alt="telegram" /></a>
+          <a href="https://github.com/MikhailZhyhariev" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
           <a href="mailto:zhigarev_mikhail@mail.ru"><img src={e_mail} alt="email" /></a>
         </div>
       </div>

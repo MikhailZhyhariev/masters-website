@@ -15,8 +15,14 @@ class Biography extends Component {
   render() {
     const { language } = this.props;
     let lang;
-    if (language === 'ru') lang = content.ru;
-    else lang = content.ua;
+    let header;
+    if (language === 'ru') {
+      lang = content.ru;
+      header = content.header.ru;
+    } else {
+      lang = content.ua;
+      header = content.header.ua;
+    }
 
     const { padding, className } = this.props;
     const paddingFixed = padding + 20
@@ -27,7 +33,7 @@ class Biography extends Component {
     return (
       <div className="biography" style={className === 'fixed' ? style : null}>
         <div className="container">
-          <h1 className="biography__title">Биография</h1>
+          <h1 className="biography__title">{header}</h1>
           { lang.map( (item, key) =>
             <div key={key} className="biography__text-part">
               <h3 className="biography__paragraph__title">{item.header}</h3>

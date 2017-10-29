@@ -13,9 +13,17 @@ class Abstract extends Component {
     const { padding, className, updateButtonClass, updateButtonTop, language } = this.props;
 
     let lang;
-    if (language === 'ru') lang = content.ru;
-    else if (language === 'en') lang = content.en;
-    else lang = content.ua;
+    let headers;
+    if (language === 'ru') {
+      lang = content.ru;
+      headers = content.header.ru;
+    } else if (language === 'en') {
+      lang = content.en;
+      headers = content.header.en;
+    } else {
+      lang = content.ua;
+      headers = content.header.ua;
+    }
 
     const paddingFixed = padding + 20
     const style = {
@@ -25,14 +33,16 @@ class Abstract extends Component {
     return (
       <div className="abstract" style={className === 'fixed' ? style : null}>
         <div className="container">
-          <h1 className="abstract__title">Реферат по теме выпускной работы</h1>
+          <h1 className="abstract__title">{headers.sectionHeader}</h1>
+          <h1 className="abstract__theme-title">{headers.themeHeader}</h1>
           <div className="abstract__content">
-            <h2 className="abstract__content-title">Содержание</h2>
+            <h2 className="abstract__content-title">{headers.text}</h2>
             <AbstractMenu items={lang}
                           menuHeight={padding}
-                          onButtonClass={updateButtonClass} onButtonTop={updateButtonTop} />
+                          onButtonClass={updateButtonClass}
+                          onButtonTop={updateButtonTop} />
           </div>
-          <AbstractText items={lang} className={''} />
+          <AbstractText items={lang} />
           <AbstractBibliography content={bibliography} />
         </div>
       </div>

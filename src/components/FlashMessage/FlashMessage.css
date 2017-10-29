@@ -1,0 +1,76 @@
+.flash-message {
+  padding: 0;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  position: fixed;
+  z-index: 100;
+}
+
+.flash-message .triangle {
+  background-color: inherit;
+  border: 1px solid black;
+  border-radius: 1px;
+  border-top: none;
+  border-left: none;
+  width: 10px;
+  height: 10px;
+  position: fixed;
+  transform: rotate(45deg);
+}
+
+.flash-message .item-part {
+  height: 30px;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.flash-message .item-part:last-child {
+  border-bottom: none;
+}
+
+.flash-message .item-part .item {
+  margin: 0;
+  height: inherit;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: black;
+  padding: 5px;
+}
+
+.flash-message .item-part .item-noempty {
+  width: calc(100% - 30px);
+  border-right: 1px solid black;
+}
+
+.flash-message .item-part .item-empty {
+  width: 100%;
+}
+
+.flash-message .item-part .item:hover {
+  color: #f22;
+  box-shadow: 0 0 10px #f22;
+}
+
+.flash-message .item-part .link {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../img/down-arrow-black.svg");
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  transform: rotate(270deg);
+  box-sizing: border-box;
+  align-self: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0;
+}
+
+.flash-message .item-part .link:hover {
+  box-shadow: 0 0 10px #f22;
+  background-image: url("../../img/down-arrow-red.svg");
+  color: black;
+}

@@ -1,99 +1,159 @@
 [
   {
     "text": "Мультикоптер / Википедия – свободная энциклопедия: Мультикоптер. [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Мультикоптер / Википедия – свободная энциклопедия",
     "name": "ru.wikipedia.org",
-    "link": "https://ru.wikipedia.org/wiki/Мультикоптер"
+    "link": "https://ru.wikipedia.org/wiki/Мультикоптер",
+    "id": "1"
   },
   {
     "text": "Что умеют современные квадрокоптеры? [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Что умеют современные квадрокоптеры?",
     "name": "habrahabr.ru",
-    "link": "https://habrahabr.ru/company/nordavind/blog/181540/"
+    "link": "https://habrahabr.ru/company/nordavind/blog/181540/",
+    "id": "2"
   },
   {
     "text": "Вентильный двигатель / Википедия – свободная энциклопедия: Вентильный двигатель [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Вентильный двигатель / Википедия – свободная энциклопедия",
     "name": "ru.wikipedia.org",
-    "link": "https://ru.wikipedia.org/wiki/Вентильный_двигатель"
+    "link": "https://ru.wikipedia.org/wiki/Вентильный_двигатель",
+    "id": "3"
   },
   {
     "text": "AVR443: Управление трехфазным бесколлекторным электродвигателем постоянного тока с использованием датчиков [Электронный ресурс]. – Режим доступа:",
+    "shortText": "AVR443: Управление трехфазным бесколлекторным электродвигателем постоянного тока с использованием датчиков",
     "name": "www.gaw.ru",
-    "link": "http://www.gaw.ru/html.cgi/txt/app/micros/avr/AVR443.htm"
+    "link": "http://www.gaw.ru/html.cgi/txt/app/micros/avr/AVR443.htm",
+    "id": "4"
   },
   {
     "text": "AVR492: Управление бесколлекторным электродвигателем постоянного тока с помощью AT90PWM3 [Электронный ресурс]. – Режим доступа:",
+    "shortText": "AVR492: Управление бесколлекторным электродвигателем постоянного тока",
     "name": "www.gaw.ru",
-    "link": "http://www.gaw.ru/pdf/Atmel/app/avr/AVR492.pdf"
+    "link": "http://www.gaw.ru/pdf/Atmel/app/avr/AVR492.pdf",
+    "id": "5"
   },
   {
-    "text": "Саяпин, В.Е. Система управления трехфазного бесколлекторного двигателя постоянного тока / Саяпин В.Е., Смурыгин И.М. // Молодежный научно-технический вестник. – 2012. – №10. – С. 3 – 9."
+    "text": "Саяпин, В.Е. Система управления трехфазного бесколлекторного двигателя постоянного тока / Саяпин В.Е., Смурыгин И.М. // Молодежный научно-технический вестник. – 2012. – №10. – С. 3 – 9.",
+    "shortText": "Саяпин, В.Е. Система управления трехфазного бесколлекторного двигателя постоянного тока",
+    "id": "6"
   },
   {
     "text": "Электронный регулятор хода / Википедия – свободная энциклопедия: Электронный регулятор хода [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Электронный регулятор хода / Википедия – свободная энциклопедия",
     "name": "ru.wikipedia.org",
-    "link": "https://ru.wikipedia.org/wiki/Электронный_регулятор_хода"
+    "link": "https://ru.wikipedia.org/wiki/Электронный_регулятор_хода",
+    "id": "7"
   },
   {
-    "text": "Пельпор, Д.С. Гироскопические системы. Гироскопические приборы и системы [Текст]: учеб. для вузов / Пельпор Д.С., Михалев И.А., Бауман В.А. – M.: Высшая школа, 1988. – 424 с."
+    "text": "Пельпор, Д.С. Гироскопические системы. Гироскопические приборы и системы [Текст]: учеб. для вузов / Пельпор Д.С., Михалев И.А., Бауман В.А. – M.: Высшая школа, 1988. – 424 с.",
+    "shortText": "Пельпор, Д.С. Гироскопические системы. Гироскопические приборы и системы",
+    "id": "8"
   },
   {
     "text": "MPU-6000 and MPU-6050 Product Specification [Электронный ресурс]. – Режим доступа:",
+    "shortText": "MPU-6000 and MPU-6050 Product Specification",
     "name": "store.invensense.com/datasheets",
-    "link": "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf"
+    "link": "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf",
+    "id": "9"
   },
   {
     "text": "BMP180 Digital pressure sensor [Электронный ресурс]. – Режим доступа:",
+    "shortText": "BMP180 Digital pressure sensor",
     "name": "cdn-shop.adafruit.com/datasheets",
-    "link": "https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf"
+    "link": "https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf",
+    "id": "10"
+  },
+  {
+    "text": "Официальный сайт компании Aeryon",
+    "shortText": "Официальный сайт компании Aeryon",
+    "name": "www.aeryon.com",
+    "link": "https://www.aeryon.com/aeryon-skyranger",
+    "id": "11"
+  },
+  {
+    "text": "Официальный сайт компании Microdrones",
+    "shortText": "Официальный сайт компании Microdrones",
+    "name": "www.microdrones.com/",
+    "link": "https://www.microdrones.com/en/mdaircraft/md4-3000/",
+    "id": "12"
   },
   {
     "text": "The Crius All In One Pro Flight Controller (AIOP) [Электронный ресурс]. – Режим доступа:",
+    "shortText": "The Crius All In One Pro Flight Controller (AIOP)",
     "name": "rctimer.com",
-    "link": "http://rctimer.com/download/Crius_AIOP_Manual"
+    "link": "http://rctimer.com/download/Crius_AIOP_Manual",
+    "id": "13"
   },
   {
     "text": "ATMega2560-16AU Datasheet [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Atmel ATMega2560-16AU Datasheet",
     "name": "www.atmel.com",
-    "link": "http://www.atmel.com/images/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf"
+    "link": "http://www.atmel.com/images/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf",
+    "id": "14"
   },
   {
     "text": "ATMega32U2 Datasheet [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Atmel ATMega32U2 Datasheet",
     "name": "www.atmel.com",
-    "link": "http://www.atmel.com/images/doc7799.pdf"
+    "link": "http://www.atmel.com/images/doc7799.pdf",
+    "id": "15"
   },
   {
     "text": "APM 2.5 and 2.6 Overview [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Ardupilot APM 2.5 and 2.6 Overview",
     "name": "ardupilot.org",
-    "link": "http://ardupilot.org/copter/docs/common-apm25-and-26-overview.html"
+    "link": "http://ardupilot.org/copter/docs/common-apm25-and-26-overview.html",
+    "id": "16"
   },
   {
     "text": "ATMega328P Datasheet [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Atmel ATMega328P Datasheet",
     "name": "www.atmel.com",
-    "link": "http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_complete.pdf"
+    "link": "http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_complete.pdf",
+    "id": "17"
   },
   {
     "text": "Описание полетного контроллера Multiwii [Электронный ресурс]. – Режим доступа:",
+    "shortText": "Описание полетного контроллера Multiwii",
     "name": "multicopterwiki.ru",
-    "link": "http://multicopterwiki.ru/index.php/MultiWii"
+    "link": "http://multicopterwiki.ru/index.php/MultiWii",
+    "id": "18"
   },
   {
-    "text": "Баранов, В.Н. Применение микроконтроллеров AVR: схемы, алгоритмы, программы [Текст] / Баранов В.Н. – М.: Додэка-XXI, 2004.– 288с."
+    "text": "Баранов, В.Н. Применение микроконтроллеров AVR: схемы, алгоритмы, программы [Текст] / Баранов В.Н. – М.: Додэка-XXI, 2004.– 288с.",
+    "shortText": "Баранов, В.Н. Применение микроконтроллеров AVR: схемы, алгоритмы, программы",
+    "id": "19"
   },
   {
-    "text": "Белов, А.В. Микроконтроллеры AVR в радиолюбительской практике [Текст] / Белов Ю.А. – СПб.: Наука и Техника, 2007. – 352 с.: ил."
+    "text": "Белов, А.В. Микроконтроллеры AVR в радиолюбительской практике [Текст] / Белов Ю.А. – СПб.: Наука и Техника, 2007. – 352 с.: ил.",
+    "shortText": "Белов, А.В. Микроконтроллеры AVR в радиолюбительской практике",
+    "id": "20"
   },
   {
-    "text": "Евстифеев, А.В. Микроконтроллеры AVR семейства Mega. Руководство пользователя [Текст] / Евстифеев А.В.  – М.: Додэка-XXI, 2007. – 592 с."
+    "text": "Евстифеев, А.В. Микроконтроллеры AVR семейства Mega. Руководство пользователя [Текст] / Евстифеев А.В.  – М.: Додэка-XXI, 2007. – 592 с.",
+    "shortText": "Евстифеев, А.В. Микроконтроллеры AVR семейства Mega. Руководство пользователя",
+    "id": "21"
   },
   {
-    "text": "Хартов, В.Я. Микроконтроллеры AVR. Практикум для начинающих [Текст] / Хартов В.Я. – М.: МГТУ им. Н. Э. Баумана, 2012. – 280 с."
+    "text": "Хартов, В.Я. Микроконтроллеры AVR. Практикум для начинающих [Текст] / Хартов В.Я. – М.: МГТУ им. Н. Э. Баумана, 2012. – 280 с.",
+    "shortText": "Хартов, В.Я. Микроконтроллеры AVR. Практикум для начинающих",
+    "id": "22"
   },
   {
-    "text": "Евстифеев, А.В. Микроконтроллеры AVR семейств Tiny и Mega фирмы Atmel [Текст] / Евстифеев А.В. – М.: Додэка-XXI, 2005. – 560 с."
+    "text": "Евстифеев, А.В. Микроконтроллеры AVR семейств Tiny и Mega фирмы Atmel [Текст] / Евстифеев А.В. – М.: Додэка-XXI, 2005. – 560 с.",
+    "shortText": "Евстифеев, А.В. Микроконтроллеры AVR семейств Tiny и Mega фирмы Atmel",
+    "id": "23"
   },
   {
-    "text": "Шпак, Ю.А. Программирование на языке С для AVR и PIC микроконтроллеров [Текст] / Шпак Ю.А. – СПб.: Корона-Век, 2011. – 544 с."
+    "text": "Шпак, Ю.А. Программирование на языке С для AVR и PIC микроконтроллеров [Текст] / Шпак Ю.А. – СПб.: Корона-Век, 2011. – 544 с.",
+    "shortText": "Шпак, Ю.А. Программирование на языке С для AVR и PIC микроконтроллеров",
+    "id": "24"
   },
   {
-    "text": "Белов, А.В. Микроконтроллеры AVR. От азов программирования до создания практических устройств [Текст] / Белов А.В. – СПб.: Наука и Техника, 2016. – 544 с."
+    "text": "Белов, А.В. Микроконтроллеры AVR. От азов программирования до создания практических устройств [Текст] / Белов А.В. – СПб.: Наука и Техника, 2016. – 544 с.",
+    "shortText": "Белов, А.В. Микроконтроллеры AVR. От азов программирования до создания практических устройств",
+    "id": "25"
   }
 ]

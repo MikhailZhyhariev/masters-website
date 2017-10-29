@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './Abstract.css';
 import AbstractTable from './AbstractTable.js';
+import AbstractLink from './AbstractLink.js';
 
 import image1 from '../../img/abstract/1.png';
 import image2 from '../../img/abstract/2.png';
@@ -17,12 +18,12 @@ import formula2 from '../../img/abstract/11.svg';
 import formula3 from '../../img/abstract/12.svg';
 import formula4 from '../../img/abstract/13.svg';
 
-
 class AbstractText extends Component {
+
   render() {
     const { items } = this.props;
     const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
-    const formulas = [formula1, formula2, formula3, formula4]
+    const formulas = [formula1, formula2, formula3, formula4];
 
     return (
       <article className="abstract__text">
@@ -36,7 +37,8 @@ class AbstractText extends Component {
                   { item.formula ? <img src={formulas[item.number]} alt="formula" className="formula" /> : null }
                   <p className={item.image ? 'image-description': ''}>
                     {item.paragraph}
-                    {item.link ? <span>[{item.link}].</span> : null}
+                    {item.link ?
+                      <AbstractLink item={item.link} /> : null}
                   </p>
                   { item.table ? <AbstractTable content={item.table} /> : null }
                  </div>

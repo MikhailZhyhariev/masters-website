@@ -124,6 +124,8 @@
 
 .resume__table-row .about img {
   width: 40px;
+  background-color: white;
+  border-radius: 100%;
 }
 
 .resume__table-row .about img:hover {

@@ -16,14 +16,11 @@ class Button extends Component {
         } else {
           clearInterval(timerUp)
           classChange('button-down');
-
-          // const arrow = document.getElementById('button');
-          // arrow.style.transform = 'rotate({%s}deg)' % 90;
         }
       }, 5)
     } else {
       const step = coord / 100;
-      
+
       let timerDown = setInterval( () => {
         if (window.pageYOffset < coord) {
           window.scrollBy(0, step)
