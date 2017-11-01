@@ -37,8 +37,11 @@ class AbstractText extends Component {
                   { item.formula ? <img src={formulas[item.number]} alt="formula" className="formula" /> : null }
                   <p className={item.image ? 'image-description': ''}>
                     {item.paragraph}
-                    {item.link ?
-                      <AbstractLink item={item.link} /> : null}
+                    {item.link ? <AbstractLink item={item.link} /> : null}
+                    {item.productLink ? <a href={item.productLink.link}
+                                           target="_blank">
+                                           {item.productLink.name}
+                                         </a> : null }
                   </p>
                   { item.table ? <AbstractTable content={item.table} /> : null }
                  </div>

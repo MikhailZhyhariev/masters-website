@@ -1,11 +1,28 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './HeaderMain.css';
 
-import photo from '../../../img/photo.jpg';
+import photo from '../../../img/photo180x240.JPG';
 import content from './HeaderMain.json';
 
+import BigPhoto from '../../BigPhoto/BigPhoto.js';
+
 class HeaderMain extends Component {
+  openBigPhoto() {
+    const width = document.documentElement.clientWidth;
+    if (width > 400) {
+      ReactDOM.render(
+        <BigPhoto />,
+        document.getElementById('big-photo')
+      )
+
+      const page = document.getElementById('root');
+      page.style.filter = 'blur(5px)';
+    }
+  }
+
   render() {
+    const { openBigPhoto } = this;
     const { language } = this.props;
     let lang;
     if (language === 'ru') lang = content.ru;
@@ -17,7 +34,9 @@ class HeaderMain extends Component {
         <div className="container">
           <img src={photo}
                className="header_main__photo"
-               alt={photo}
+               alt="Zhyhariev Mikhail"
+               ref="photo"
+               onClick={openBigPhoto.bind(this)}
           />
           <div className="header-main__info">
             <h1 className="header-main__info-name">{lang.name}</h1>

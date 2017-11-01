@@ -6,8 +6,6 @@
 
 .abstract__title,
 .abstract__theme-title {
-  margin: 0;
-  padding: 0;
   margin-bottom: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -21,16 +19,10 @@
 
 .abstract__content {
   margin-top: 20px;
-  padding: 0;
 }
 
 .abstract__text {
   margin-top: 30px;
-}
-
-.abstract__text-part {
-  margin: 0;
-  padding: 0;
 }
 
 .abstract__content-title,
@@ -54,8 +46,6 @@
 }
 
 .abstract__content-menu {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 
@@ -109,6 +99,15 @@
   font-size: 100%;
   color: red;
   cursor: pointer;
+}
+
+.abstract__text-part p a {
+  text-decoration: none;
+  color: #f22;
+}
+
+.abstract__text-part p a:hover {
+  text-decoration: underline;
 }
 
 .abstract__text-part img {

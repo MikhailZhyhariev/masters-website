@@ -22,8 +22,9 @@
 .flash-message .item-part {
   height: 30px;
   box-sizing: border-box;
-  position: relative;
   border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
 }
 
 .flash-message .item-part:last-child {
@@ -37,6 +38,25 @@
   font-size: 14px;
   color: black;
   padding: 5px;
+}
+
+.flash-message .item-part .item-help {
+  width: 275px;
+  height: 25px;
+  padding: 2px;
+  padding-left: 5px;
+  font-size: 12px;
+  font-style: italic;
+  box-sizing: border-box;
+  content: attr(data-title);
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background-color: white;
+  border: 1px solid black;
+  display: none;
+  color: black;
+  border-radius: 3px;
 }
 
 .flash-message .item-part .item-noempty {
@@ -62,10 +82,6 @@
   background-repeat: no-repeat;
   transform: rotate(270deg);
   box-sizing: border-box;
-  align-self: center;
-  position: absolute;
-  top: 0;
-  right: 0;
   font-size: 0;
 }
 
@@ -73,4 +89,17 @@
   box-shadow: 0 0 10px #f22;
   background-image: url("../../img/down-arrow-red.svg");
   color: black;
+}
+
+.flash-message .empty-block {
+  width: inherit;
+  height: 25px;
+  opacity: 0;
+}
+
+.flash-message .top {
+  position: absolute;
+  left: 0;
+  top: -15px;
+  height: 15px
 }

@@ -63,7 +63,11 @@
               "paragraph": "Цель работы – разработка виртуальной модели аппаратной части и программного обеспечения исследуемой модели полетного контроллера квадрокоптера."
             },
             {
-              "paragraph": "Метод исследования – имитационное моделирование проектируемой системы в программной среде Proteus."
+              "paragraph": "Метод исследования – имитационное моделирование проектируемой системы в программной среде ",
+              "productLink": {
+                "link": "https://www.labcenter.com/",
+                "name": "Proteus."
+              }
             },
             {
               "paragraph": "В результате исследования планируется провести имитационное моделирование полетного контроллера, стоимость которого меньше аналогичных систем. Квадрокоптер, оборудованный видеокамерой, оснащенный разработанным полетным контроллером, планируется использовать как средство для мониторинга территории промышленных предприятий."
@@ -547,7 +551,11 @@
                "paragraph": "Разработать аппаратную и программную реализации полетного контроллера. Спроектированный полетный контроллер будет осуществляет экспоненциальную фильтрацию углов отклонения и стабилизацию квадрокоптера во время полета, путем изменения частоты вращения бесколлекторных двигателей."
              },
              {
-               "paragraph": "Для отладки программного обеспечения и исследования влияния изменения углов отклонения на управляющие ШИМ-сигналы будет создана виртуальная модель, в программной среде Proteus."
+               "paragraph": "Для отладки программного обеспечения и исследования влияния изменения углов отклонения на управляющие ШИМ-сигналы будет создана виртуальная модель, в программной среде ",
+               "productLink": {
+                 "link": "https://www.labcenter.com/",
+                 "name": "Proteus."
+               }
              },
              {
                "paragraph": "С помощью виртуальной модели будет проведена оптимизация программного обеспечения, а также изучена работа устройства в предельных режимах."
@@ -1101,7 +1109,11 @@
              "paragraph": "Розробити апаратну і програмну реалізації польотного контролера. Спроектований польотний контролер буде здійснює експонентну фільтрацію кутів відхилення і стабілізацію квадрокоптера під час польоту, шляхом зміни частоти обертання безколекторних двигунів."
            },
            {
-             "paragraph": "Для налагодження програмного забезпечення та дослідження впливу зміни кутів відхилення на керуючі ШІМ-сигнали буде створена віртуальна модель, в програмному середовищі Proteus."
+             "paragraph": "Для налагодження програмного забезпечення та дослідження впливу зміни кутів відхилення на керуючі ШІМ-сигнали буде створена віртуальна модель, в програмному середовищі ",
+             "productLink": {
+               "link": "https://www.labcenter.com/",
+               "name": "Proteus."
+             }
            },
            {
              "paragraph": "За допомогою віртуальної моделі буде проведена оптимізація програмного забезпечення, а також вивчена робота пристрою в граничних режимах."
@@ -1171,7 +1183,11 @@
             "paragraph": "The purpose of the work is the development of a virtual model of the hardware and software of the model of the flight controller of a quadrocopter under study."
           },
           {
-            "paragraph": "The method of investigation is the simulation simulation of the projected system in the Proteus software environment."
+            "paragraph": "The method of investigation is the simulation simulation of the projected system in the ",
+            "productLink": {
+              "link": "https://www.labcenter.com/",
+              "name": "Proteus software environment."
+            }
           },
           {
             "paragraph": "As a result of the study, it is planned to simulate a flight controller, the cost of which is less than similar systems. Quadrocopter, equipped with a video camera, equipped with a developed flight controller, is planned to be used as a means for monitoring the territory of industrial enterprises."
@@ -1659,7 +1675,11 @@
              "paragraph": "Develop a hardware and software implementation of the flight controller. The designed flight controller will perform an exponential filtration of the deflection angles and the stabilization of the quadrocopter during the flight, by changing the speed of the brushless motors."
            },
            {
-             "paragraph": "To debug the software and study the effect of changing the deviation angles on the PWM control signals, a virtual model will be created in the Proteus software environment."
+             "paragraph": "To debug the software and study the effect of changing the deviation angles on the PWM control signals, a virtual model will be created in the ",
+             "productLink": {
+               "link": "https://www.labcenter.com/",
+               "name": "Proteus software environment."
+             }
            },
            {
              "paragraph": "With the help of a virtual model, software optimization will be carried out, as well as the operation of the device in the limiting modes."

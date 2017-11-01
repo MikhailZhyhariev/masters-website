@@ -16,6 +16,7 @@ import Abstract from '../../components/Abstract/Abstract.js';
 import Library from '../../components/Library/Library.js';
 import Links from '../../components/Links/Links.js';
 import Search from '../../components/Search/Search.js';
+import IndividualSection from '../../components/IndividualSection/IndividualSection.js';
 import Button from '../../components/Button/Button.js';
 
 class App extends Component {
@@ -81,7 +82,9 @@ class App extends Component {
       <Links padding={menu.height}
              className={menu.className} />,
       <Search padding={menu.height}
-              className={menu.className} />
+              className={menu.className} />,
+      <IndividualSection padding={menu.height}
+                         className={menu.className} />
     ];
 
     return (

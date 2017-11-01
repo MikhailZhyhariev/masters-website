@@ -35,13 +35,13 @@ class Abstract extends Component {
         <div className="container">
           <h1 className="abstract__title">{headers.sectionHeader}</h1>
           <h1 className="abstract__theme-title">{headers.themeHeader}</h1>
-          <div className="abstract__content">
+          <nav className="abstract__content">
             <h2 className="abstract__content-title">{headers.text}</h2>
             <AbstractMenu items={lang}
                           menuHeight={padding}
                           onButtonClass={updateButtonClass}
                           onButtonTop={updateButtonTop} />
-          </div>
+          </nav>
           <AbstractText items={lang} />
           <AbstractBibliography content={bibliography} />
         </div>
