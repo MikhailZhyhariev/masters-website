@@ -7,18 +7,14 @@ import content from './Library.json';
 import DocumentPreview from '../DocumentPreview/DocumentPreview.js';
 import '../DocumentPreview/DocumentPreview.css';
 
-import article1 from '../../articles/1.pdf';
-import article2 from '../../articles/2.pdf';
-import article3 from '../../articles/3.pdf';
-import article4 from '../../articles/4.pdf';
-
-
 class Library extends Component {
   linkOpen(item) {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     ReactDOM.render(
-      <DocumentPreview top={scrollTop} />,
+      <DocumentPreview
+        top={scrollTop}
+        article={0} />,
       document.getElementById('document')
     )
 
@@ -27,10 +23,8 @@ class Library extends Component {
     page.style.left = 0;
     page.style.top = -scrollTop + 'px';
     page.style.filter = 'blur(5px)';
-  }
 
-  componentDidMount() {
-    window.addEventListener('add', this.linkOpen())
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -39,8 +33,6 @@ class Library extends Component {
     const style = {
       paddingTop: paddingFixed,
     }
-
-    const articles = [article1, article2, article3, article4];
 
     return (
       <div className="library" style={className === 'fixed' ? style : null}>
@@ -53,7 +45,7 @@ class Library extends Component {
                 <ul>
                   { item.fill.map( (article, key) =>
                     <li key={key}>
-                      <div onClick={this.linkOpen.bind(this, articles[article.link])}
+                      <div onClick={this.linkOpen.bind(this)}
                            target="_blank"
                            ref="noferrer"
                            className="library__article-title">

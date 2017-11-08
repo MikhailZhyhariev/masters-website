@@ -104,3 +104,14 @@
     padding-bottom: 4px;
   }
 }
+
+@media (max-width: 450px) {
+  .header_main__photo:hover {
+    box-shadow: none;
+
+  }
+
+  .header_main__photo:active {
+    box-shadow: none;
+  }
+}

@@ -10,7 +10,7 @@ import BigPhoto from '../../BigPhoto/BigPhoto.js';
 class HeaderMain extends Component {
   openBigPhoto() {
     const width = document.documentElement.clientWidth;
-    if (width > 400) {
+    if (width > 450) {
       ReactDOM.render(
         <BigPhoto />,
         document.getElementById('big-photo')

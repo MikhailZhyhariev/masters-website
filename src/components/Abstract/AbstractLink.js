@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 
 import './Abstract.css';
@@ -31,13 +32,13 @@ class AbstractLink extends Component {
     const coord = e.target.getBoundingClientRect();
     this.setState({
       display: 'block',
-      coord: coord
+      coord: coord,
     })
   }
 
   handleHideMessage() {
     this.setState({
-      display: 'none'
+      display: 'none',
     })
   }
 
@@ -49,6 +50,7 @@ class AbstractLink extends Component {
     return (
       <span onMouseEnter={handleShowMessage}
             onMouseLeave={handleHideMessage}
+            onWheel={handleHideMessage}
             ref="link" >
             [{item}].
             <FlashMessage coord={coord}
