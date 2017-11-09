@@ -95,10 +95,6 @@
   padding-right: 25px;
 }
 
-.list .text {
-  border: 1px solid red;
-}
-
 .image-container {
   text-align: center;
 }
@@ -153,4 +149,8 @@
 
 .list-of-sources span {
   padding-right: 24px;
+}
+
+.normal {
+  font-weight: normal;
 }

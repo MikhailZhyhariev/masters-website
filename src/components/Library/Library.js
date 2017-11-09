@@ -14,7 +14,7 @@ class Library extends Component {
     ReactDOM.render(
       <DocumentPreview
         top={scrollTop}
-        article={0} />,
+        number={item} />,
       document.getElementById('document')
     )
 
@@ -45,7 +45,7 @@ class Library extends Component {
                 <ul>
                   { item.fill.map( (article, key) =>
                     <li key={key}>
-                      <div onClick={this.linkOpen.bind(this)}
+                      <div onClick={this.linkOpen.bind(this, article.link)}
                            target="_blank"
                            ref="noferrer"
                            className="library__article-title">

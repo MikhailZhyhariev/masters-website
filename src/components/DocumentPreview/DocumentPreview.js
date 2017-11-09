@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './DocumentPreview.css';
 
 import Article1 from '../Articles/Article1.js';
+import Article2 from '../Articles/Article2.js';
+import Article3 from '../Articles/Article3.js';
 
 class DocumentPreview extends Component {
   constructor(props) {
@@ -90,6 +92,7 @@ class DocumentPreview extends Component {
   render() {
     const { closeDocument, clickScale, scaleList } = this;
     const { scale, popup } = this.state;
+    const { number } = this.props;
 
     const original_width = 1190;
     const original_height = 1685;
@@ -102,6 +105,12 @@ class DocumentPreview extends Component {
       display: popup
     }
 
+    const articles = [
+      <Article1 width={original_width} height={original_height} scale={scale} />,
+      <Article2 width={original_width} height={original_height} scale={scale} />,
+      <Article3 width={original_width} height={original_height} scale={scale} />
+    ]
+
     return (
       <div className="document-preview">
         <div className="buttons" style={buttonStyle} >
@@ -112,7 +121,7 @@ class DocumentPreview extends Component {
             <div className={scale === 0.5 ? "triangle triangle-red" : "triangle"} />
           </div>
         </div>
-        <Article1 width={original_width} height={original_height} scale={scale} />
+        {articles[number]}
       </div>
     );
   }
