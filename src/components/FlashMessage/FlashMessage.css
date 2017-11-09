@@ -35,7 +35,6 @@
   margin: 0;
   height: inherit;
   box-sizing: border-box;
-  font-size: 14px;
   color: black;
   padding: 5px;
 }
@@ -102,4 +101,23 @@
   left: 0;
   top: -15px;
   height: 15px
+}
+
+@media (max-width: 768px) {
+  .flash-message .item-part {
+    height: 17px;
+  }
+
+  .flash-message .item-part .item {
+    padding: 3px;
+  }
+
+  .flash-message .item-part .link {
+    width: 17px;
+    height: 17px;
+  }
+
+  .flash-message .item-part .item-noempty {
+    width: calc(100% - 17px);
+  }
 }

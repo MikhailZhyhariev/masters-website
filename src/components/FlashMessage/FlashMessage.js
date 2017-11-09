@@ -10,6 +10,10 @@ class FlashMessage extends Component {
     this.handleItem = this.handleItem.bind(this);
     this.handleMouseEnter = this.handleMouseEnter.bind(this);
     this.handleMouseLeave = this.handleMouseLeave.bind(this);
+
+    this.state = {
+      screenWidth: document.documentElement.clientWidth
+    }
   }
 
   handleClick(item) {
@@ -79,8 +83,13 @@ class FlashMessage extends Component {
   handleItem(item, key) {
     const { handleClick, handleMouseEnter, handleMouseLeave } = this;
     const { bibliography } = this.props;
+    const { screenWidth } = this.state;
     const content = bibliography[item - 1];
     const text = content.shortText;
+
+    const style = {
+      fontSize: screenWidth < 768 ? 8 : 14
+    }
 
     if (!content.link) {
       return <div className="item-part" key={key}>
@@ -88,7 +97,8 @@ class FlashMessage extends Component {
         <p className="item item-empty"
            onClick={handleClick.bind(this, content)}
            onMouseEnter={handleMouseEnter}
-           onMouseLeave={handleMouseLeave}>
+           onMouseLeave={handleMouseLeave}
+           style={style}>
           <span>{item}.</span>
           {text}
         </p>
@@ -99,7 +109,8 @@ class FlashMessage extends Component {
         <p className="item item-noempty"
            onClick={handleClick.bind(this, content)}
            onMouseEnter={handleMouseEnter}
-           onMouseLeave={handleMouseLeave}>
+           onMouseLeave={handleMouseLeave}
+           style={style}>
           <span>{item}.</span>
           {text}
         </p>
@@ -136,10 +147,13 @@ class FlashMessage extends Component {
     let topTriangle;
     let transform = null;
 
+    const { screenWidth } = this.state;
+    const font = screenWidth < 768 ? 8 : 14;
+
     let leftMessage, topMessage;
-    let heightMessage = 30 * items.length;
-    let widthMessage = 8.3 * symbolCount + 10;
-    if (symbolCount < 40) widthMessage = 10 * symbolCount + 10;
+    let heightMessage = font === 14 ? 30 * items.length : 17 * items.length;
+    let widthMessage = font === 14 ? 8.3 * symbolCount + 10 : 5 * symbolCount;
+    if (symbolCount < 40 && font === 14) widthMessage = 10 * symbolCount + 10;
 
     if (coord.top > (heightMessage + menu.height + 10)) {
       topTriangle = coord.top - 11; // triangle height + 1px
@@ -150,7 +164,6 @@ class FlashMessage extends Component {
       transform = 'rotate(225deg)';
     }
 
-    const screenWidth = document.documentElement.clientWidth
     if ((coord.left < widthMessage) && (screenWidth - coord.right > widthMessage)) {
       leftMessage = leftTriangle * 0.8;
     } else if ((coord.left < widthMessage) && (screenWidth - coord.right < widthMessage)) {
