@@ -152,7 +152,7 @@ class FlashMessage extends Component {
 
     let leftMessage, topMessage;
     let heightMessage = font === 14 ? 30 * items.length : 17 * items.length;
-    let widthMessage = font === 14 ? 8.3 * symbolCount + 10 : 5 * symbolCount;
+    let widthMessage = font === 14 ? 8.3 * symbolCount + 10 : 6 * symbolCount;
     if (symbolCount < 40 && font === 14) widthMessage = 10 * symbolCount + 10;
 
     if (coord.top > (heightMessage + menu.height + 10)) {

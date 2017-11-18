@@ -120,4 +120,11 @@
   .flash-message .item-part .item-noempty {
     width: calc(100% - 17px);
   }
+
+  .flash-message .item-part .item-help {
+    width: 275px;
+    height: 15px;
+    font-size: 8px;
+    top: -20px;
+  }
 }

@@ -121,7 +121,7 @@ class Article3 extends Component {
             </li>
             <li>
               <span>4.</span>
-              Основы сглаживания и фильтрация данных: экспоненциальное среднее / Ефимов И.В. [Электронный ресурс]. – Режим доступа: <a href="http://copterpilot.ru/articles/author/limon/" target="_blank">http://copterpilot.ru/articles/author/limon/</a>.
+              Основы сглаживания и фильтрация данных: экспоненциальное среднее / Ефимов И.В. [Электронный ресурс]. – Режим доступа: <a href="http://copterpilot.ru/articles/author/limon/" className="link" target="_blank" rel="noopener noreferrer">http://copterpilot.ru/articles/author/limon/</a>.
             </li>
           </ul>
         </div>

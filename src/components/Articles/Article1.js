@@ -75,11 +75,11 @@ class Article1 extends Component {
           <ul className="list-of-sources">
             <li>
               <span>1.</span>
-              AVR444: Управление трехфазным бесколлекторным электродвигателем постоянного тока без датчиков [Электронный ресурс] – Режим доступа: <a target="_blank" href="http://www.atmel.com/images/doc8012.pdf">http://www.atmel.com/images/doc8012.pdf</a>
+              AVR444: Управление трехфазным бесколлекторным электродвигателем постоянного тока без датчиков [Электронный ресурс] – Режим доступа: <a className="link" target="_blank" href="http://www.atmel.com/images/doc8012.pdf" rel="noopener noreferrer">http://www.atmel.com/images/doc8012.pdf</a>
             </li>
             <li>
               <span>2.</span>
-              Вентильный двигатель [Электронный ресурс] / Википедия — свободная энциклопедия: Вентильный двигатель. – Режим доступа: <a target="_blank" href="https://ru.wikipedia.org/wiki/Вентильный_двигатель">https://ru.wikipedia.org/wiki/Вентильный_двигатель</a>
+              Вентильный двигатель [Электронный ресурс] / Википедия — свободная энциклопедия: Вентильный двигатель. – Режим доступа: <a target="_blank" className="link" href="https://ru.wikipedia.org/wiki/Вентильный_двигатель" rel="noopener noreferrer">https://ru.wikipedia.org/wiki/Вентильный_двигатель</a>
             </li>
             <li>
               <span>3.</span>
@@ -87,7 +87,7 @@ class Article1 extends Component {
             </li>
             <li>
               <span>4.</span>
-              AVR492: Управление бесколлекторным электродвигателем постоянного тока с помощью AT90PWM3 [Электронный ресурс] – Режим доступа: <a target="_blank" href="http://www.gaw.ru/pdf/Atmel/app/avr/AVR492.pdf">http://www.gaw.ru/pdf/Atmel/app/avr/AVR492.pdf</a>
+              AVR492: Управление бесколлекторным электродвигателем постоянного тока с помощью AT90PWM3 [Электронный ресурс] – Режим доступа: <a target="_blank" className="link" href="http://www.gaw.ru/pdf/Atmel/app/avr/AVR492.pdf" rel="noopener noreferrer">http://www.gaw.ru/pdf/Atmel/app/avr/AVR492.pdf</a>
             </li>
           </ul>
         </div>

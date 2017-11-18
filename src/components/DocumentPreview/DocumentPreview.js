@@ -5,6 +5,7 @@ import './DocumentPreview.css';
 import Article1 from '../Articles/Article1.js';
 import Article2 from '../Articles/Article2.js';
 import Article3 from '../Articles/Article3.js';
+import Article4 from '../Articles/Article4.js';
 
 class DocumentPreview extends Component {
   constructor(props) {
@@ -108,7 +109,8 @@ class DocumentPreview extends Component {
     const articles = [
       <Article1 width={original_width} height={original_height} scale={scale} />,
       <Article2 width={original_width} height={original_height} scale={scale} />,
-      <Article3 width={original_width} height={original_height} scale={scale} />
+      <Article3 width={original_width} height={original_height} scale={scale} />,
+      <Article4 width={original_width} height={original_height} scale={scale} />
     ]
 
     return (

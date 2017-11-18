@@ -9,22 +9,30 @@ import '../DocumentPreview/DocumentPreview.css';
 
 class Library extends Component {
   linkOpen(item) {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (!isNaN(item)) {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    ReactDOM.render(
-      <DocumentPreview
-        top={scrollTop}
-        number={item} />,
-      document.getElementById('document')
-    )
+      ReactDOM.render(
+        <DocumentPreview
+          top={scrollTop}
+          number={item} />,
+        document.getElementById('document')
+      )
 
-    const page = document.getElementById('root');
-    page.style.position = 'fixed';
-    page.style.left = 0;
-    page.style.top = -scrollTop + 'px';
-    page.style.filter = 'blur(5px)';
+      const page = document.getElementById('root');
+      page.style.position = 'fixed';
+      page.style.left = 0;
+      page.style.top = -scrollTop + 'px';
+      page.style.filter = 'blur(5px)';
 
-    window.scrollTo(0, 0);
+      window.scrollTo(0, 0);
+    } else {
+      window.open(item, '_blank');
+    }
+  }
+
+  componentDidMount() {
+    this.linkOpen(3);
   }
 
   render() {

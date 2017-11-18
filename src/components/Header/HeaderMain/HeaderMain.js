@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './HeaderMain.css';
 
-import photo from '../../../img/photo180x240.JPG';
+import photo from '../../../img/photo180x240.jpg';
 import content from './HeaderMain.json';
 
 import BigPhoto from '../../BigPhoto/BigPhoto.js';
