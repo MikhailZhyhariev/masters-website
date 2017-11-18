@@ -58,10 +58,7 @@ class Library extends Component {
                         <p className="library__article-source">
                           <strong>Источник:</strong>
                           {article.source}
-                        </p>
-                        <p className="library__article-source">
-                          <strong>Ссылка на источник:</strong>
-                          <span>{article.shortlink}</span>
+                          <a target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} href={article.shortlink}>{article.shortlink}</a>
                         </p>
                       </div>
                     </li>
