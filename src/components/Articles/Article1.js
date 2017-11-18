@@ -3,10 +3,10 @@ import './Articles.css'
 
 import { InlineMath } from 'react-katex';
 
-import image1 from '../../img/article/article2/article1.png';
-import image2 from '../../img/article/article2/article2.png';
-import image3 from '../../img/article/article2/article3.png';
-import image4 from '../../img/article/article2/article4.png';
+import image1 from '../../img/article/article2/article1.jpg';
+import image2 from '../../img/article/article2/article2.jpg';
+import image3 from '../../img/article/article2/article3.jpg';
+import image4 from '../../img/article/article2/article4.jpg';
 
 class Article1 extends Component {
   render() {

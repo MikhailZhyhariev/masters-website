@@ -3,7 +3,7 @@ import './Articles.css'
 
 import { InlineMath } from 'react-katex';
 
-import image1 from '../../img/article/article1/article1.png';
+import image1 from '../../img/article/article1/article1.jpg';
 
 class Article1 extends Component {
   render() {

@@ -8,7 +8,7 @@ import DocumentPreview from '../DocumentPreview/DocumentPreview.js';
 import '../DocumentPreview/DocumentPreview.css';
 
 class Library extends Component {
-  linkOpen(item) {
+  linkOpen(item, e) {
     if (!isNaN(item)) {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
@@ -31,10 +31,6 @@ class Library extends Component {
     }
   }
 
-  componentDidMount() {
-    this.linkOpen(3);
-  }
-
   render() {
     const { padding, className } = this.props;
     const paddingFixed = padding + 20
@@ -54,20 +50,40 @@ class Library extends Component {
                   { item.fill.map( (article, key) =>
                     <li key={key}>
                       <div onClick={this.linkOpen.bind(this, article.link)}
-                           target="_blank"
-                           ref="noferrer"
                            className="library__article-title">
                         <span className="number">{article.number + '.'}</span>
                         <span className="text">{article.title}</span>
                         <p className="library__article-author"><strong>Авторы:</strong>{article.author}</p>
                         <p className="library__article-description"><strong>Описание:</strong>{article.description}</p>
-                        <p className="library__article-source"><strong>Источник:</strong>{article.source}</p>
+                        <p className="library__article-source">
+                          <strong>Источник:</strong>
+                          {article.source}
+                        </p>
                       </div>
                     </li>
                   )}
                 </ul>
               </div>
             )}
+            <div className="library__part">
+              <h2 className="library__part-title">Переводы статей</h2>
+              <ul>
+                <li>
+                  <div onClick={this.linkOpen.bind(this, 3)}
+                       className="library__article-title">
+                    <span className="number">11.</span>
+                    <span className="text">Техническая спецификация цифрового датчика давления BPM180</span>
+                    <p className="library__article-author"><strong>Авторы:</strong>Bosch Sensortec</p>
+                    <p className="library__article-description"><strong>Перевод:</strong>Жигарев М.Ю.</p>
+                    <p className="library__article-description"><strong>Описание:</strong>Данный документ содержит информацию о принципе действия и практического использования цифрового датчика давления BPM180.</p>
+                    <p className="library__article-source">
+                      <strong>Источник:</strong>
+                      <a href="https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf" target="_blank" style={{color: "red", textDecoration: 'none'}}>Источник оригинальной статьи</a>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
