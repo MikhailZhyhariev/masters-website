@@ -90,6 +90,12 @@
   font-weight: normal;
 }
 
+.library__article-source span {
+  color: red;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
 .library__article-author {
   margin-top: 20px;
 }
