@@ -82,7 +82,7 @@ class Library extends Component {
                     <p className="library__article-description"><strong>Описание:</strong>Данный документ содержит информацию о принципе действия и практического использования цифрового датчика давления BPM180.</p>
                     <p className="library__article-source">
                       <strong>Источник:</strong>
-                      <a href="https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf" target="_blank">Источник оригинальной статьи</a>
+                      <a rel="noopener noreferrer" href="https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf" target="_blank" onClick={(e) => e.stopPropagation()}>Источник оригинальной статьи</a>
                     </p>
                   </div>
                 </li>
