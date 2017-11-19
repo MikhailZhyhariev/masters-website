@@ -16,11 +16,11 @@ class Header extends Component {
     const { page } = this.props;
 
     return (
-      <table className="header">
-        <tr className="header-row">
-          <td className="header-cell header-cell-logo" />
-          <td className="header-cell main-cell">Техническая спецификация <br /> <strong>BPM180</strong></td>
-          <td className="header-cell right-cell">Страница {page}</td>
+      <table className="article-header">
+        <tr className="article-header-row">
+          <td className="article-header-cell article-header-cell-logo" />
+          <td className="article-header-cell main-cell">Техническая спецификация <br /> <strong>BPM180</strong></td>
+          <td className="article-header-cell right-cell">Страница {page}</td>
         </tr>
       </table>
     )
@@ -30,12 +30,12 @@ class Header extends Component {
 class Footer extends Component {
   render() {
     return (
-      <footer className="footer">
-        <div className="footer-top">
+      <footer className="article-footer">
+        <div className="article-footer-top">
           <div className="left">BST-BPM180-DS000-09 | Ревизия 2.5 | Апрель 2013</div>
           <div className="right">Bosch Sensortec</div>
         </div>
-        <div className="footer-bottom">
+        <div className="article-footer-bottom">
           <div className="copyright">&copy;</div>
           <div className="right">Bosch Sensortec GmbH зарезервировала все права, в том числе надлежащие права на производство. Мы оставляем за собой права на иземенения документа, такие как копирование и передача третьим лицам. BOSCH и символ являются зарегистрированными товарными знаками Robert Bosch GmbH, Германия.
           <br />
@@ -56,7 +56,10 @@ class Article1 extends Component {
       fontSize: 22 * scale,
       padding: 113 * scale,
       textIndent: 0,
-      fontFamily: 'Helvetica Neue'
+      fontFamily: 'Helvetica Neue',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: "space-between",
     }
 
     return (
@@ -76,7 +79,7 @@ class Article1 extends Component {
             <br />
             <p className="paragraph">BMP180 основан на пьезорезистивной технологии для устойчивости к электромагнитной совместимости, высокой точности и линейности, а также долговременной стабильности.</p>
             <br />
-            <p className="paragraph">Robert Bosch является лидером мирового рынка датчиков давления в автомобильных приложениях. Основываясь на опыте более 400 миллионов датчиков давления в полевых условиях, BMP180 продолжает новое поколение датчиков механической обработки.</p>
+            <p className="paragraph">Robert Bosch является лидером мирового рынка датчиков давления в автомобильных системах. Основываясь на опыте более 400 миллионов датчиков давления в полевых условиях, BMP180 продолжает новое поколение датчиков механической обработки.</p>
             <br />
           </main>
           <Footer />
@@ -102,7 +105,7 @@ class Article1 extends Component {
                   <td className="cell gray">Ед. Изм.</td>
                 </tr>
               </thead>
-              <tbody class="body">
+              <tbody className="body">
                 <tr>
                   <td className="cell lightgray" rowSpan="2">Рабочая температура</td>
                   <td className="cell lightgray" rowSpan="2"><InlineMath>T_A</InlineMath></td>
@@ -429,9 +432,9 @@ class Article1 extends Component {
             <br />
             <p className="paragraph">Для всех вычислений здесь доступен код ANSI Cи от Bosch Sensortec («BPM180_API»).</p>
             <br />
-            <p className="paragraph">Микроконтроллер отправляет начальную последовательность, чтобы начать измерение давления или температуры. После преобразования времени значение результата (UP или UT, соответственно) может быть прочитано через интерфейс I2C. Для расчета температуры в градусах Цельсия или гПа необходимо использовать данные калибровки. Эти константы могут быть считаны из EEPROM BPM180 через I2C интерфейс при инициализации программного обеспечения.</p>
+            <p className="paragraph">Микроконтроллер отправляет начальную последовательность, чтобы начать измерение давления или температуры. После преобразования времени, значение результата (UP или UT, соответственно) может быть прочитано через интерфейс I2C. Для расчета температуры в градусах Цельсия или гПа необходимо использовать данные калибровки. Эти константы могут быть считаны из EEPROM BPM180 через I2C интерфейс при инициализации программного обеспечения.</p>
             <br />
-            <p className="paragraph">Частота дискретизации может быть увеличена до 128 выборок в секунду (стандартный режим) для динамического измерения. В этом случае достаточно измерить температуру только один раз в секунду и это значение для всех измерений давления за тот же период.</p>
+            <p className="paragraph">Частота дискретизации может быть увеличена до 128 выборок в секунду (стандартный режим) для динамического измерения. В этом случае достаточно измерить температуру только один раз в секунду и это значение используется для всех измерений давления за тот же период.</p>
             <br />
             <div className="image-container"><img src={image2} alt="Порядок измерения BPM180" width={400 * scale} /></div>
           </main>
@@ -442,7 +445,7 @@ class Article1 extends Component {
           <main className="text">
             <p className="paragraph big-font bold">3.3.1 Режимы точности выборки аппаратного давления</p>
             <br />
-            <p className="paragraph">При использовании разных режимов можно выбрать оптимальный компромисс между потребляемой мощностью, скоростью и разрешением, см. таблицу ниже.</p>
+            <p className="paragraph">При использовании разных режимов можно найти компромисс между потребляемой мощностью, скоростью и разрешением, см. таблицу ниже.</p>
             <br />
             <p className="paragraph center">Таблица 3: Обзор режимов аппаратной точности BMP180, выбранных программным обеспечением драйвера через переменную oversampling_setting (настройка передискретизации).</p>
             <br />
@@ -450,7 +453,7 @@ class Article1 extends Component {
               <thead>
                 <tr>
                   <td className="cell gray">Режим</td>
-                  <td className="cell gray">Параметр <span>oversampling_setting</span></td>
+                  <td className="cell gray">Параметр <span className="small-font">oversampling_setting</span></td>
                   <td className="cell gray">Внутреннее число выборок</td>
                   <td className="cell gray">Макс. время конвертирования давления [мс]</td>
                   <td className="cell gray">Ср. ток @ 1 выборка/с [мА]</td>
@@ -497,9 +500,9 @@ class Article1 extends Component {
                 </tr>
               </tbody>
             </table>
-            <p className>Дополнительную информацию о характеристиках шума см. в соответствующей заметке по применению «Шум в приложениях датчика давления».</p>
+            <p className>Дополнительную информацию о характеристиках шума см. в соответствующей заметке по применению «Шум в системах датчика давления».</p>
             <br />
-            <p className>Все режимы могут выполняться на более высоких скоростях, например. до 128 раз в секунду для стандартного режима, при этом потребление тока увеличивается пропорционально частоте дискретизации.</p>
+            <p className>Все режимы могут выполняться на более высоких скоростях, например, до 128 раз в секунду для стандартного режима, при этом потребление тока увеличивается пропорционально частоте дискретизации.</p>
           </main>
           <Footer />
         </div>
@@ -508,7 +511,7 @@ class Article1 extends Component {
           <main className="text">
             <p className="paragraph big-font bold">3.3.2 Режимы точности выборки программного давления</p>
             <br />
-            <p className="paragraph">Для приложений, где низкий уровень шума является критическим, рекомендуется усреднение, если допустима более низкая пропускная способность. Передискретизацию можно включить с помощью драйвера API программного обеспечения (с OSR = 3).</p>
+            <p className="paragraph">Для систем, где низкий уровень шума является критическим, рекомендуется усреднение, если допустима более низкая пропускная способность. Передискретизацию можно включить с помощью драйвера API программного обеспечения (с OSR = 3).</p>
             <br />
             <p className="paragraph center">Таблица 4: Обзор режима точности программного обеспечения BMP180, выбранного программным обеспечением драйвера через переменную software_oversampling_setting</p>
             <br />
@@ -516,7 +519,7 @@ class Article1 extends Component {
               <thead>
                 <tr>
                   <td className="cell gray">Режим</td>
-                  <td className="cell gray">Параметр <span>oversampling_setting</span></td>
+                  <td className="cell gray">Параметр <span className="small-font">oversampling_setting</span></td>
                   <td className="cell gray">Внутреннее число выборок</td>
                   <td className="cell gray">Макс. время конвертирования давления [мс]</td>
                   <td className="cell gray">Ср. ток @ 1 выборка/с [мА]</td>
@@ -538,7 +541,7 @@ class Article1 extends Component {
             </table>
             <p className="paragraph big-font bold">3.4. Калибровочные коэффициенты</p>
             <br />
-            <p className="paragraph">176-битный EEPROM разделен на 11 слов по 16 бит каждый. Они содержат 11 калибровочных коэффициентов. Каждый сенсорный модуль имеет индивидуальные коэффициенты. Перед первым вычислением температуры и давления мастер считывает данные E2PROM. Обмен данными можно проверить, установив, что ни одно из слов не имеет значения 0 или 0xFFFF.</p>
+            <p className="paragraph">176-битный EEPROM разделен на 11 слов по 16 бит каждый. Они содержат 11 калибровочных коэффициентов. Каждый сенсорный модуль имеет индивидуальные коэффициенты. Перед первым вычислением температуры и давления ведущий (Master) считывает данные EEPROM. Обмен данными можно проверить, установив, что ни одно из слов не имеет значения 0 или 0xFFFF.</p>
             <br />
             <p className="paragraph center">Таблица 5: Калибровочные коэффициенты</p>
             <br />
@@ -622,7 +625,7 @@ class Article1 extends Component {
           <main className="text">
             <p className="paragraph bold big-font">3.5 Расчет давления и температуры</p>
             <br />
-            <p className="paragraph">Режим (сверхнизкое энергопотребление, стандартное, высокое, сверхвысокое разрешение) можно выбрать с помощью переменной oversampling_setting (0, 1, 2, 3) в коде&nbsp;C.</p>
+            <p className="paragraph">Режим (сверхнизкое энергопотребление, стандартное, высокое, сверхвысокое разрешение) можно выбрать с помощью переменной oversampling_setting (0, 1, 2, 3) в коде&nbsp;Cи.</p>
             <br />
             <p className="paragraph">Расчет истинной температуры и давления с шагом 1Па (= 0,01гПа = 0,01 мбар) и температурой с шагом 0,1°C.</p>
             <br />

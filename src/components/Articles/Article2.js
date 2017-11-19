@@ -13,7 +13,8 @@ class Article1 extends Component {
       height: height * scale,
       fontSize: 28 * scale,
       padding: 170 * scale,
-      textIndent: 28 * scale / 2 * 5
+      textIndent: 28 * scale / 2 * 5,
+      fontFamily: "Times new Roman, serif"
     }
 
     return (

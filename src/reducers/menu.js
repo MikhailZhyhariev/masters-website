@@ -8,7 +8,7 @@ import { SET_SECTION,
        } from '../constants/Menu.js';
 
 const initialState = {
-  active: 3,
+  active: 0,
   className: '',
   height: 0,
   open: false,

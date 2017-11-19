@@ -15,7 +15,8 @@ class Article3 extends Component {
       fontSize: 32 * scale,
       padding: 113 * scale,
       textIndent: 32 * scale / 2 * 5,
-      hyphens: "auto"
+      hyphens: "auto",
+      fontFamily: "Times new Roman, serif"
     }
 
     return (

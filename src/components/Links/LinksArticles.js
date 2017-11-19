@@ -17,7 +17,7 @@ class LinksArticles extends Component {
                   <a href={article.link} target="_blank" className="links__article-title" ref="noferrer">
                     <span className="number">{article.number + '.'}</span>
                     <span className="text">{article.title}</span>
-                    <p className="links__article-manager"><strong>Авторы:</strong>{article.author}</p>
+                    { article.author ? <p className="links__article-manager"><strong>Авторы:</strong>{article.author}</p> : null }
                     <p className="links__article-description"><strong>Описание:</strong>{article.description}</p>
                   </a>
                 </li>
