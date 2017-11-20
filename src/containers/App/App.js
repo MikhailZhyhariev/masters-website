@@ -10,13 +10,6 @@ import * as buttonActions from '../../actions/ButtonActions.js';
 
 import Header from '../../components/Header/Header.js';
 import Menu from '../../components/Menu/Menu.js';
-import Resume from '../../components/Resume/Resume.js';
-import Biography from '../../components/Biography/Biography.js';
-import Abstract from '../../components/Abstract/Abstract.js';
-import Library from '../../components/Library/Library.js';
-import Links from '../../components/Links/Links.js';
-import Search from '../../components/Search/Search.js';
-import IndividualSection from '../../components/IndividualSection/IndividualSection.js';
 import Button from '../../components/Button/Button.js';
 
 class App extends Component {
@@ -65,28 +58,6 @@ class App extends Component {
     const { buttonClick, classnameChange } = this.props.buttonActions;
     const { handleScroll, updateClassButton, handleSetTitle } = this;
 
-    const contentArray = [
-      <Resume language={language.active}
-              padding={menu.height}
-              className={menu.className} />,
-      <Biography language={language.active}
-                 padding={menu.height}
-                 className={menu.className} />,
-      <Abstract padding={menu.height}
-                className={menu.className}
-                updateButtonClass={classnameChange}
-                updateButtonTop={buttonClick}
-                language={language.active} />,
-      <Library padding={menu.height}
-               className={menu.className} />,
-      <Links padding={menu.height}
-             className={menu.className} />,
-      <Search padding={menu.height}
-              className={menu.className} />,
-      <IndividualSection padding={menu.height}
-                         className={menu.className} />
-    ];
-
     return (
       <div className="app">
         <Header chooseLanguage={chooseLanguage}
@@ -116,7 +87,7 @@ class App extends Component {
                 className={button.className}
                 classChange={classnameChange}
                 updateClass={updateClassButton} />
-        {contentArray[menu.active]}
+        {this.props.children}
       </div>
     );
   }

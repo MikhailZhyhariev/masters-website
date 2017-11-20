@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './Search.css';
 
 import SearchTable from './SearchTable.js';
@@ -7,14 +8,13 @@ import content from './Search.json';
 
 class Search extends Component {
   render() {
-    const { padding, className } = this.props;
-    const paddingFixed = padding + 20
+    const { menu, button } = this.props;
     const style = {
-      paddingTop: paddingFixed,
+      paddingTop: menu.height + 20,
     }
 
     return (
-      <div className="search" style={className === 'fixed' ? style : null}>
+      <div className="search" style={menu.className === 'fixed' ? style : null}>
         <div className="container">
           <h1 className="search__title">Отчет об информационном поиске</h1>
           { content.text.map( (item, key) =>
@@ -28,4 +28,10 @@ class Search extends Component {
   }
 }
 
-export default Search;
+function mapStateToProps(state) {
+  return {
+    menu: state.menu,
+    button: state.button
+  }
+}
+export default connect(mapStateToProps)(Search)

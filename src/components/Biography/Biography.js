@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './Biography.css';
 
 import content from './Biography.json';
@@ -13,25 +14,23 @@ class Biography extends Component {
   }
 
   render() {
-    const { language } = this.props;
+    const { language, menu, button } = this.props;
     let lang;
     let header;
-    if (language === 'ru') {
+    if (language.active === 'ru') {
       lang = content.ru;
-      header = content.header.ru;
+      header = content.header.ru
     } else {
       lang = content.ua;
-      header = content.header.ua;
+      header = content.header.ua
     }
 
-    const { padding, className } = this.props;
-    const paddingFixed = padding + 20
     const style = {
-      paddingTop: paddingFixed,
+      paddingTop: menu.height + 20,
     }
 
     return (
-      <div className="biography" style={className === 'fixed' ? style : null}>
+      <div className="biography" style={menu.className === 'fixed' ? style : null}>
         <div className="container">
           <h1 className="biography__title">{header}</h1>
           { lang.map( (item, key) =>
@@ -48,4 +47,11 @@ class Biography extends Component {
   }
 }
 
-export default Biography;
+function mapStateToProps(state) {
+  return {
+    language: state.language,
+    menu: state.menu,
+    button: state.button
+  }
+}
+export default connect(mapStateToProps)(Biography)

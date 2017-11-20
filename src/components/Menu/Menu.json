@@ -8,7 +8,8 @@
             "ru": true,
             "en": true,
             "ua": true
-          }
+          },
+          "link": "/"
         },
         {
           "name": "Биография",
@@ -18,7 +19,8 @@
             "ru": true,
             "en": false,
             "ua": true
-          }
+          },
+          "link": "/bio"
         },
         {
           "name": "Реферат",
@@ -28,7 +30,8 @@
             "ru": true,
             "en": true,
             "ua": true
-          }
+          },
+          "link": "/diss"
         },
         {
           "name": "Библиотека",
@@ -38,7 +41,8 @@
             "ru": true,
             "en": false,
             "ua": false
-          }
+          },
+          "link": "/library"
         },
         {
           "name": "Ссылки",
@@ -48,7 +52,8 @@
             "ru": true,
             "en": false,
             "ua": false
-          }
+          },
+          "link": "/links"
         },
         {
           "name": "Отчет о поиске",
@@ -58,7 +63,8 @@
             "ru": true,
             "en": false,
             "ua": false
-          }
+          },
+          "link": "/links/zvit"
         },
         {
           "name": "Индивидуальный раздел",
@@ -68,7 +74,8 @@
             "ru": true,
             "en": false,
             "ua": false
-          }
+          },
+          "link": "/ind"
         }
     ],
     "en": [
@@ -80,7 +87,8 @@
             "ru": true,
             "en": true,
             "ua": true
-          }
+          },
+          "link": "/"
         },
         {
           "name": "Abstract",
@@ -90,7 +98,8 @@
             "ru": true,
             "en": true,
             "ua": true
-          }
+          },
+          "link": "/diss"
         }
     ],
     "ua": [
@@ -102,7 +111,8 @@
             "ru": true,
             "en": true,
             "ua": true
-          }
+          },
+          "link": "/"
         },
         {
           "name": "Бiографiя",
@@ -112,7 +122,8 @@
             "ru": true,
             "en": false,
             "ua": true
-          }
+          },
+          "link": "/bio"
         },
         {
           "name": "Реферат",
@@ -122,7 +133,8 @@
             "ru": true,
             "en": true,
             "ua": true
-          }
+          },
+          "link": "/diss"
         }
     ]
 }

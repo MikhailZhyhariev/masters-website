@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './Resume.css';
 
 import ResumeTable from '../Resume/ResumeTable.js';
@@ -7,20 +8,18 @@ import content from './Resume.json';
 
 class Resume extends Component {
   render() {
-    const { language } = this.props;
+    const { language, menu, button } = this.props;
     let lang;
-    if (language === 'ru') lang = content.ru;
-    else if (language === 'en') lang = content.en;
+    if (language.active === 'ru') lang = content.ru;
+    else if (language.active === 'en') lang = content.en;
     else lang = content.ua;
 
-    const { padding, className } = this.props;
-    const paddingFixed = padding + 20
     const style = {
-      paddingTop: paddingFixed,
+      paddingTop: menu.height + 20,
     }
 
     return (
-      <div className="resume" style={className === 'fixed' ? style : null}>
+      <div className="resume" style={menu.className === 'fixed' ? style : null}>
         <div className="container">
           <h1 className="resume__title">{lang.title}</h1>
           <ResumeTable items={ lang.table }/>
@@ -30,4 +29,11 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+function mapStateToProps(state) {
+  return {
+    language: state.language,
+    menu: state.menu,
+    button: state.button
+  }
+}
+export default connect(mapStateToProps)(Resume)

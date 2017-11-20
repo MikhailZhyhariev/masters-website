@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Menu.css';
 
+import { Link } from 'react-router'
 
 class MenuItem extends Component {
   constructor(props) {
@@ -23,9 +24,18 @@ class MenuItem extends Component {
     const { item, isActive } = this.props;
     const { handleClick } = this;
 
+    const style = {
+      color: isActive ? 'red' : 'black',
+      textDecoration: 'none',
+      padding: 15
+    }
+
     return (
       <li className={'menu__item ' + (isActive ? 'active' : '')} onClick={handleClick}>
-        {item.name}
+        <Link to={item.link}
+              style={style}>
+              {item.name}
+        </Link>
       </li>
     );
   }

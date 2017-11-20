@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { connect } from 'react-redux';
 import './Library.css';
+import { Link } from 'react-router'
 
 import content from './Library.json';
 
@@ -32,14 +34,13 @@ class Library extends Component {
   }
 
   render() {
-    const { padding, className } = this.props;
-    const paddingFixed = padding + 20
+    const { language, menu, button } = this.props;
     const style = {
-      paddingTop: paddingFixed,
+      paddingTop: menu.height + 20,
     }
 
     return (
-      <div className="library" style={className === 'fixed' ? style : null}>
+      <div className="library" style={menu.className === 'fixed' ? style : null}>
         <div className="container">
           <h1 className="library__title">Библиотека материалов по теме выпускной работы</h1>
           <div className="library__content">
@@ -92,4 +93,11 @@ class Library extends Component {
   }
 }
 
-export default Library;
+function mapStateToProps(state) {
+  return {
+    menu: state.menu,
+    button: state.button
+  }
+}
+
+export default connect(mapStateToProps)(Library)

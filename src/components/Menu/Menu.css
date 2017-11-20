@@ -17,7 +17,6 @@
 }
 
 .menu__item {
-  padding: 15px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -26,6 +25,10 @@
   -khtml-user-select: none;
   user-select: none;
   opacity: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .menu__item:hover {
