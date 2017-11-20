@@ -1,9 +1,4 @@
 {
-  "text": [
-    "Представленный отчет позволяет оценить информационную ситуацию по теме магистерской работы. Он является основным документальным подтверждением глубины и полноты информационного поиска, а также служит для фиксации текущей ситуации в исследуемой области.",
-    "Поиск выполнен с использованием четырех поисковых систем (Google, Яндекс, Bing, Meta). Результаты сведены в таблицу. Всего произведено 15 запросов, имеющих отношение к магистерской работе. Из них три запроса соответствует названию магистерской работы на трех языках, три запроса с ФИО руководителя, а также девять запросов с ключевыми понятиями по теме магистерской работы.",
-    "Ниже приведены две таблицы с отчетами о поиске, которые разделяет временной промежуток в два месяца, а также ряд диаграмм, которые позволяют сравнить основные изменения, произошедшие за этот период."
-  ],
   "head": [
     "https://www.google.ru/",
     "https://www.yandex.ua/",
@@ -19,18 +14,18 @@
           "answer": [
             {
               "link": "https://goo.gl/i64xxR",
-              "count": "37 000"
+              "count": "35 100"
             }, {
               "link": "https://goo.gl/bnAUu1",
-              "count": "153 млн"
+              "count": "274 млн"
             },
             {
               "link": "https://goo.gl/P6iSta",
-              "count": "2 110"
+              "count": "293"
             },
             {
               "link": "https://goo.gl/XS9oy7",
-              "count": "405"
+              "count": "370"
             }
           ]
         },
@@ -39,18 +34,18 @@
           "answer": [
             {
               "link": "https://goo.gl/fiApYw",
-              "count": "427"
+              "count": "290"
             }, {
               "link": "https://goo.gl/o5q4WT",
-              "count": "23 млн"
+              "count": "32 млн"
             },
             {
               "link": "https://goo.gl/FeoqK2",
-              "count": "16"
+              "count": "8"
             },
             {
               "link": "https://goo.gl/3xYVVh",
-              "count": "19"
+              "count": "17"
             }
           ]
         },
@@ -59,18 +54,18 @@
           "answer": [
             {
               "link": "https://goo.gl/HTbDGj",
-              "count": "216 000"
+              "count": "176 000"
             }, {
               "link": "https://goo.gl/SSrcTa",
-              "count": "87 млн"
+              "count": "131 млн"
             },
             {
               "link": "https://goo.gl/XiWgpG",
-              "count": "3 470"
+              "count": "1 150"
             },
             {
               "link": "https://goo.gl/boQYKZ",
-              "count": "2 020"
+              "count": "2 050"
             }
           ]
         },
@@ -79,18 +74,18 @@
           "answer": [
             {
               "link": "https://goo.gl/s6VThL",
-              "count": "414 000"
+              "count": "1 010 000"
             }, {
               "link": "https://goo.gl/gB59vG",
-              "count": "90 млн"
+              "count": "155 млн"
             },
             {
               "link": "https://goo.gl/jp191E",
-              "count": "239 000"
+              "count": "9 060"
             },
             {
               "link": "https://goo.gl/kJ95Cr",
-              "count": "167 000"
+              "count": "174 000"
             }
           ]
         }
@@ -104,18 +99,18 @@
           "answer": [
             {
               "link": "https://goo.gl/2bX5xw",
-              "count": "58 000"
+              "count": "56 400"
             }, {
               "link": "https://goo.gl/tpTMni",
-              "count": "141 млн"
+              "count": "210 млн"
             },
             {
               "link": "https://goo.gl/XJVt1c",
-              "count": "67"
+              "count": "40"
             },
             {
               "link": "https://goo.gl/MRaV7J",
-              "count": "421"
+              "count": "521"
             }
           ]
         },
@@ -124,10 +119,10 @@
           "answer": [
             {
               "link": "https://goo.gl/tzEffa",
-              "count": "151"
+              "count": "149"
             }, {
               "link": "https://goo.gl/ccRzFo",
-              "count": "90 000"
+              "count": "5 млн"
             },
             {
               "link": "https://goo.gl/q7f5gN",
@@ -144,18 +139,18 @@
           "answer": [
             {
               "link": "https://goo.gl/5yJw2T",
-              "count": "12 300"
+              "count": "205 000"
             }, {
               "link": "https://goo.gl/XG4fm9",
-              "count": "36 млн"
+              "count": "74 млн"
             },
             {
               "link": "https://goo.gl/j4zBdP",
-              "count": "2 160"
+              "count": "523"
             },
             {
               "link": "https://goo.gl/t3mjYc",
-              "count": "3 490"
+              "count": "3 770"
             }
           ]
         },
@@ -164,18 +159,18 @@
           "answer": [
             {
               "link": "https://goo.gl/GRdYD5",
-              "count": "265 000"
+              "count": "690 000"
             }, {
               "link": "https://goo.gl/EVuUWK",
-              "count": "58 млн"
+              "count": "95 млн"
             },
             {
               "link": "https://goo.gl/6vZpH7",
-              "count": "46 000"
+              "count": "4 900"
             },
             {
               "link": "https://goo.gl/8WURWa",
-              "count": "59 700"
+              "count": "74 100"
             }
           ]
         }
@@ -189,18 +184,18 @@
           "answer": [
             {
               "link": "https://goo.gl/DvEvaq",
-              "count": "428 000"
+              "count": "36 900"
             }, {
               "link": "https://goo.gl/8fzaA6",
-              "count": "238 млн"
+              "count": "289 млн"
             },
             {
               "link": "https://goo.gl/AXYknV",
-              "count": "8250"
+              "count": "4 010"
             },
             {
               "link": "https://goo.gl/FSKann",
-              "count": "165 000"
+              "count": "9 200"
             }
           ]
         },
@@ -209,18 +204,18 @@
           "answer": [
             {
               "link": "https://goo.gl/QVeVkw",
-              "count": "11"
+              "count": "16"
             }, {
               "link": "https://goo.gl/hYUiCf",
               "count": "3 000"
             },
             {
               "link": "https://goo.gl/CvkX9x",
-              "count": "5"
+              "count": "3"
             },
             {
               "link": "https://goo.gl/EchAU2",
-              "count": "13"
+              "count": "15"
             }
           ]
         },
@@ -229,18 +224,18 @@
           "answer": [
             {
               "link": "https://goo.gl/kU6nnb",
-              "count": "687 000"
+              "count": "300 000"
             }, {
               "link": "https://goo.gl/BV1bhB",
-              "count": "113 млн"
+              "count": "127 млн"
             },
             {
               "link": "https://goo.gl/CZM2xY",
-              "count": "39 700"
+              "count": "3 800"
             },
             {
               "link": "https://goo.gl/CxYYgw",
-              "count": "288 000"
+              "count": "40 100"
             }
           ]
         },
@@ -249,18 +244,18 @@
           "answer": [
             {
               "link": "https://goo.gl/TbiKpG",
-              "count": "1 740 000"
+              "count": "51 400 000"
             }, {
               "link": "https://goo.gl/3LBpVQ",
-              "count": "89 млн"
+              "count": "115 млн"
             },
             {
               "link": "https://goo.gl/v4N37q",
-              "count": "5 240 000"
+              "count": "502 000"
             },
             {
               "link": "https://goo.gl/icF25f",
-              "count": "5 790 000"
+              "count": "3 680 000"
             }
           ]
         }

@@ -151,6 +151,16 @@
   box-shadow: 0 0 30px #f22;
 }
 
+.search-image-container {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.search-image-container img {
+  width: 50%;
+}
+
 @media (max-width: 1024px) {
   .search {
     font-size: 26px;
