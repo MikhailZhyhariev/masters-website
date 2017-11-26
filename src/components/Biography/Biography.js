@@ -14,7 +14,7 @@ class Biography extends Component {
   }
 
   render() {
-    const { language, menu, button } = this.props;
+    const { language, menu } = this.props;
     let lang;
     let header;
     if (language.active === 'ru') {
@@ -50,8 +50,7 @@ class Biography extends Component {
 function mapStateToProps(state) {
   return {
     language: state.language,
-    menu: state.menu,
-    button: state.button
+    menu: state.menu
   }
 }
 export default connect(mapStateToProps)(Biography)

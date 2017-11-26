@@ -8,7 +8,7 @@ import content from './Resume.json';
 
 class Resume extends Component {
   render() {
-    const { language, menu, button } = this.props;
+    const { language, menu } = this.props;
     let lang;
     if (language.active === 'ru') lang = content.ru;
     else if (language.active === 'en') lang = content.en;
@@ -32,8 +32,7 @@ class Resume extends Component {
 function mapStateToProps(state) {
   return {
     language: state.language,
-    menu: state.menu,
-    button: state.button
+    menu: state.menu
   }
 }
 export default connect(mapStateToProps)(Resume)

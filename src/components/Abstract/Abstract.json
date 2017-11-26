@@ -85,7 +85,7 @@
             {
               "image": true,
               "number": 0,
-              "paragraph": "Рисунок 1 – Направление вращения роторов квадрокоптера."
+              "paragraph": "Рисунок 1 — Направление вращения роторов квадрокоптера. Основные параметры анимации: количество кадров — 6, объем — 44КБ, количество циклов повторения — бесконечно"
             },
             {
               "paragraph": "По сравнению с БПЛА вертолетного типа с несущим и рулевым винтами, квадрокоптеры обладают рядом преимуществ, таких как: надежность и простота конструкции, большая стабильность, компактность и маневренность, малая взлетная масса при существенной массе полезной нагрузки ",
@@ -643,7 +643,7 @@
           {
             "image": true,
             "number": 0,
-            "paragraph": "Малюнок 1 - Напрямок обертання роторів квадрокоптера"
+            "paragraph": "Рисунок 1 — Напрямок обертання роторів квадрокоптера. Основні параметри анімації: кількість кадрів — 6, обсяг — 44КБ, кількість циклів повторення — нескінченно"
           },
           {
             "paragraph": "У порівнянні з БПЛА вертолітного типу з несучим і рульовим гвинтами, квадрокоптери мають ряд переваг, таких як: надійність і простота конструкції, більша стабільність, компактність і маневреність, мала злітна маса при істотній масі корисного навантаження ",
@@ -1205,7 +1205,7 @@
           {
             "image": true,
             "number": 0,
-            "paragraph": "Figure 1 - Direction of rotation of the rotors of a quadrocopter"
+            "paragraph": "Figure 1 — Direction of rotation of the rotors of the quadrocopter. Basic animation parameters: number of frames — 6, volume — 44KB, number of repetition cycles — infinite"
           },
           {
             "paragraph": "Compared to helicopter-type aircraft with helical and helical rotors, quadrocopters have a number of advantages, such as reliability and simplicity of design, greater stability, compactness and maneuverability, a small takeoff weight with a significant payload weight ",

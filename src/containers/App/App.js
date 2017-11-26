@@ -87,7 +87,6 @@ class App extends Component {
                 className={button.className}
                 classChange={classnameChange}
                 updateClass={updateClassButton} />
-        {this.props.children}
       </div>
     );
   }

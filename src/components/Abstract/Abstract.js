@@ -16,7 +16,7 @@ import content from './Abstract.json';
 
 class Abstract extends Component {
   render() {
-    const { language, menu, button } = this.props;
+    const { language, menu } = this.props;
     const { buttonClick, classnameChange } = this.props.buttonActions;
 
     let lang;
@@ -59,8 +59,7 @@ class Abstract extends Component {
 function mapStateToProps(state) {
   return {
     language: state.language,
-    menu: state.menu,
-    button: state.button
+    menu: state.menu
   }
 }
 

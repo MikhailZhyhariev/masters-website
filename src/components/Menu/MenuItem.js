@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Menu.css';
 
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom';
 
 class MenuItem extends Component {
   constructor(props) {
@@ -27,12 +27,15 @@ class MenuItem extends Component {
     const style = {
       color: isActive ? 'red' : 'black',
       textDecoration: 'none',
+      width: '100%',
       padding: 15
     }
 
+    const baseUrl = process.env.PUBLIC_URL;
+
     return (
       <li className={'menu__item ' + (isActive ? 'active' : '')} onClick={handleClick}>
-        <Link to={item.link}
+        <Link to={baseUrl + item.link}
               style={style}>
               {item.name}
         </Link>

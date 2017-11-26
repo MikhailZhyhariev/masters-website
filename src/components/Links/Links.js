@@ -10,7 +10,7 @@ import content from './Links.json';
 
 class Links extends Component {
   render() {
-    const { menu, button } = this.props;
+    const { menu } = this.props;
     const style = {
       paddingTop: menu.height + 20,
     }
@@ -30,8 +30,7 @@ class Links extends Component {
 
 function mapStateToProps(state) {
   return {
-    menu: state.menu,
-    button: state.button
+    menu: state.menu
   }
 }
 export default connect(mapStateToProps)(Links)

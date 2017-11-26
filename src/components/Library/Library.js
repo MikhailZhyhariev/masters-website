@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import './Library.css';
-import { Link } from 'react-router'
 
 import content from './Library.json';
+import { Link } from 'react-router-dom';
+
 
 import DocumentPreview from '../DocumentPreview/DocumentPreview.js';
 import '../DocumentPreview/DocumentPreview.css';
@@ -34,7 +35,7 @@ class Library extends Component {
   }
 
   render() {
-    const { language, menu, button } = this.props;
+    const { menu } = this.props;
     const style = {
       paddingTop: menu.height + 20,
     }
@@ -95,8 +96,7 @@ class Library extends Component {
 
 function mapStateToProps(state) {
   return {
-    menu: state.menu,
-    button: state.button
+    menu: state.menu
   }
 }
 
