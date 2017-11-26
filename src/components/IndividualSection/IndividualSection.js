@@ -55,6 +55,9 @@ class IndividualSection extends Component {
                 <span className="individual-section__content-list-item-number">4</span>
                 <span className="individual-section__content-list-item-text">Размещение веб-приложения на платформе Heroku</span>
               </li>
+              <li className="individual-section__content-list-item">
+                <span className="individual-section__content-list-item-text">Список источников</span>
+              </li>
             </ul>
           </nav>
           <article className="abstract__text">
@@ -95,13 +98,13 @@ class IndividualSection extends Component {
                 <p>Heroku — облачная PaaS-платформа, поддерживающая ряд языков программирования. С 2010 года является дочерней компанией Salesforce.com. Heroku, одна из первых облачных платформ, появилась в июне 2007 года и изначально поддерживала только язык программирования Ruby, но на данный момент список поддерживаемых языков также включает в себя Java, Node.js, Scala, Clojure, Python, Go и PHP. На серверах Heroku используются операционные системы Debian или Ubuntu. Приложения, работающие на Heroku, используют также DNS-сервер Heroku (обычно приложения имеют доменное имя вида «имя_приложения.herokuapp.com»). Для каждого приложения выделяется несколько независимых виртуальных процессов, которые называются «dynos». Они распределены по специальной виртуальной сетке («dynos grid»), которая состоит из нескольких серверов. Heroku также имеет систему контроля версий Git.</p>
               </div>
             </div>
-            <div className="abstract__text-part">
+            {/* <div className="abstract__text-part">
               <span>3</span>
               <h3>Создание веб-приложений для распознавания рукописных цифр</h3>
               <div className="abstract__text-block">
                 <p>В создании данного приложения можно выделить 3 основных этапа: разработка клиентской части, разработка серверной части, и разработка нейросетей. Рассмотрим подробнее каждый их этих этапов.</p>
               </div>
-            </div>
+            </div> */}
             <div className="abstract__text-part">
               <span>3.1</span>
               <h3>Распознавание рукописных цифр</h3>
@@ -173,6 +176,17 @@ class IndividualSection extends Component {
                 <p><span>4.</span>requirements.txt — список библиотек, которые будут установлены на Heroku. Лучше указывать нужные версии;</p>
                 <p>Чтобы воспользоваться написанным приложением, нужно перейти по <a href="https://digits-classifier.herokuapp.com/" target="_blank" rel="noopener noreferrer">ссылке.</a></p>
                 <p>Исходные коды всех частей приложения можно найти на <a href="https://github.com/MikhailZhyhariev/digits-classifier" target="_blank" rel="noopener noreferrer">Github</a>. Репозиторий содержит три ветки: master сожержит веб-приложение целиком, frontend — клиентскую часть приложения, а ветка neural-network содержит исходные коды нейросетей, которые используются для распознавания</p>
+              </div>
+            </div>
+            <div className="abstract__text-part">
+              <h3>Список источников</h3>
+              <div className="abstract__text-block">
+                <p><span>1.</span>Официальная документация библиотеки <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React.js</a>.</p>
+                <p><span>2.</span>Официальная документация <a href="https://docs.djangoproject.com/en/1.11/" target="_blank" rel="noopener noreferrer">Django Framework</a>.</p>
+                <p><span>3.</span>Официальная документация хостинга <a href="https://devcenter.heroku.com/articles/getting-started-with-python#introduction" target="_blank" rel="noopener noreferrer">Heroku</a>.</p>
+                <p><span>4.</span>Официальная документация <a href="https://keras.io/" target="_blank" rel="noopener noreferrer">Keras</a>.</p>
+                <p><span>5.</span>Официальная документация python-библиотеки для машинного обучения <a href="http://scikit-learn.org/" target="_blank" rel="noopener noreferrer">Scikit</a>.</p>
+                <p><span>6.</span>Официальная документация javascript-библиотеки для отправки ajax-запросов <a href="https://www.npmjs.com/package/axios" target="_blank" rel="noopener noreferrer">Axios</a>.</p>
               </div>
             </div>
           </article>

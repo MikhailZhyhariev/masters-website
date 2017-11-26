@@ -18,7 +18,6 @@ import DocumentPreview from './components/DocumentPreview/DocumentPreview.js';
 import configureStore from './store/configureStore';
 
 const store = configureStore();
-const baseUrl = process.env.PUBLIC_URL;
 
 ReactDOM.render(
   <Provider store={store}>
