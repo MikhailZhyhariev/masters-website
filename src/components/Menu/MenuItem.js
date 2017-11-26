@@ -31,11 +31,9 @@ class MenuItem extends Component {
       padding: 15
     }
 
-    const baseUrl = process.env.PUBLIC_URL;
-
     return (
       <li className={'menu__item ' + (isActive ? 'active' : '')} onClick={handleClick}>
-        <Link to={baseUrl + item.link}
+        <Link to={item.link}
               style={style}>
               {item.name}
         </Link>
