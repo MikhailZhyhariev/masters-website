@@ -98,13 +98,6 @@ class IndividualSection extends Component {
                 <p>Heroku — облачная PaaS-платформа, поддерживающая ряд языков программирования. С 2010 года является дочерней компанией Salesforce.com. Heroku, одна из первых облачных платформ, появилась в июне 2007 года и изначально поддерживала только язык программирования Ruby, но на данный момент список поддерживаемых языков также включает в себя Java, Node.js, Scala, Clojure, Python, Go и PHP. На серверах Heroku используются операционные системы Debian или Ubuntu. Приложения, работающие на Heroku, используют также DNS-сервер Heroku (обычно приложения имеют доменное имя вида «имя_приложения.herokuapp.com»). Для каждого приложения выделяется несколько независимых виртуальных процессов, которые называются «dynos». Они распределены по специальной виртуальной сетке («dynos grid»), которая состоит из нескольких серверов. Heroku также имеет систему контроля версий Git.</p>
               </div>
             </div>
-            {/* <div className="abstract__text-part">
-              <span>3</span>
-              <h3>Создание веб-приложений для распознавания рукописных цифр</h3>
-              <div className="abstract__text-block">
-                <p>В создании данного приложения можно выделить 3 основных этапа: разработка клиентской части, разработка серверной части, и разработка нейросетей. Рассмотрим подробнее каждый их этих этапов.</p>
-              </div>
-            </div> */}
             <div className="abstract__text-part">
               <span>3.1</span>
               <h3>Распознавание рукописных цифр</h3>
@@ -187,6 +180,7 @@ class IndividualSection extends Component {
                 <p><span>4.</span>Официальная документация <a href="https://keras.io/" target="_blank" rel="noopener noreferrer">Keras</a>.</p>
                 <p><span>5.</span>Официальная документация python-библиотеки для машинного обучения <a href="http://scikit-learn.org/" target="_blank" rel="noopener noreferrer">Scikit</a>.</p>
                 <p><span>6.</span>Официальная документация javascript-библиотеки для отправки ajax-запросов <a href="https://www.npmjs.com/package/axios" target="_blank" rel="noopener noreferrer">Axios</a>.</p>
+                <p><span>7.</span>Топливо для ИИ: подборка открытых датасетов для машинного обучения / Сообщество сайта Хабрахабр <a href="https://habrahabr.ru/company/mailru/blog/339496/" target="_blank" rel="noopener noreferrer">habrahabr.ru</a>.</p>
               </div>
             </div>
           </article>

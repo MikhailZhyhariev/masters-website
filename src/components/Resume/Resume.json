@@ -167,7 +167,7 @@
       },
       "linkedList": {
         "header": "Дополнительные курсы",
-        "extend": "Кликабельно",
+        "extend": "Кликните, чтобы открыть веб-страницу курса",
         "content": [
           {
             "name": "Курсы «Stepic.org»",
@@ -188,6 +188,10 @@
               {
                 "link": "https://stepik.org/course/401/syllabus",
                 "text": "Нейронные сети"
+              },
+              {
+                "link": "https://stepik.org/course/1280/syllabus",
+                "text": "Обработка изображений"
               }
             ]
           },
@@ -206,6 +210,10 @@
               {
                 "link": "https://goo.gl/eD3vPq",
                 "text": "Алгоритмы программирования и структуры данных"
+              },
+              {
+                "link": "https://courses.openedu.ru/courses/course-v1:spbstu+BIGDATA+fall_2017/courseware/2cd7156020e0449ea5ca0e17ab6c9b9a/5164befb03894288a9ba4266077586c4/",
+                "text": "Наука о данных и аналитика больших объемов данных"
               }
             ]
           },
@@ -220,6 +228,21 @@
               {
                 "text": "Введение в машинное обучение",
                 "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
+              }
+            ]
+          },
+          {
+            "name": "Курси «Egghead»",
+            "break": "yes",
+            "link": "https://egghead.io",
+            "text": [
+              {
+                "text": "Getting Started with Redux",
+                "link": "https://egghead.io/courses/getting-started-with-redux"
+              },
+              {
+                "text": "Building React Applications with Idiomatic Redux",
+                "link": "https://egghead.io/courses/building-react-applications-with-idiomatic-redux"
               }
             ]
           }
@@ -414,6 +437,7 @@
       },
       "linkedList": {
         "header": "Додаткові курси",
+        "extend": "Натисніть, щоб відкрити веб-сторінку курсу",
         "content": [
           {
             "name": "Курси \"Stepic.org\"",
@@ -469,6 +493,21 @@
               {
                 "text": "Введення в машинне навчання",
                 "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
+              }
+            ]
+          },
+          {
+            "name": "Курси \"Egghead\"",
+            "break": "yes",
+            "link": "https://egghead.io",
+            "text": [
+              {
+                "text": "Getting Started with Redux",
+                "link": "https://egghead.io/courses/getting-started-with-redux"
+              },
+              {
+                "text": "Building React Applications with Idiomatic Redux",
+                "link": "https://egghead.io/courses/building-react-applications-with-idiomatic-redux"
               }
             ]
           }
@@ -663,6 +702,7 @@
       },
       "linkedList": {
         "header": "Additional courses",
+        "extend": "Click to open the course webpage",
         "content": [
           {
             "name": "Courses “Stepic.org”",
@@ -718,6 +758,21 @@
               {
                 "text": "Introduction to machine learning",
                 "link": "https://www.coursera.org/learn/vvedenie-mashinnoe-obuchenie/home/welcome"
+              }
+            ]
+          },
+          {
+            "name": "Курси “Egghead”",
+            "break": "yes",
+            "link": "https://egghead.io",
+            "text": [
+              {
+                "text": "Getting Started with Redux",
+                "link": "https://egghead.io/courses/getting-started-with-redux"
+              },
+              {
+                "text": "Building React Applications with Idiomatic Redux",
+                "link": "https://egghead.io/courses/building-react-applications-with-idiomatic-redux"
               }
             ]
           }

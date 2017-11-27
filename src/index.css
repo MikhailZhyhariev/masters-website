@@ -6,11 +6,19 @@
 body {
   font-family: sans-serif;
   background-color: #fafafa;
+  position: relative;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+.article-document {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 @media (max-width: 1024px) {

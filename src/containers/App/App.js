@@ -21,6 +21,21 @@ class App extends Component {
     this.handleSetTitle = this.handleSetTitle.bind(this);
   }
 
+  componentDidMount() {
+    const { chooseSection } = this.props.menuActions;
+    const link = String(window.location).match(/#\/(.*)/)[1];
+
+    switch (link) {
+      case 'bio': return chooseSection(1);
+      case 'diss': return chooseSection(2);
+      case 'library': return chooseSection(3);
+      case 'links': return chooseSection(4);
+      case 'links-zvit': return chooseSection(5);
+      case 'ind': return chooseSection(6);
+      default: return chooseSection(0);
+    }
+  }
+
   handleScroll() {
     let coord = ReactDOM.findDOMNode(this.refs.menu).getBoundingClientRect();
     let documentCoord = window.pageYOffset;

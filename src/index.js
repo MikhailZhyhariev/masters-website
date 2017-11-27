@@ -28,7 +28,6 @@ ReactDOM.render(
         <Route path={ "/bio" } component={Biography} />
         <Route path={ '/diss' } component={Abstract} />
         <Route path={ '/library' } component={Library} />
-        <Route path={ '/library/:article0'} render={() => <DocumentPreview top={window.pageYOffset} number={0} /> }  />
         <Route exact path={ '/links' } component={Links} />
         <Route path={ '/links-zvit' } component={Search} />
         <Route path={ '/ind' } component={IndividualSection}/>
