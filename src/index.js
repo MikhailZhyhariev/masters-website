@@ -13,7 +13,6 @@ import Library from './components/Library/Library.js';
 import Links from './components/Links/Links.js';
 import Search from './components/Search/Search.js';
 import IndividualSection from './components/IndividualSection/IndividualSection.js';
-import DocumentPreview from './components/DocumentPreview/DocumentPreview.js';
 
 import configureStore from './store/configureStore';
 

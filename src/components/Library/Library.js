@@ -4,8 +4,6 @@ import { connect } from 'react-redux';
 import './Library.css';
 
 import content from './Library.json';
-import { Link } from 'react-router-dom';
-
 
 import DocumentPreview from '../DocumentPreview/DocumentPreview.js';
 import '../DocumentPreview/DocumentPreview.css';
