@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import './BigPhoto.css';
-import photo from '../../img/photo360x480.JPG';
+import photo from '../../img/photo360x480.jpg';
 
 class BigPhoto extends Component {
   closePhoto() {
